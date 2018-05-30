@@ -1,0 +1,26 @@
+.login {
+    background-color: rgba(74, 118, 90, 0.6);
+    h1 a,
+    h1 a:focus,
+    h1 a:hover,
+    h1 a:visited {
+        background-image: none;
+        font-family: 'Roboto';
+        font-size: 2rem;
+        color: #fff;
+        color: rgba(74, 118, 90, 0.9);
+        height: auto;
+        line-height: 3rem;
+        margin: 0;
+        position: relative;
+        width: 100%;
+        text-indent: 0;
+        // text-shadow: 1px 1px 1px rgba(255, 255, 255, .5);
+    }
+    &__subtitle {
+        bottom: -0.5rem;
+        color: rgba(74, 118, 90, 0.8);
+        font-size: 0.8rem;
+        position: absolute;
+    }
+}

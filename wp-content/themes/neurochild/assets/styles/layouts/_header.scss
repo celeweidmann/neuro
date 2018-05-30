@@ -1,0 +1,9 @@
+.header {
+    &__navbar {
+        background-color: $violet;
+    }
+    &__menu.navbar-collapse {
+        display: grid !important;
+        justify-items: end;
+    }
+}
