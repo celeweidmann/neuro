@@ -18,3 +18,7 @@ wp-content/plugins/hello.php
 /sitemap.xml.gz
 
 wp-content/ai1wm-backups/
+bower_components/
+node_modules/
+dist/
+package-lock.json
