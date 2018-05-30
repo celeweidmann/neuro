@@ -22,11 +22,19 @@
           <img src="<?php echo get_stylesheet_directory_uri() . '/dist/images/logo-neuroespiritual.png'; ?>" alt="logo-neuroespiritual-footer" class="">
         </div>
         <div class="col-md-3">
-          <ul>
-            <li><a>INSTITUCIONAL</a></li>
-            <li><a>CURSOS</a></li>
-            <li><a>CONTACTO</a></li>
-          </ul>     
+          <?php
+            wp_nav_menu(
+              array(
+                'theme_location'  => 'colibre_footer',
+                'depth'       => 2, // 1 = no dropdowns, 2 = with dropdowns.
+                'container'     => '',
+                'container_class' => '',
+                'menu_class'    => 'nav flex-column',
+                'fallback_cb'   => 'WP_Bootstrap_Navwalker::fallback',
+                'walker'      => new WP_Bootstrap_Navwalker()
+              )
+            );
+          ?>
         </div>
         <div class="col-md-3">
           <i class="fa fa-facebook-f fa-2x"></i>

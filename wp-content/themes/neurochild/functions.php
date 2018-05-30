@@ -10,6 +10,7 @@ require_once $filepath;
 function setup() {
   register_nav_menus( array(
     'colibre_superior_right' => __( 'Menú Superior Derecha', 'THEMENAME' ),
+    'colibre_footer' => __( 'Menú Footer', 'THEMENAME' )
   ) );
 }
 add_action('after_setup_theme', __NAMESPACE__ . '\\setup');
