@@ -1,11 +1,12 @@
 .footer {
     color: $white;
     margin-top: 3rem;
-    &__violet-block {
-        background-color: $violet;
+    &__cv-block {
+        background-color: $lightblue;
+        padding: 5rem;
     }
-    &__orange-block {
-        background-color: $orange;
-        height: 0.5rem;
+    &__redes-sociales-block {
+        background-color: $darkblue;
+        padding: 1rem;
     }
 }
