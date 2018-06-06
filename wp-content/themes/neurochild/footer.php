@@ -9,46 +9,61 @@
 
 ?>
 
-    </div><!-- .col-full -->
+    <!--</div>--><!-- .col-full -->
   </div><!-- #content -->
 
   <?php do_action( 'storefront_before_footer' ); ?>
 
   <!-- <footer id="colophon" class="site-footer" role="contentinfo"> -->
-  <footer class="footer footer__violet-block" role="contentinfo">
-    <div class="container footer__violet-block">
-      <div class="row">
-        <div class="col-md-3">
-          <img src="<?php echo get_stylesheet_directory_uri() . '/dist/images/logo-neuroespiritual.png'; ?>" alt="logo-neuroespiritual-footer" class="">
+  <footer class="footer" role="contentinfo">
+    <div class="footer__cv-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <!-- <img src="<?php echo get_stylesheet_directory_uri() . '/dist/images/logo-neuroespiritual.png'; ?>" alt="logo-neuroespiritual-footer" class=""> -->
+            <img src="http://via.placeholder.com/350x430">
+          </div>
+          
+          <div class="col-md-8">
+            <div class="row">
+            <div class="col-md-4">
+                <img class="mx-auto" src="http://via.placeholder.com/120x120">
+              </div>
+              <div class="col-md-8">
+                <h3>Certificado Internacional</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique libero augue, ut commodo lacus sodales at.</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-6">
+                <img class="mx-auto" src="http://via.placeholder.com/170x150">
+              </div>
+              <div class="col-md-6">
+                <img class="mx-auto" src="http://via.placeholder.com/170x150">
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3">
-          <?php
-            wp_nav_menu(
-              array(
-                'theme_location'  => 'colibre_footer',
-                'depth'       => 2, // 1 = no dropdowns, 2 = with dropdowns.
-                'container'     => '',
-                'container_class' => '',
-                'menu_class'    => 'nav flex-column',
-                'fallback_cb'   => 'WP_Bootstrap_Navwalker::fallback',
-                'walker'      => new WP_Bootstrap_Navwalker()
-              )
-            );
-          ?>
-        </div>
-        <div class="col-md-3">
-          <i class="fa fa-facebook-f fa-2x"></i>
-          <i class="fa fa-instagram fa-2x"></i>
-          <i class="fa fa-twitter fa-2x"></i>
-          <i class="fa fa-youtube fa-2x"></i>
-        </div>
-        <div class="col-md-3">
-          <img src="<?php echo get_stylesheet_directory_uri() . '/dist/images/logo-jose-bizai.png'; ?>" alt="logo-jose-bizai-footer" class="">
+      </div>
+    </div>
+    <div class="footer__redes-sociales-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <i class="fa fa-facebook-f fa-2x"></i>
+            <i class="fa fa-instagram fa-2x"></i>
+            <i class="fa fa-twitter fa-2x"></i>
+            <i class="fa fa-youtube fa-2x"></i>
+          </div>
+          <div class="col-md-6 text-right">
+            diseño y desarrollo <strong><a href="http://www.colectivolibre.com.ar" target="_blank">Colectivo Libre</a></strong>
+          </div>
         </div>
       </div>
     </div>
   </footer><!-- #colophon -->
-
+  
   <?php do_action( 'storefront_after_footer' ); ?>
 
 </div><!-- #page -->

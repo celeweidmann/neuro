@@ -22,17 +22,17 @@
 
 <?php do_action( 'storefront_before_site' ); ?>
 
-<div id="page" class="hfeed site">
+<div>
   <?php do_action( 'storefront_before_header' ); ?>
 
-  <header id="masthead" class="site-header header" role="banner" style="<?php storefront_header_styles(); ?>">
+  <header class="header" role="banner" style="<?php storefront_header_styles(); ?>">
     <!-- Menú Superior -->
     <nav class="header__navbar navbar fixed-top navbar-expand-lg navbar-dark pt-0" role="navigation">
       <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="<?php echo esc_url( site_url( '/' ) ); ?>">
           <img src="<?php echo get_stylesheet_directory_uri() . '/dist/images/logo-neuroespiritual.png'; ?>" alt="logo" class="">
         </a>
         <div class="header__menu collapse navbar-collapse" id="navbarSupportedContent">
@@ -69,7 +69,7 @@
      * @hooked storefront_header_cart                      - 60
      * @hooked storefront_primary_navigation_wrapper_close - 68
      */
-    do_action( 'storefront_header' ); ?>
+    //do_action( 'storefront_header' ); ?>
 
   </header><!-- #masthead -->
 
@@ -80,10 +80,10 @@
    * @hooked storefront_header_widget_region - 10
    * @hooked woocommerce_breadcrumb - 10
    */
-  do_action( 'storefront_before_content' ); ?>
+  //do_action( 'storefront_before_content' ); ?>
 
   <div id="content" class="site-content" tabindex="-1">
-    <div class="col-full">
+    <!-- <div class="col-full"> -->
 
     <?php
     do_action( 'storefront_content_top' );
