@@ -1,3 +1,15 @@
 .home {
-    margin-top: 7.5rem;
+    // margin-top: 7.5rem;
+    &__featured {
+        background-size: cover;
+        color: $white;
+    }
+    &__institucional {
+        background-color: $lightblue;
+        background-position-x: calc(50% + 600px);
+        background-repeat: no-repeat;
+    }
+    &__courses {
+        background-color: $violet;
+    }
 }

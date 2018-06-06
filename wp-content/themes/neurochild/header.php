@@ -25,7 +25,7 @@
 <div>
   <?php do_action( 'storefront_before_header' ); ?>
 
-  <header id="masthead" class="site-header header" role="banner" style="<?php storefront_header_styles(); ?>">
+  <header class="header" role="banner" style="<?php storefront_header_styles(); ?>">
     <!-- Menú Superior -->
     <nav class="header__navbar navbar fixed-top navbar-expand-lg navbar-dark pt-0" role="navigation">
       <div class="container">
@@ -83,7 +83,7 @@
   //do_action( 'storefront_before_content' ); ?>
 
   <div id="content" class="site-content" tabindex="-1">
-    <div class="col-full">
+    <!-- <div class="col-full"> -->
 
     <?php
     do_action( 'storefront_content_top' );

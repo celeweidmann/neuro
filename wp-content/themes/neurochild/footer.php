@@ -9,7 +9,7 @@
 
 ?>
 
-    </div><!-- .col-full -->
+    <!--</div>--><!-- .col-full -->
   </div><!-- #content -->
 
   <?php do_action( 'storefront_before_footer' ); ?>
@@ -34,6 +34,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique libero augue, ut commodo lacus sodales at.</p>
               </div>
             </div>
+            <hr>
             <div class="row">
               <div class="col-md-6">
                 <img class="mx-auto" src="http://via.placeholder.com/170x150">
