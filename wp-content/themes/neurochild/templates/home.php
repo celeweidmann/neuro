@@ -16,7 +16,7 @@ get_header(); ?>
 
 <section class="row home__featured" style="background-image: url(https://picsum.photos/1200/800/?blur);">
   <div class="col-md-6 text-right">
-    <span>Diplomado Internacional en Liderazgo Neuroespiritual</span>
+    <h1>Diplomado Internacional en Liderazgo Neuroespiritual</h1>
   </div>
   <div class="col-md-6">
     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique libero augue, ut commodo lacus sodales at. Pellentesque scelerisque metus at nisi pellentesque euismod. Donec nisl ante, interdum id libero at, tempus tincidunt lorem. Cras dapibus ante vel elit facilisis, a semper ligula viverra. Donec non libero vel ex luctus volutpat gravida pretium urna. Ut laoreet est id turpis euismod, ut euismod augue luctus.</div>
