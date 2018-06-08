@@ -1,6 +1,9 @@
 .header {
     &__navbar {
         // background-color: $violet;
+        .navbar-brand img{  
+            height: 100px;
+        }
     }
     &__menu.navbar-collapse {
         display: grid !important;
