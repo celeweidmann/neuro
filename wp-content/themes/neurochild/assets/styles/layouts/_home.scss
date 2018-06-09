@@ -5,12 +5,14 @@
         color: $white;
     }
     &__institucional {
-        background-color: $lightblue;
+        @include linearGradient($color1, $color2);
+        /*background-color: $lightblue;*/
         background-position-x: calc(50% + 600px);
         background-repeat: no-repeat;
     }
     &__courses {
-        background-color: $violet;
+        /*background-color: $violet;*/
+        @include linearGradient($color3, $color4);
         .card {
             background-color: transparent;
             color: $white;
@@ -18,6 +20,7 @@
             align-items: center;
             padding-left: 10%;
             padding-right: 10%;
+            border: 0px;
             img {
             width: 200px;
             height: 200px;
