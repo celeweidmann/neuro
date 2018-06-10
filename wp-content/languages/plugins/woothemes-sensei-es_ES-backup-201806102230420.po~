@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Sensei\n"
 "Report-Msgid-Bugs-To: https://www.transifex.com/woothemes/sensei-by-"
 "woothemes/\n"
-"PO-Revision-Date: 2018-06-10 22:30+0000\n"
+"PO-Revision-Date: 2018-06-10 22:27+0000\n"
 "Last-Translator: cele weidmann <celeweidmann@gmail.com>\n"
 "Language-Team: Español\n"
 "MIME-Version: 1.0\n"
@@ -1226,7 +1226,7 @@ msgstr ""
 
 #: includes/class-sensei-learners-admin-bulk-actions-controller.php:206
 msgid "Select Course"
-msgstr "Seleccionar curso"
+msgstr ""
 
 #: includes/class-sensei-learners-admin-bulk-actions-controller.php:277
 msgid "This bulk action is not supported"
@@ -1256,15 +1256,15 @@ msgstr ""
 
 #: includes/class-sensei-learners-admin-bulk-actions-view.php:144
 msgid "Select Course(s)"
-msgstr "Seleccionar curso(s)"
+msgstr ""
 
 #: includes/class-sensei-learners-admin-bulk-actions-view.php:150
 msgid "Apply"
-msgstr "Guardar"
+msgstr ""
 
 #: includes/class-sensei-learners-admin-bulk-actions-view.php:181
 msgid "Select Courses"
-msgstr "Seleccionar cursos"
+msgstr ""
 
 #: includes/class-sensei-learners-admin-bulk-actions-view.php194,
 #: includes/class-sensei-lesson.php:1144
@@ -1362,7 +1362,7 @@ msgstr "Prerequisito"
 
 #: includes/class-sensei-lesson.php:125
 msgid "Preview"
-msgstr "Previsualizar"
+msgstr ""
 
 #: includes/class-sensei-lesson.php128, includes/class-sensei-lesson.php:3108
 msgid "Lesson Information"
@@ -1802,7 +1802,7 @@ msgstr "Lección del curso"
 
 #: includes/class-sensei-lesson.php3155, includes/class-sensei-lesson.php:3176
 msgid "No"
-msgstr "No"
+msgstr ""
 
 #: includes/class-sensei-lesson.php3156, includes/class-sensei-lesson.php:3177
 msgid "Yes"
@@ -1836,7 +1836,7 @@ msgstr "minutos"
 
 #: includes/class-sensei-lesson.php:3450
 msgid "Author:"
-msgstr "Autor:"
+msgstr ""
 
 #: includes/class-sensei-lesson.php:3455
 msgid "Complexity:"
@@ -4035,7 +4035,7 @@ msgstr "Su estudiante ha comenzado un curso"
 #: includes/rest-api/class-sensei-rest-api-endpoint-courses.php104,
 #: includes/rest-api/class-sensei-rest-api-endpoint-courses.php:141
 msgid "Course does not exist"
-msgstr "Curso inexistente"
+msgstr ""
 
 #: includes/rest-api/class-sensei-rest-api-endpoint-courses.php:137
 msgid "No Course ID provided"
