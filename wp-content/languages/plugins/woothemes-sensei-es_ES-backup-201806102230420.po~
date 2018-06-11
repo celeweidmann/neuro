@@ -1,0 +1,4340 @@
+# Copyright (C) 2018 woothemes-sensei
+# This file is distributed under the same license as the woothemes-sensei package.
+# Translators:
+# asgard electronics <asgardelectronics@hotmail.com>, 2016
+# Carlos Faria <carlosgarciafaria@gmail.com>, 2015
+# Christian <nekotaub@gmail.com>, 2015
+# Cristobal Melgarejo <cristobalmz@gmail.com>, 2016
+# David Palomar <dpalomar@gmail.com>, 2016
+# Diego dlF <diegodlf@gmail.com>, 2017
+# Fernando Tellado, 2016
+# Javier Guillen <jaguialc@gmail.com>, 2015
+# Joana Nastari <paginapress@gmail.com>, 2015
+# Juan Manuel Villegas <juan.villgs@gmail.com>, 2015
+# Mario Andujar <mario.andujar@etooltech.com>, 2015
+# Mauricio Grijalba, 2016
+# Moisés Serrano <linkmoises@gmail.com>, 2015
+# nacho. <inactive+nacho.@transifex.com>, 2014
+# Patata Mon <patatamon@gmail.com>, 2016
+# Paulo Colomés <pcolomes@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Sensei\n"
+"Report-Msgid-Bugs-To: https://www.transifex.com/woothemes/sensei-by-"
+"woothemes/\n"
+"PO-Revision-Date: 2018-06-10 22:27+0000\n"
+"Last-Translator: cele weidmann <celeweidmann@gmail.com>\n"
+"Language-Team: Español\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"POT-Creation-Date: 2018-06-10 22:24+0000\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/admin/class-sensei-learner-management.php:28
+msgid "Learner Management"
+msgstr "Gestión de alumnos"
+
+#: includes/admin/class-sensei-learner-management.php:85
+msgid "Learners per page"
+msgstr ""
+
+#: includes/admin/class-sensei-learner-management.php112,
+#: includes/class-sensei-analysis-course-list-table.php300,
+#: includes/class-sensei-analysis-course-list-table.php381,
+#: includes/class-sensei-analysis-lesson-list-table.php228,
+#: includes/class-sensei-analysis-user-profile-list-table.php206,
+#: includes/class-sensei-course.php2893,
+#: includes/class-sensei-grading-main.php248,
+#: includes/class-sensei-grading-main.php420,
+#: includes/class-sensei-learners-admin-bulk-actions-view.php209,
+#: includes/class-sensei-learners-admin-bulk-actions-view.php229,
+#: includes/class-sensei-learners-main.php262,
+#: includes/class-sensei-lesson.php:3465
+msgid "In Progress"
+msgstr "En progreso"
+
+#: includes/admin/class-sensei-learner-management.php116,
+#: includes/class-sensei-learners-admin-bulk-actions-controller.php:201
+msgid "Are you sure you want to remove this user?"
+msgstr "¿Estás seguro que quieres eliminar este usuario?"
+
+#: includes/admin/class-sensei-learner-management.php117,
+#: includes/class-sensei-learners-admin-bulk-actions-controller.php:202
+msgid "Are you sure you want to remove the user from this lesson?"
+msgstr "¿Estás seguro que quieres eliminar a este usuario de esta lección?"
+
+#: includes/admin/class-sensei-learner-management.php118,
+#: includes/class-sensei-learners-admin-bulk-actions-controller.php:203
+msgid "Are you sure you want to remove the user from this course?"
+msgstr "¿Estás seguro que quieres eliminar a este usuario de este curso?"
+
+#: includes/admin/class-sensei-learner-management.php:119
+msgid ""
+"Are you sure you want to reset the progress of this user for this lesson?"
+msgstr ""
+
+#: includes/admin/class-sensei-learner-management.php:120
+msgid ""
+"Are you sure you want to reset the progress of this user for this course?"
+msgstr ""
+
+#: includes/admin/class-sensei-learner-management.php:124
+msgid "Select Learner"
+msgstr "Selecciona un alumno"
+
+#: includes/admin/class-sensei-learner-management.php:549
+msgid "Learner added successfully!"
+msgstr "¡Alumno añadido con éxito!"
+
+#: includes/admin/class-sensei-learner-management.php:551
+msgid "Learners added successfully!"
+msgstr ""
+
+#: includes/admin/class-sensei-learner-management.php:557
+msgid "Error adding learner."
+msgstr "Error añadiendo alumno."
+
+#: includes/class-sensei-admin-rest-api-testharness.php:30
+msgid "REST Api TestHarness"
+msgstr ""
+
+#: includes/class-sensei-admin.php88, includes/class-sensei-admin.php88,
+#: includes/class-sensei-admin.php:1070
+msgid "Order Courses"
+msgstr "Ordenar Cursos"
+
+#: includes/class-sensei-admin.php89, includes/class-sensei-admin.php89,
+#: includes/class-sensei-admin.php:1182
+msgid "Order Lessons"
+msgstr "Ordenar lecciones"
+
+#: includes/class-sensei-admin.php:185
+msgid ""
+"<strong>Congratulations!</strong> &#8211; Sensei has been installed and set "
+"up."
+msgstr ""
+"<strong>Felicidades!</strong> &#8211; Sensei se ha instalado y configurado."
+
+#: includes/class-sensei-admin.php:242
+msgctxt "page_slug"
+msgid "courses-overview"
+msgstr "detalle-cursos"
+
+#: includes/class-sensei-admin.php242, includes/class-sensei-admin.php1420,
+#: includes/class-sensei-analysis-overview-list-table.php637,
+#: includes/class-sensei-analysis-user-profile-list-table.php286,
+#: includes/class-sensei-course.php2583,
+#: includes/class-sensei-learners-admin-bulk-actions-view.php209,
+#: includes/class-sensei-learners-admin-bulk-actions-view.php229,
+#: includes/class-sensei-posttypes.php614,
+#: includes/class-sensei-posttypes.php614,
+#: includes/class-sensei-settings.php:109
+msgid "Courses"
+msgstr "Cursos"
+
+#: includes/class-sensei-admin.php:246
+msgctxt "page_slug"
+msgid "my-courses"
+msgstr "mis-cursos"
+
+#: includes/class-sensei-admin.php246, includes/class-sensei-admin.php1422,
+#: widgets/widget-woothemes-sensei-course-component.php:319
+msgid "My Courses"
+msgstr "Mis Cursos"
+
+#: includes/class-sensei-admin.php:325
+msgid ""
+"<strong>Welcome to Sensei</strong> &#8211; You're almost ready to create "
+"some courses!"
+msgstr ""
+"<strong>Bienvenido a Sensei</strong> &#8211; Ya está listo para crear cursos!"
+
+#: includes/class-sensei-admin.php:333
+msgid "Install Sensei Pages"
+msgstr "Instalar las páginas de Sensei"
+
+#: includes/class-sensei-admin.php:339
+msgid "Skip setup"
+msgstr "Omitir la configuración"
+
+#: includes/class-sensei-admin.php:360
+msgid ""
+"<strong>Sensei has been installed</strong> &#8211; You're ready to start "
+"creating courses!"
+msgstr ""
+"<strong>Se ha instalado Sensei</strong> &#8211; ¡Ya estás casi listo para "
+"crear cursos!"
+
+#: includes/class-sensei-admin.php364, includes/class-sensei-settings.php:32
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/class-sensei-admin.php:365
+msgid "Documentation"
+msgstr "Documentación"
+
+#: includes/class-sensei-admin.php:372
+msgid "Tweet"
+msgstr "Tweet"
+
+#: includes/class-sensei-admin.php:397
+msgid ""
+"%sSensei in your language %s. There is a translation available for your "
+"language."
+msgstr "Sensei en tu idioma. Hay una traducción disponible para tu idioma."
+
+#: includes/class-sensei-admin.php400, includes/class-sensei-settings.php:653
+msgid "Install"
+msgstr "Instalar"
+
+#: includes/class-sensei-admin.php:401
+msgid "Hide this notice"
+msgstr "Ocultar este aviso"
+
+#: includes/class-sensei-admin.php:444
+msgid ""
+"This will duplicate the lesson quiz and all of its questions. Are you sure "
+"you want to do this?"
+msgstr ""
+"Esto duplicará el cuestionario de la lección y todas sus preguntas. ¿Estás "
+"seguro de que quieres hacer esto?"
+
+#: includes/class-sensei-admin.php:445
+msgid "Duplicate this lesson"
+msgstr "Duplicar esta lección"
+
+#: includes/class-sensei-admin.php445, includes/class-sensei-admin.php:450
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: includes/class-sensei-admin.php:449
+msgid ""
+"This will duplicate the course lessons along with all of their quizzes and "
+"questions. Are you sure you want to do this?"
+msgstr ""
+"Esto duplicará las lecciones del curso, junto con todas sus cuestionarios y "
+"preguntas. ¿Estás seguro de que quieres hacer esto?"
+
+#: includes/class-sensei-admin.php:450
+msgid "Duplicate this course"
+msgstr "Duplicar este curso"
+
+#: includes/class-sensei-admin.php:451
+msgid "Duplicate this course with its lessons"
+msgstr "Duplicar este curso con sus lecciones"
+
+#: includes/class-sensei-admin.php:451
+msgid "Duplicate (with lessons)"
+msgstr "Duplicar (con lecciones)"
+
+#: includes/class-sensei-admin.php:512
+msgid "Please supply a %1$s ID."
+msgstr "Por favor, facilita un %1$s ID."
+
+#: includes/class-sensei-admin.php:518
+msgid "Invalid post type. Can duplicate only lessons and courses"
+msgstr ""
+
+#: includes/class-sensei-admin.php:527
+msgid "Insufficient permissions"
+msgstr "Permisos insuficientes"
+
+#: includes/class-sensei-admin.php:634
+msgid "(Duplicate)"
+msgstr "(Duplicado)"
+
+#: includes/class-sensei-admin.php:720
+msgid "Show all courses"
+msgstr "Mostrar todos los cursos"
+
+#: includes/class-sensei-admin.php:1079
+msgid "The course order has been saved."
+msgstr "El orden del curso se ha guardado."
+
+#: includes/class-sensei-admin.php:1133
+msgid "Save course order"
+msgstr "Guardar orden del curso"
+
+#: includes/class-sensei-admin.php:1192
+msgid "The lesson order has been saved."
+msgstr "El orden de la lección se ha guardado."
+
+#: includes/class-sensei-admin.php1210,
+#: includes/class-sensei-grading-main.php329,
+#: includes/class-sensei-grading.php457, includes/class-sensei-modules.php:894
+msgid "Select a course"
+msgstr "Selecciona un curso"
+
+#: includes/class-sensei-admin.php1221, includes/class-sensei-modules.php:907
+msgid "Select"
+msgstr "Seleccionar"
+
+#: includes/class-sensei-admin.php1307, includes/class-sensei-course.php2672,
+#: templates/course-results/lessons.php:105
+msgid "Other Lessons"
+msgstr "Otras lecciones"
+
+#: includes/class-sensei-admin.php:1338
+msgid "There are no lessons in this course."
+msgstr "No hay lecciones en este curso."
+
+#: includes/class-sensei-admin.php:1345
+msgid "Save lesson order"
+msgstr "Guardar orden de lecciones"
+
+#: includes/class-sensei-admin.php1421,
+#: includes/class-sensei-analysis-overview-list-table.php46,
+#: includes/class-sensei-analysis-overview-list-table.php638,
+#: includes/class-sensei-course.php1380, includes/class-sensei-course.php1517,
+#: includes/class-sensei-course.php2080, includes/class-sensei-course.php2677,
+#: includes/class-sensei-frontend.php979,
+#: includes/class-sensei-learners-main.php564,
+#: includes/class-sensei-modules.php1037,
+#: includes/class-sensei-posttypes.php615,
+#: includes/class-sensei-posttypes.php615,
+#: includes/class-sensei-settings.php114,
+#: includes/shortcodes/class-sensei-legacy-shortcodes.php362,
+#: templates/course-results/lessons.php30,
+#: templates/single-course/modules.php91,
+#: widgets/widget-woothemes-sensei-category-courses.php198,
+#: widgets/widget-woothemes-sensei-course-component.php:304
+msgid "Lessons"
+msgstr "Lecciones"
+
+#: includes/class-sensei-admin.php:1423
+msgid "My Profile"
+msgstr "Mi perfil"
+
+#: includes/class-sensei-admin.php1424, includes/class-sensei-course.php1618,
+#: includes/class-sensei-messages.php661,
+#: includes/class-sensei-messages.php:738
+msgid "My Messages"
+msgstr "Mis mensajes"
+
+#: includes/class-sensei-admin.php1425, includes/class-sensei-frontend.php425,
+#: templates/user/login-form.php25, templates/user/login-form.php:67
+msgid "Login"
+msgstr "Entrar"
+
+#: includes/class-sensei-admin.php1425, includes/class-sensei-frontend.php:423
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: includes/class-sensei-admin.php:1458
+msgid "Add to Menu"
+msgstr "Agregar al menú"
+
+#: includes/class-sensei-admin.php:1589
+msgid "Settings > General"
+msgstr ""
+
+#: includes/class-sensei-admin.php:1590
+msgid "add a new Administrator"
+msgstr "añadir nuevo Administrador"
+
+#: includes/class-sensei-admin.php:1591
+msgid "existing Administrator"
+msgstr ""
+
+#: includes/class-sensei-admin.php:1596
+msgid ""
+"To prevent issues with Sensei module names, your Email Address in %s should "
+"also belong to an Administrator user. You can either %s with the email "
+"address %s, or change that email address to match the email of an %s."
+msgstr ""
+
+#: includes/class-sensei-analysis-course-list-table.php57,
+#: includes/class-sensei-analysis-lesson-list-table.php42,
+#: includes/class-sensei-analysis-overview-list-table.php65,
+#: includes/class-sensei-grading-main.php59,
+#: includes/class-sensei-learners-admin-bulk-actions-view.php50,
+#: includes/class-sensei-learners-main.php:67
+msgid "Learner"
+msgstr "Alumno"
+
+#: includes/class-sensei-analysis-course-list-table.php58,
+#: includes/class-sensei-analysis-course-list-table.php71,
+#: includes/class-sensei-analysis-lesson-list-table.php43,
+#: includes/class-sensei-analysis-user-profile-list-table.php42,
+#: includes/class-sensei-learners-main.php:68
+msgid "Date Started"
+msgstr "Fecha de inicio"
+
+#: includes/class-sensei-analysis-course-list-table.php59,
+#: includes/class-sensei-analysis-course-list-table.php72,
+#: includes/class-sensei-analysis-lesson-list-table.php44,
+#: includes/class-sensei-analysis-user-profile-list-table.php:43
+msgid "Date Completed"
+msgstr "Fecha de fin"
+
+#: includes/class-sensei-analysis-course-list-table.php60,
+#: includes/class-sensei-analysis-course-list-table.php73,
+#: includes/class-sensei-analysis-lesson-list-table.php45,
+#: includes/class-sensei-analysis-user-profile-list-table.php44,
+#: includes/class-sensei-grading-main.php63,
+#: includes/class-sensei-learners-main.php:69
+msgid "Status"
+msgstr "Estado"
+
+#: includes/class-sensei-analysis-course-list-table.php61,
+#: includes/class-sensei-analysis-user-profile-list-table.php:45
+msgid "Percent Complete"
+msgstr "Porcentaje completado"
+
+#: includes/class-sensei-analysis-course-list-table.php70,
+#: includes/class-sensei-analysis-course-list-table.php80,
+#: includes/class-sensei-analysis-overview-list-table.php54,
+#: includes/class-sensei-grading-main.php61,
+#: includes/class-sensei-learners-main.php75,
+#: includes/class-sensei-learners-main.php620,
+#: includes/class-sensei-posttypes.php:615
+msgid "Lesson"
+msgstr "Lección"
+
+#: includes/class-sensei-analysis-course-list-table.php74,
+#: includes/class-sensei-analysis-lesson-list-table.php46,
+#: includes/class-sensei-grading-main.php64,
+#: includes/class-sensei-lesson.php755, includes/class-sensei-lesson.php:764
+msgid "Grade"
+msgstr "Calificación"
+
+#: includes/class-sensei-analysis-course-list-table.php81,
+#: includes/class-sensei-analysis-overview-list-table.php45,
+#: includes/class-sensei-analysis-overview-list-table.php56,
+#: includes/class-sensei-analysis-overview-list-table.php636,
+#: includes/class-sensei-learners-main.php:563
+msgid "Learners"
+msgstr "Alumnos"
+
+#: includes/class-sensei-analysis-course-list-table.php82,
+#: includes/class-sensei-analysis-course-list-table.php295,
+#: includes/class-sensei-analysis-course-list-table.php352,
+#: includes/class-sensei-analysis-lesson-list-table.php199,
+#: includes/class-sensei-analysis-overview-list-table.php47,
+#: includes/class-sensei-analysis-overview-list-table.php57,
+#: includes/class-sensei-analysis-user-profile-list-table.php199,
+#: includes/class-sensei-course.php2875,
+#: includes/class-sensei-grading-main.php228,
+#: includes/class-sensei-learners-admin-bulk-actions-view.php231,
+#: includes/class-sensei-learners-main.php258,
+#: includes/class-sensei-modules.php686, includes/template-functions.php:698
+msgid "Completed"
+msgstr "Completado"
+
+#: includes/class-sensei-analysis-course-list-table.php83,
+#: includes/class-sensei-analysis-overview-list-table.php58,
+#: includes/class-sensei-analysis-overview-list-table.php69,
+#: includes/class-sensei-analysis-overview-list-table.php:585
+msgid "Average Grade"
+msgstr "Calificación media"
+
+#: includes/class-sensei-analysis-course-list-table.php:336
+msgid "Not started"
+msgstr "Sin iniciar"
+
+#: includes/class-sensei-analysis-course-list-table.php355,
+#: includes/class-sensei-analysis-lesson-list-table.php202,
+#: includes/class-sensei-grading-main.php:229
+msgid "No Grade"
+msgstr "Sin calificación"
+
+#: includes/class-sensei-analysis-course-list-table.php358,
+#: includes/class-sensei-analysis-lesson-list-table.php205,
+#: includes/class-sensei-grading-main.php232,
+#: includes/class-sensei-grading-main.php:419
+msgid "Graded"
+msgstr "Calificado"
+
+#: includes/class-sensei-analysis-course-list-table.php364,
+#: includes/class-sensei-analysis-lesson-list-table.php211,
+#: includes/class-sensei-grading-main.php:236
+msgid "Passed"
+msgstr "Aprobado"
+
+#: includes/class-sensei-analysis-course-list-table.php370,
+#: includes/class-sensei-analysis-lesson-list-table.php217,
+#: includes/class-sensei-grading-main.php:240
+msgid "Failed"
+msgstr "Fallido"
+
+#: includes/class-sensei-analysis-course-list-table.php376,
+#: includes/class-sensei-analysis-lesson-list-table.php223,
+#: includes/class-sensei-grading-main.php244,
+#: includes/class-sensei-grading-main.php:418
+msgid "Ungraded"
+msgstr "Sin calificar"
+
+#: includes/class-sensei-analysis-course-list-table.php425,
+#: includes/class-sensei-analysis-overview-list-table.php345,
+#: includes/class-sensei-analysis-overview-list-table.php:377
+msgid "n/a"
+msgstr "n/a"
+
+#: includes/class-sensei-analysis-course-list-table.php560,
+#: includes/class-sensei-analysis-lesson-list-table.php311,
+#: includes/class-sensei-learners-admin-bulk-actions-view.php125,
+#: includes/class-sensei-learners-main.php:487
+msgid "No learners found."
+msgstr "No hay alumnos."
+
+#: includes/class-sensei-analysis-course-list-table.php565,
+#: includes/class-sensei-learners-main.php:491
+msgid "No lessons found."
+msgstr "No hay lecciones."
+
+#: includes/class-sensei-analysis-course-list-table.php:578
+msgid "Other Learners taking this Course"
+msgstr "Otros alumnos haciendo este curso"
+
+#: includes/class-sensei-analysis-course-list-table.php:581
+msgid "Learners taking this Course"
+msgstr "Alumnos haciendo este curso"
+
+#: includes/class-sensei-analysis-course-list-table.php:583
+msgid "Lessons in this Course"
+msgstr "Lecciones en este curso"
+
+#: includes/class-sensei-analysis-course-list-table.php638,
+#: includes/class-sensei-analysis-lesson-list-table.php332,
+#: includes/class-sensei-analysis-overview-list-table.php672,
+#: includes/class-sensei-analysis-user-profile-list-table.php:298
+msgid "Export all rows (CSV)"
+msgstr "Exportar todas las filas (CSV)"
+
+#: includes/class-sensei-analysis-course-list-table.php649,
+#: includes/class-sensei-analysis-lesson-list-table.php342,
+#: includes/class-sensei-analysis-overview-list-table.php692,
+#: includes/class-sensei-learners-admin-bulk-actions-view.php203,
+#: includes/class-sensei-learners-main.php:673
+msgid "Search Learners"
+msgstr "Buscar alumnos"
+
+#: includes/class-sensei-analysis-course-list-table.php654,
+#: includes/class-sensei-analysis-overview-list-table.php687,
+#: includes/class-sensei-learners-main.php:677
+msgid "Search Lessons"
+msgstr "Buscar lecciones"
+
+#: includes/class-sensei-analysis-lesson-list-table.php:320
+msgid "Learners taking this Lesson"
+msgstr "Alumnos haciendo esta lección"
+
+#: includes/class-sensei-analysis-overview-list-table.php44,
+#: includes/class-sensei-analysis-overview-list-table.php55,
+#: includes/class-sensei-analysis-user-profile-list-table.php41,
+#: includes/class-sensei-grading-main.php60,
+#: includes/class-sensei-learners-main.php84,
+#: includes/class-sensei-learners-main.php614,
+#: includes/class-sensei-lesson.php119, includes/class-sensei-posttypes.php:614
+msgid "Course"
+msgstr "Curso"
+
+#: includes/class-sensei-analysis-overview-list-table.php:48
+msgid "Average Percentage"
+msgstr "Porcentaje promedio"
+
+#: includes/class-sensei-analysis-overview-list-table.php:66
+msgid "Date Registered"
+msgstr "Fecha de registro"
+
+#: includes/class-sensei-analysis-overview-list-table.php67,
+#: includes/class-sensei-course.php1627,
+#: includes/shortcodes/class-sensei-shortcode-user-courses.php:436
+msgid "Active Courses"
+msgstr "Cursos activos"
+
+#: includes/class-sensei-analysis-overview-list-table.php68,
+#: includes/class-sensei-course.php1628,
+#: includes/shortcodes/class-sensei-shortcode-user-courses.php:437
+msgid "Completed Courses"
+msgstr "Cursos completados"
+
+#: includes/class-sensei-analysis-overview-list-table.php:581
+msgid "Total Courses"
+msgstr "Cursos totales"
+
+#: includes/class-sensei-analysis-overview-list-table.php:582
+msgid "Total Lessons"
+msgstr "Lecciones totales"
+
+#: includes/class-sensei-analysis-overview-list-table.php:583
+msgid "Total Learners"
+msgstr "Alumnos totales"
+
+#: includes/class-sensei-analysis-overview-list-table.php:584
+msgid "Average Courses per Learner"
+msgstr "Promedio de cursos por alumno"
+
+#: includes/class-sensei-analysis-overview-list-table.php:586
+msgid "Total Completed Courses"
+msgstr "Cursos completados totales"
+
+#: includes/class-sensei-analysis-overview-list-table.php:603
+msgid "%1$sNo %2$s found%3$s"
+msgstr "%1$sNo se encontró %2$s %3$s"
+
+#: includes/class-sensei-analysis-overview-list-table.php683,
+#: includes/class-sensei-analysis-user-profile-list-table.php307,
+#: includes/class-sensei-learners-main.php:681
+msgid "Search Courses"
+msgstr "Buscar cursos"
+
+#: includes/class-sensei-analysis-user-profile-list-table.php277,
+#: includes/class-sensei-learners-main.php:497
+msgid "No courses found."
+msgstr "No se encontraron cursos."
+
+#: includes/class-sensei-analysis.php23, includes/class-sensei-analysis.php55,
+#: includes/class-sensei-analysis.php:55
+msgid "Analysis"
+msgstr "Análisis"
+
+#: includes/class-sensei-analysis.php:514
+msgid "Invalid request"
+msgstr "Solicitud no válida"
+
+#: includes/class-sensei-course-results.php:26
+msgctxt "post type single url slug"
+msgid "course"
+msgstr "curso"
+
+#: includes/class-sensei-course-results.php:65
+msgid "Course Results: "
+msgstr "Resultados del curso:"
+
+#: includes/class-sensei-course.php179, includes/class-sensei-lesson.php:635
+msgid "WooCommerce Product"
+msgstr "Producto WooCommerce"
+
+#: includes/class-sensei-course.php182, includes/class-sensei-lesson.php:610
+msgid "Course Prerequisite"
+msgstr "Prerequisito del curso"
+
+#: includes/class-sensei-course.php:184
+msgid "Featured Course"
+msgstr "Curso destacado"
+
+#: includes/class-sensei-course.php:186
+msgid "Course Video"
+msgstr "Vídeo del curso"
+
+#: includes/class-sensei-course.php:188
+msgid "Course Lessons"
+msgstr "Lecciones del curso"
+
+#: includes/class-sensei-course.php:190
+msgid "Course Management"
+msgstr "Administración de curso"
+
+#: includes/class-sensei-course.php:195
+msgid "Course Notifications"
+msgstr "Avisos del curso"
+
+#: includes/class-sensei-course.php235, includes/class-sensei-course.php351,
+#: includes/class-sensei-course.php643, includes/class-sensei-lesson.php171,
+#: includes/class-sensei-lesson.php212, includes/class-sensei-lesson.php612,
+#: includes/class-sensei-lesson.php637, includes/class-sensei-lesson.php675,
+#: includes/class-sensei-lesson.php1077, includes/class-sensei-modules.php223,
+#: includes/class-sensei-utils.php:2206
+msgid "None"
+msgstr "Nada"
+
+#: includes/class-sensei-course.php:261
+msgid "Variation #"
+msgstr "Variación #"
+
+#: includes/class-sensei-course.php296, includes/class-sensei-course.php296,
+#: includes/class-sensei-course.php:306
+msgid "Add a Product"
+msgstr "Añadir un producto"
+
+#: includes/class-sensei-course.php306, includes/class-sensei-course.php:314
+msgid "No products exist yet."
+msgstr "Todavía no existen productos."
+
+#: includes/class-sensei-course.php:306
+msgid "Please add some first"
+msgstr "Por favor, añade algo primero"
+
+#: includes/class-sensei-course.php:357
+msgid "No courses exist yet. Please add some first."
+msgstr "Todavía no existen cursos. Por favor, añade alguno primero."
+
+#: includes/class-sensei-course.php:384
+msgid "Feature this course"
+msgstr "Destacar este curso"
+
+#: includes/class-sensei-course.php404, includes/class-sensei-lesson.php:177
+msgid "Video Embed Code"
+msgstr "Código embed del vídeo"
+
+#: includes/class-sensei-course.php409, includes/class-sensei-lesson.php:182
+msgid ""
+"Paste the embed code for your video (e.g. YouTube, Vimeo etc.) in the box "
+"above."
+msgstr ""
+"Pega el código embed para tu video (ej. YouTube, Vimeo etc.) en el campo "
+"anterior."
+
+#: includes/class-sensei-course.php519, includes/class-sensei-course.php614,
+#: includes/class-sensei-course.php635, includes/class-sensei-lesson.php1920,
+#: includes/class-sensei-lesson.php1926,
+#: includes/class-sensei-posttypes.php:640
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: includes/class-sensei-course.php:519
+msgid "Edit this lesson"
+msgstr "Editar esta lección"
+
+#: includes/class-sensei-course.php:529
+msgid "No lessons exist yet for this course."
+msgstr "No hay lecciones para este curso."
+
+#: includes/class-sensei-course.php:534
+msgid "Add a Lesson"
+msgstr "Añadir una lección"
+
+#: includes/class-sensei-course.php:536
+msgid "Please add some."
+msgstr "Por favor, añade algo."
+
+#: includes/class-sensei-course.php:539
+msgid "+ Add Another Lesson"
+msgstr "+ Añadir nueva lección"
+
+#: includes/class-sensei-course.php:566
+msgid "Manage Learners"
+msgstr "Gestionar alumnos"
+
+#: includes/class-sensei-course.php:568
+msgid "Manage Grading"
+msgstr "Gestionar calificaciones"
+
+#: includes/class-sensei-course.php:583
+msgctxt "column name"
+msgid "Course Title"
+msgstr "Título del curso"
+
+#: includes/class-sensei-course.php:584
+msgctxt "column name"
+msgid "Pre-requisite Course"
+msgstr "Curso requerido"
+
+#: includes/class-sensei-course.php:586
+msgctxt "column name"
+msgid "WooCommerce Product"
+msgstr "Producto WooCommerce"
+
+#: includes/class-sensei-course.php:588
+msgctxt "column name"
+msgid "Category"
+msgstr "Categoría"
+
+#: includes/class-sensei-course.php1364, includes/class-sensei-course.php1511,
+#: includes/class-sensei-course.php2072, includes/class-sensei-frontend.php977,
+#: includes/class-sensei-frontend.php1130,
+#: includes/shortcodes/class-sensei-legacy-shortcodes.php354,
+#: widgets/widget-woothemes-sensei-category-courses.php191,
+#: widgets/widget-woothemes-sensei-course-component.php295,
+#: widgets/widget-woothemes-sensei-lesson-component.php:196
+msgid "by"
+msgstr ""
+
+#: includes/class-sensei-course.php1384, includes/class-sensei-course.php1523,
+#: includes/class-sensei-course.php2084, includes/class-sensei-frontend.php981,
+#: includes/shortcodes/class-sensei-legacy-shortcodes.php:366
+msgid "in %s"
+msgstr "en %s"
+
+#: includes/class-sensei-course.php1387, includes/class-sensei-course.php:2094
+msgid "%1$d of %2$d lessons completed"
+msgstr "%1$d de %2$d lecciones completadas"
+
+#: includes/class-sensei-course.php1415, includes/class-sensei-course.php2160,
+#: includes/class-sensei-frontend.php:792
+msgid "Mark as Complete"
+msgstr "Marcar como completado"
+
+#: includes/class-sensei-course.php1440, includes/class-sensei-course.php2191,
+#: includes/class-sensei-frontend.php:826
+msgid "Delete Course"
+msgstr "Eliminar curso"
+
+#: includes/class-sensei-course.php1465, includes/class-sensei-course.php1576,
+#: includes/class-sensei-lesson.php:1186
+msgid "Previous"
+msgstr "Anterior"
+
+#: includes/class-sensei-course.php1480, includes/class-sensei-course.php1591,
+#: includes/class-sensei-lesson.php1186, includes/class-sensei-updates.php:246
+msgid "Next"
+msgstr "Siguiente"
+
+#: includes/class-sensei-course.php1545, includes/class-sensei-course.php2198,
+#: includes/class-sensei-course.php:2883
+msgid "View results"
+msgstr "Ver resultados"
+
+#: includes/class-sensei-course.php1600,
+#: includes/shortcodes/class-sensei-shortcode-user-courses.php258,
+#: widgets/widget-woothemes-sensei-course-component.php:248
+msgid "You have no active courses."
+msgstr "No tienes cursos activos."
+
+#: includes/class-sensei-course.php1601,
+#: includes/shortcodes/class-sensei-shortcode-user-courses.php:239
+msgid "You have not completed any courses yet."
+msgstr "No has completado ningún curso."
+
+#: includes/class-sensei-course.php:1603
+msgid "This learner has no active courses."
+msgstr "Este alumno no tiene cursos activos."
+
+#: includes/class-sensei-course.php:1604
+msgid "This learner has not completed any courses yet."
+msgstr "Este alumno no ha completado ningún curso."
+
+#: includes/class-sensei-course.php1617, includes/class-sensei-messages.php:737
+msgid "View & reply to private messages sent to your course & lesson teachers."
+msgstr ""
+"Ver y responder mensajes privados enviados a tu curso y a profesores de las "
+"lecciones."
+
+#: includes/class-sensei-course.php1651,
+#: includes/shortcodes/class-sensei-shortcode-user-courses.php:262
+msgid "Start a Course!"
+msgstr "¡Empieza un curso!"
+
+#: includes/class-sensei-course.php:1772
+msgid "Currently completed %s lesson of %s in total"
+msgid_plural "Currently completed %s lessons of %s in total"
+msgstr[0] "Completada %s clase de un total de %s"
+msgstr[1] "Completadas %s lecciones de un total de %s"
+
+#: includes/class-sensei-course.php:1967
+msgid "Disable notifications on this course ?"
+msgstr "¿Desactivar avisos para este curso?"
+
+#: includes/class-sensei-course.php2048, includes/class-sensei-frontend.php988,
+#: includes/shortcodes/class-sensei-legacy-shortcodes.php:380
+msgid "Preview this course"
+msgstr "Previsualizar este curso"
+
+#: includes/class-sensei-course.php2050,
+#: includes/shortcodes/class-sensei-legacy-shortcodes.php:378
+msgid "(%d preview lessons)"
+msgstr "(%d lecciones de previsualización)"
+
+#: includes/class-sensei-course.php:2382
+msgid "Sort by newest first"
+msgstr "Ordenar por más nuevos"
+
+#: includes/class-sensei-course.php:2383
+msgid "Sort by title A-Z"
+msgstr "Ordenar por título A-Z"
+
+#: includes/class-sensei-course.php2436,
+#: includes/class-sensei-grading-main.php417,
+#: includes/class-sensei-lesson.php1127, includes/class-sensei-lesson.php:1768
+msgid "All"
+msgstr "Todo"
+
+#: includes/class-sensei-course.php:2437
+msgid "Featured"
+msgstr "Destacado"
+
+#: includes/class-sensei-course.php:2563
+msgid "%1$s Archives: %2$s"
+msgstr "%1$s Archivo: %2$s"
+
+#: includes/class-sensei-course.php2571,
+#: includes/shortcodes/class-sensei-legacy-shortcodes.php104,
+#: widgets/widget-woothemes-sensei-course-component.php:34
+msgid "New Courses"
+msgstr "Nuevos cursos"
+
+#: includes/class-sensei-course.php2574,
+#: includes/shortcodes/class-sensei-legacy-shortcodes.php76,
+#: widgets/widget-woothemes-sensei-course-component.php:35
+msgid "Featured Courses"
+msgstr "Cursos destacados"
+
+#: includes/class-sensei-course.php2577,
+#: includes/shortcodes/class-sensei-legacy-shortcodes.php90,
+#: widgets/widget-woothemes-sensei-course-component.php:42
+msgid "Free Courses"
+msgstr "Cursos gratuitos"
+
+#: includes/class-sensei-course.php2580,
+#: includes/shortcodes/class-sensei-legacy-shortcodes.php61,
+#: widgets/widget-woothemes-sensei-course-component.php:43
+msgid "Paid Courses"
+msgstr "Cursos de pago"
+
+#: includes/class-sensei-course.php2901, includes/class-sensei-wc.php:959
+msgid "log in"
+msgstr "accede"
+
+#: includes/class-sensei-course.php2902, includes/class-sensei-wc.php:986
+msgid "Or %1$s to access your purchased courses"
+msgstr "O %1$s para acceder a tus cursos"
+
+#: includes/class-sensei-course.php:2914
+msgid "or %slog in%s to view this course."
+msgstr "Previsualizar este curso."
+
+#: includes/class-sensei-course.php2946,
+#: includes/class-sensei-frontend.php1079,
+#: includes/class-sensei-frontend.php1107,
+#: includes/class-sensei-templates.php:701
+msgid "Register"
+msgstr "Registrar"
+
+#: includes/class-sensei-course.php3049, includes/class-sensei-lesson.php1154,
+#: includes/class-sensei-lesson.php:1162
+msgid "Category"
+msgstr "Categoría"
+
+#: includes/class-sensei-course.php3239, includes/class-sensei-lesson.php:3723
+msgid "You must first complete: %1$s"
+msgstr "Primero debes completar: %1$s"
+
+#: includes/class-sensei-course.php:3244
+msgid "You must first complete %1$s before viewing this course"
+msgstr "Debes completar %1$s antes de visualizar este curso"
+
+#: includes/class-sensei-frontend.php:665
+msgid "Back to: "
+msgstr "Volver a: "
+
+#: includes/class-sensei-frontend.php675, includes/class-sensei-modules.php:525
+msgid "Back to the course"
+msgstr "Volver al curso"
+
+#: includes/class-sensei-frontend.php:683
+msgid "Back to the lesson"
+msgstr "Volver a la lección"
+
+#: includes/class-sensei-frontend.php:717
+msgid "Lesson tags: %1$s"
+msgstr "Etiquetas de lecciones: %1$s"
+
+#: includes/class-sensei-frontend.php:741
+msgid "Lesson tag: %1$s"
+msgstr "Etiqueta de lección: %1$s"
+
+#: includes/class-sensei-frontend.php:771
+msgid "Lesson Reset Successfully."
+msgstr "Lección restablecida satisfactoriamente."
+
+#: includes/class-sensei-frontend.php:821
+msgid "%1$s marked as complete."
+msgstr "%1$s marcado como completo."
+
+#: includes/class-sensei-frontend.php:831
+msgid "%1$s deleted."
+msgstr "%1$s eliminado."
+
+#: includes/class-sensei-frontend.php:918
+msgid "Complete Lesson"
+msgstr "Completar lección"
+
+#: includes/class-sensei-frontend.php:949
+msgid "Reset Lesson"
+msgstr "Reiniciar lección"
+
+#: includes/class-sensei-frontend.php:987
+msgid "You can access %d of this course's lessons for free"
+msgstr "Puedes acceder a %d lección/es de este curso gratuitamente."
+
+#: includes/class-sensei-frontend.php1049, templates/archive-course.php:38
+msgid "No courses found that match your selection."
+msgstr "No se encontró ningún curso que coincida con tu selección."
+
+#: includes/class-sensei-frontend.php:1086
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: includes/class-sensei-frontend.php:1091
+msgid "Email address"
+msgstr "Correo electrónico"
+
+#: includes/class-sensei-frontend.php1096, templates/user/login-form.php:48
+msgid "Password"
+msgstr "Contraseña"
+
+#: includes/class-sensei-frontend.php:1101
+msgid "Anti-spam"
+msgstr "Anti-spam"
+
+#: includes/class-sensei-frontend.php1133,
+#: widgets/widget-woothemes-sensei-lesson-component.php:204
+msgid "Part of: %s"
+msgstr "Parte de: %s"
+
+#: includes/class-sensei-frontend.php1133,
+#: widgets/widget-woothemes-sensei-lesson-component.php:204
+msgid "View course"
+msgstr "Ver curso"
+
+#: includes/class-sensei-frontend.php:1143
+msgid "(Preview)"
+msgstr ""
+
+#: includes/class-sensei-frontend.php:1149
+msgid "(Free Preview)"
+msgstr ""
+
+#: includes/class-sensei-frontend.php1249, includes/class-sensei-wc.php:486
+msgid ""
+"You have already added this Course to your cart. Please %1$s to access the "
+"course."
+msgstr ""
+"Ya has añadido este curso a tu carrito. Por favor, %1$s para acceder al "
+"curso."
+
+#: includes/class-sensei-frontend.php1249,
+#: includes/class-sensei-frontend.php1249, includes/class-sensei-wc.php:484
+msgid "complete the purchase"
+msgstr "completar la compra"
+
+#: includes/class-sensei-frontend.php:1780
+msgid "Incorrect login details"
+msgstr "Detalles de acceso incorrectos"
+
+#: includes/class-sensei-frontend.php:1784
+msgid "Please enter your username and password"
+msgstr "Por favor introduce tu usuario y contraseña"
+
+#: includes/class-sensei-grading-main.php:62
+msgid "Updated"
+msgstr "Actualizado"
+
+#: includes/class-sensei-grading-main.php245,
+#: includes/class-sensei-grading-main.php:249
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/class-sensei-grading-main.php:261
+msgid "Grade quiz"
+msgstr "Calificación del cuestionario"
+
+#: includes/class-sensei-grading-main.php:267
+msgid "Review grade"
+msgstr "Revisar calificación"
+
+#: includes/class-sensei-grading-main.php:302
+msgid "No submissions found."
+msgstr "No se encontraron aplicaciones."
+
+#: includes/class-sensei-grading-main.php:341
+msgid "Reset filter"
+msgstr "Limpiar el filtro"
+
+#: includes/class-sensei-grading-user-quiz.php64,
+#: includes/class-sensei-grading-user-quiz.php:254
+msgid "__Grade:"
+msgstr "__Calificación:"
+
+#: includes/class-sensei-grading-user-quiz.php64,
+#: includes/class-sensei-grading-user-quiz.php:254
+msgid "Grade:"
+msgstr "Calificación:"
+
+#: includes/class-sensei-grading-user-quiz.php:68
+msgid "__Save"
+msgstr "__Guardar"
+
+#: includes/class-sensei-grading-user-quiz.php:68
+msgid "Save"
+msgstr "Guardar"
+
+#: includes/class-sensei-grading-user-quiz.php69,
+#: includes/class-sensei-grading-user-quiz.php:259
+msgid "__Auto grade"
+msgstr "__Auto calificación"
+
+#: includes/class-sensei-grading-user-quiz.php69,
+#: includes/class-sensei-grading-user-quiz.php:259
+msgid "Auto grade"
+msgstr "Auto calificación"
+
+#: includes/class-sensei-grading-user-quiz.php70,
+#: includes/class-sensei-grading-user-quiz.php:260
+msgid "__Reset"
+msgstr "__Restablecer"
+
+#: includes/class-sensei-grading-user-quiz.php70,
+#: includes/class-sensei-grading-user-quiz.php:260
+msgid "Reset"
+msgstr "Restablecer"
+
+#: includes/class-sensei-grading-user-quiz.php95,
+#: includes/class-sensei-grading-user-quiz.php106,
+#: includes/class-sensei-question.php42,
+#: includes/class-sensei-question.php:1135
+msgid "Multiple Choice"
+msgstr "Respuesta múltiple"
+
+#: includes/class-sensei-grading-user-quiz.php100,
+#: includes/class-sensei-lesson.php929, includes/class-sensei-question.php:43
+msgid "True/False"
+msgstr "Verdadero/Falso"
+
+#: includes/class-sensei-grading-user-quiz.php110,
+#: includes/class-sensei-question.php:44
+msgid "Gap Fill"
+msgstr "Completar el vacío"
+
+#: includes/class-sensei-grading-user-quiz.php127,
+#: includes/class-sensei-question.php:46
+msgid "Multi Line"
+msgstr "Multilíneas"
+
+#: includes/class-sensei-grading-user-quiz.php131,
+#: includes/class-sensei-question.php:45
+msgid "Single Line"
+msgstr "Línea única"
+
+#: includes/class-sensei-grading-user-quiz.php135,
+#: includes/class-sensei-question.php:47
+msgid "File Upload"
+msgstr "Subir archivo"
+
+#: includes/class-sensei-grading-user-quiz.php146,
+#: templates/single-quiz/question_type-file-upload.php:37
+msgid "Submitted file: %1$s"
+msgstr "Archivo enviado: %1$s"
+
+#: includes/class-sensei-grading-user-quiz.php:159
+msgid "Question %d: "
+msgstr "Pregunta %d:"
+
+#: includes/class-sensei-grading-user-quiz.php:220
+msgid "Correct answer"
+msgstr "Respuesta correcta"
+
+#: includes/class-sensei-grading-user-quiz.php:234
+msgid "Grading Notes"
+msgstr "Notas de calificaciones"
+
+#: includes/class-sensei-grading-user-quiz.php:235
+msgid "Add notes here..."
+msgstr "Añadir notas aquí..."
+
+#: includes/class-sensei-grading.php27, includes/class-sensei-grading.php62,
+#: includes/class-sensei-grading.php62,
+#: includes/class-sensei-learners-main.php301,
+#: includes/class-sensei-learners-main.php:320
+msgid "Grading"
+msgstr "Calificando"
+
+#: includes/class-sensei-grading.php:506
+msgid "Select a lesson"
+msgstr "Selecciona una lección"
+
+#: includes/class-sensei-grading.php680, includes/class-sensei-grading.php:694
+msgid "Quiz Graded Successfully!"
+msgstr "¡Se completó el cuestionario correctamente!"
+
+#: includes/class-sensei-grading.php:776
+msgid "This quiz is not able to be automatically graded."
+msgstr "Este cuestionario no puede calificarse automáticamente."
+
+#: includes/class-sensei-language-pack-manager.php258,
+#: includes/class-sensei.php294, includes/class-sensei.php:303
+msgid "Cheatin&#8217; huh?"
+msgstr "¿Haciendo trampas?"
+
+#: includes/class-sensei-language-pack-manager.php275,
+#: includes/class-sensei-language-pack-manager.php278,
+#: includes/class-sensei-language-pack-manager.php281,
+#: includes/class-sensei-language-pack-manager.php:284
+msgid "Failed to install/update the translation:"
+msgstr "Error al instalar/actualizar la traducción:"
+
+#: includes/class-sensei-language-pack-manager.php:275
+msgid "Seems you don't have permission to do this!"
+msgstr "¡Parece que no tienes permiso para hacer esto!"
+
+#: includes/class-sensei-language-pack-manager.php:278
+msgid "There is no translation available for your language!"
+msgstr "No hay traducción disponible para tu idioma!"
+
+#: includes/class-sensei-language-pack-manager.php:281
+msgid ""
+"An authentication error occurred while updating the translation. Please try "
+"again or configure your %sUpgrade Constants%s."
+msgstr ""
+"Ocurrió un error de identificación mientras se actualizaba la traducción. "
+"Por favor inténtalo nuevamente o configura tus %sConstantes de "
+"actualización%s."
+
+#: includes/class-sensei-language-pack-manager.php:284
+msgid "Sorry but there is no translation available for your language =/"
+msgstr "Disculpa pero no hay traducción disponible para tu idioma =/"
+
+#: includes/class-sensei-language-pack-manager.php:288
+msgid "Translations installed/updated successfully!"
+msgstr "Traducciones instaladas/actualizadas correctamente!"
+
+#: includes/class-sensei-learner-profiles.php25,
+#: includes/class-sensei-settings.php:472
+msgid "learner"
+msgstr "alumno"
+
+#: includes/class-sensei-learner-profiles.php71,
+#: includes/class-sensei-learner-profiles.php:140
+msgid "Courses %s is taking"
+msgstr "Cursos que está haciendo %s"
+
+#: includes/class-sensei-learners-admin-bulk-actions-controller.php56,
+#: includes/class-sensei-learners-admin-bulk-actions-view.php:158
+msgid "Bulk Learner Actions"
+msgstr ""
+
+#: includes/class-sensei-learners-admin-bulk-actions-controller.php:100
+msgid "Assign to Course(s)"
+msgstr ""
+
+#: includes/class-sensei-learners-admin-bulk-actions-controller.php:101
+msgid "Unassign from Course(s)"
+msgstr ""
+
+#: includes/class-sensei-learners-admin-bulk-actions-controller.php:102
+msgid "Reset Course(s)"
+msgstr ""
+
+#: includes/class-sensei-learners-admin-bulk-actions-controller.php:103
+msgid "Recalculate Course(s) Completion (notify on complete)"
+msgstr ""
+
+#: includes/class-sensei-learners-admin-bulk-actions-controller.php:104
+msgid "Recalculate Course(s) Completion (do not notify on complete)"
+msgstr ""
+
+#: includes/class-sensei-learners-admin-bulk-actions-controller.php:206
+msgid "Select Course"
+msgstr ""
+
+#: includes/class-sensei-learners-admin-bulk-actions-controller.php:277
+msgid "This bulk action is not supported"
+msgstr ""
+
+#: includes/class-sensei-learners-admin-bulk-actions-controller.php:280
+msgid "Invalid Course"
+msgstr "Curso no válido"
+
+#: includes/class-sensei-learners-admin-bulk-actions-controller.php:284
+msgid "Bulk learner action succeeded"
+msgstr ""
+
+#: includes/class-sensei-learners-admin-bulk-actions-view.php:51
+msgid "Overview"
+msgstr ""
+
+#: includes/class-sensei-learners-admin-bulk-actions-view.php82,
+#: includes/class-sensei-learners-main.php:229
+msgid "No results found"
+msgstr "No se han encontraron productos."
+
+#: includes/class-sensei-learners-admin-bulk-actions-view.php132,
+#: includes/class-sensei-learners-admin-bulk-actions-view.php:133
+msgid "$select_label"
+msgstr ""
+
+#: includes/class-sensei-learners-admin-bulk-actions-view.php:144
+msgid "Select Course(s)"
+msgstr ""
+
+#: includes/class-sensei-learners-admin-bulk-actions-view.php:150
+msgid "Apply"
+msgstr ""
+
+#: includes/class-sensei-learners-admin-bulk-actions-view.php:181
+msgid "Select Courses"
+msgstr ""
+
+#: includes/class-sensei-learners-admin-bulk-actions-view.php194,
+#: includes/class-sensei-lesson.php:1144
+msgid "Filter"
+msgstr "Filtro"
+
+#: includes/class-sensei-learners-main.php76,
+#: includes/class-sensei-learners-main.php:85
+msgid "# Learners"
+msgstr "# Alumnos"
+
+#: includes/class-sensei-learners-main.php77,
+#: includes/class-sensei-learners-main.php:86
+msgid "Last Updated"
+msgstr "Actualizado por última vez"
+
+#: includes/class-sensei-learners-main.php245, includes/class-sensei.php:759
+msgid "lesson"
+msgstr "leccion"
+
+#: includes/class-sensei-learners-main.php251,
+#: includes/class-sensei-lesson.php3641, includes/class-sensei-lesson.php3661,
+#: includes/class-sensei-lesson.php3687, includes/class-sensei-utils.php1358,
+#: includes/class-sensei.php686, includes/class-sensei.php720,
+#: includes/class-sensei.php774, includes/class-sensei.php:786
+msgid "course"
+msgstr "curso"
+
+#: includes/class-sensei-learners-main.php:287
+msgid "Remove from %1$s"
+msgstr "Eliminar de %1$s"
+
+#: includes/class-sensei-learners-main.php:288
+msgid "Reset progress"
+msgstr "Inicializar progreso"
+
+#: includes/class-sensei-learners-main.php308,
+#: includes/class-sensei-learners-main.php:327
+msgid "Manage learners"
+msgstr "Gestionar alumnos"
+
+#: includes/class-sensei-learners-main.php:341
+msgid "Edit Start Date"
+msgstr ""
+
+#: includes/class-sensei-learners-main.php525,
+#: includes/class-sensei-lesson.php:674
+msgid "Course Category"
+msgstr "Categoría del curso"
+
+#: includes/class-sensei-learners-main.php527,
+#: includes/class-sensei-posttypes.php:425
+msgid "All Course Categories"
+msgstr "Todas las categorías del curso"
+
+#: includes/class-sensei-learners-main.php:578
+msgid "%1$sBack to %2$s%3$s"
+msgstr "%1$sVolver a %2$s%3$s"
+
+#: includes/class-sensei-learners-main.php:631
+msgid "Add Learner to %1$s"
+msgstr "Agregar alumno a %1$s"
+
+#: includes/class-sensei-learners-main.php:636
+msgid "Find learner"
+msgstr "Encontrar alumno"
+
+#: includes/class-sensei-learners-main.php:639
+msgid "Complete lesson for learner"
+msgstr "Completar lección para el alumno"
+
+#: includes/class-sensei-learners-main.php:641
+msgid "Complete course for learner"
+msgstr "Completar curso para el alumno"
+
+#: includes/class-sensei-learners-main.php:644
+msgid "Search for a user by typing their name or username."
+msgstr "Busca un usuario escribiendo su nombre o usuario."
+
+#: includes/class-sensei-learners-main.php:646
+msgid "Add to '%1$s'"
+msgstr "Agregar a '%1$s'"
+
+#: includes/class-sensei-learners-main.php:648
+msgid ""
+"Learner will also be added to the course '%1$s' if they are not already "
+"taking it."
+msgstr ""
+"El alumno también será agregado al curso  '%1$s'  si es que ya no lo está "
+"haciendo."
+
+#: includes/class-sensei-lesson.php:122
+msgid "Prerequisite"
+msgstr "Prerequisito"
+
+#: includes/class-sensei-lesson.php:125
+msgid "Preview"
+msgstr ""
+
+#: includes/class-sensei-lesson.php128, includes/class-sensei-lesson.php:3108
+msgid "Lesson Information"
+msgstr "Información de la lección"
+
+#: includes/class-sensei-lesson.php131, includes/class-sensei-lesson.php:3146
+msgid "Quiz Settings"
+msgstr "Ajustes del cuestionario"
+
+#: includes/class-sensei-lesson.php:134
+msgid "Quiz Questions"
+msgstr "Preguntas del cuestionario"
+
+#: includes/class-sensei-lesson.php:166
+msgid "Lesson Length in minutes"
+msgstr "Duración de la lección (en minutos)"
+
+#: includes/class-sensei-lesson.php169, includes/class-sensei-lesson.php:3142
+msgid "Lesson Complexity"
+msgstr "Complejidad de la lección"
+
+#: includes/class-sensei-lesson.php:218
+msgid "No lessons exist yet. Please add some first."
+msgstr "No existen lecciones. Por favor, añade algo antes."
+
+#: includes/class-sensei-lesson.php:243
+msgid "Allow this lesson to be viewed without purchase/login"
+msgstr "Permitir que pueda verse esta lección sin comprarla/acceder"
+
+#: includes/class-sensei-lesson.php:597
+msgid "Add New Course"
+msgstr "Añadir un nuevo curso"
+
+#: includes/class-sensei-lesson.php:604
+msgid "Course Title"
+msgstr "Título del curso"
+
+#: includes/class-sensei-lesson.php:607
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/class-sensei-lesson.php:678
+msgid "Save Course"
+msgstr "Guardar curso"
+
+#: includes/class-sensei-lesson.php:678
+msgid "Add Course"
+msgstr "Añadir curso"
+
+#: includes/class-sensei-lesson.php681, includes/class-sensei-lesson.php1010,
+#: includes/class-sensei-lesson.php:1010
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/class-sensei-lesson.php:697
+msgid "Once you have saved your lesson you will be able to add questions."
+msgstr "Una vez que hayas guardado tu lección, podrás añadir preguntas."
+
+#: includes/class-sensei-lesson.php:736
+msgid "Please save your lesson in order to add questions to your quiz."
+msgstr ""
+"Por favor, guarda la lección antes de añadir preguntas al cuestionario."
+
+#: includes/class-sensei-lesson.php754, includes/class-sensei-lesson.php763,
+#: includes/class-sensei-lesson.php1152, includes/class-sensei-lesson.php1160,
+#: includes/class-sensei-posttypes.php617,
+#: includes/class-sensei-question.php:116
+msgid "Question"
+msgstr "Pregunta"
+
+#: includes/class-sensei-lesson.php756, includes/class-sensei-lesson.php765,
+#: includes/class-sensei-lesson.php1153, includes/class-sensei-lesson.php1161,
+#: includes/class-sensei-updates.php285, includes/class-sensei-updates.php:293
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/class-sensei-lesson.php757, includes/class-sensei-lesson.php766,
+#: includes/class-sensei-updates.php286, includes/class-sensei-updates.php:294
+msgid "Action"
+msgstr "Acción"
+
+#: includes/class-sensei-lesson.php:775
+msgid "There are no Questions for this Quiz yet. Please add some below."
+msgstr "No hay preguntas para este cuestionario. Por favor, añada alguna."
+
+#: includes/class-sensei-lesson.php880, includes/class-sensei-lesson.php1097,
+#: includes/class-sensei-lesson.php:1834
+msgid "Add file"
+msgstr "Añadir un fichero"
+
+#: includes/class-sensei-lesson.php907, includes/class-sensei-lesson.php:1835
+msgid "Change file"
+msgstr "Cambiar el fichero"
+
+#: includes/class-sensei-lesson.php931, includes/class-sensei-lesson.php:947
+msgid "Edit Question"
+msgstr "Editar pregunta"
+
+#: includes/class-sensei-lesson.php931, includes/class-sensei-lesson.php:947
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/class-sensei-lesson.php:931
+msgid "Remove Question"
+msgstr "Eliminar pregunta"
+
+#: includes/class-sensei-lesson.php931, includes/class-sensei-lesson.php:947
+msgid "Remove"
+msgstr "Eliminar"
+
+#: includes/class-sensei-lesson.php:941
+msgid "Selected from '%1$s' "
+msgstr "Seleccionado desde '%1$s'"
+
+#: includes/class-sensei-lesson.php:947
+msgid "Remove Question(s)"
+msgstr "Eliminar pregunta(s)"
+
+#: includes/class-sensei-lesson.php968, includes/class-sensei-lesson.php:1055
+msgid "Question:"
+msgstr "Pregunta:"
+
+#: includes/class-sensei-lesson.php974, includes/class-sensei-lesson.php:1060
+msgid "Question Description (optional):"
+msgstr "Descripción de la pregunta (opcional):"
+
+#: includes/class-sensei-lesson.php:980
+msgid "Question grade:"
+msgstr "Calificación de la pregunta:"
+
+#: includes/class-sensei-lesson.php987, includes/class-sensei-lesson.php:1091
+msgid "Randomise answer order"
+msgstr "Alternar el orden de las respuestas"
+
+#: includes/class-sensei-lesson.php993, includes/class-sensei-lesson.php:1096
+msgid "Question media:"
+msgstr "Pregunta media:"
+
+#: includes/class-sensei-lesson.php994, includes/class-sensei-lesson.php:1097
+msgid "Add file to question"
+msgstr "Añadir un fichero a la pregunta"
+
+#: includes/class-sensei-lesson.php994, includes/class-sensei-lesson.php:1097
+msgid "Add to question"
+msgstr "Añadir a la pregunta"
+
+#: includes/class-sensei-lesson.php995, includes/class-sensei-lesson.php:1098
+msgid "Delete file"
+msgstr "Eliminar fichero"
+
+#: includes/class-sensei-lesson.php:1011
+msgid "Update Question"
+msgstr "Actualizar pregunta"
+
+#: includes/class-sensei-lesson.php1011, includes/class-sensei-updates.php284,
+#: includes/class-sensei-updates.php:292
+msgid "Update"
+msgstr "Actualizar"
+
+#: includes/class-sensei-lesson.php:1037
+msgid "New Question"
+msgstr "Nueva pregunta"
+
+#: includes/class-sensei-lesson.php:1038
+msgid "Existing Questions"
+msgstr "Preguntas existentes"
+
+#: includes/class-sensei-lesson.php:1040
+msgid "Category Questions"
+msgstr "Preguntas de la categoría"
+
+#: includes/class-sensei-lesson.php:1048
+msgid ""
+"Add a new question to this quiz - your question will also be added to the "
+"%1$squestion bank%2$s."
+msgstr ""
+"Agregar una nueva pregunta a este cuestionario - tus preguntas también se "
+"agregarán al %1$sbanco de preguntas%2$s."
+
+#: includes/class-sensei-lesson.php:1065
+msgid "Question Type:"
+msgstr "Tipo de pregunta"
+
+#: includes/class-sensei-lesson.php:1075
+msgid "Question Category:"
+msgstr "Categoría de pregunta:"
+
+#: includes/class-sensei-lesson.php:1086
+msgid "Question Grade:"
+msgstr "Calificación de la pregunta:"
+
+#: includes/class-sensei-lesson.php1113, includes/class-sensei-lesson.php:1113
+msgid "Add Question"
+msgstr "Añadir pregunta"
+
+#: includes/class-sensei-lesson.php:1123
+msgid "Add an existing question to this quiz from the %1$squestion bank%2$s."
+msgstr ""
+"Agregar una pregunta existente a este cuestionario desde el %1$sbanco de "
+"preguntas%2$s."
+
+#: includes/class-sensei-lesson.php:1128
+msgid "Unused"
+msgstr "No utilizado"
+
+#: includes/class-sensei-lesson.php:1129
+msgid "Used"
+msgstr "Utilizado"
+
+#: includes/class-sensei-lesson.php:1132
+msgid "All Types"
+msgstr "Todos los tipos"
+
+#: includes/class-sensei-lesson.php:1138
+msgid "All Categories"
+msgstr "Todas las categorías"
+
+#: includes/class-sensei-lesson.php:1143
+msgid "Search"
+msgstr "Buscar"
+
+#: includes/class-sensei-lesson.php1190, includes/class-sensei-lesson.php:1190
+msgid "Add Selected Question(s)"
+msgstr "Agregar pregunta(s) seleccionada(s)"
+
+#: includes/class-sensei-lesson.php:1198
+msgid ""
+"Add any number of questions from a specified category. Edit your question "
+"categories %1$shere%2$s."
+msgstr ""
+"Agregar cualquier número de preguntas de una categoría específica. Edite las "
+"categorías de preguntas %1$saquí%2$s."
+
+#: includes/class-sensei-lesson.php:1201
+msgid "Select a Question Category"
+msgstr "Selecciona una categoría de pregunta"
+
+#: includes/class-sensei-lesson.php:1207
+msgid "Number of questions:"
+msgstr "Número de preguntas:"
+
+#: includes/class-sensei-lesson.php1209, includes/class-sensei-lesson.php:1209
+msgid "Add Question(s)"
+msgstr "Agregar pregunta(s)"
+
+#: includes/class-sensei-lesson.php:1397
+msgid "There are no questions matching your search."
+msgstr "No hay preguntas que coincidan con tu búsqueda."
+
+#: includes/class-sensei-lesson.php1449, includes/class-sensei-lesson.php:1832
+msgid "Right:"
+msgstr "Correcta:"
+
+#: includes/class-sensei-lesson.php1470, includes/class-sensei-lesson.php:1833
+msgid "Wrong:"
+msgstr "Incorrecta:"
+
+#: includes/class-sensei-lesson.php:1511
+msgid "Add right answer"
+msgstr "Añadir respuesta correcta"
+
+#: includes/class-sensei-lesson.php:1512
+msgid "Add wrong answer"
+msgstr "Añadir respuesta incorrecta"
+
+#: includes/class-sensei-lesson.php1527,
+#: includes/class-sensei-question.php1140,
+#: templates/single-quiz/question_type-boolean.php:81
+msgid "True"
+msgstr "Verdadero"
+
+#: includes/class-sensei-lesson.php1528,
+#: includes/class-sensei-question.php1142,
+#: templates/single-quiz/question_type-boolean.php:85
+msgid "False"
+msgstr "Falso"
+
+#: includes/class-sensei-lesson.php:1541
+msgid "Text before the Gap:"
+msgstr "Texto antes de la separación:"
+
+#: includes/class-sensei-lesson.php:1543
+msgid "The Gap:"
+msgstr "La Separación:"
+
+#: includes/class-sensei-lesson.php:1545
+msgid "Text after the Gap:"
+msgstr "Texto después de la separación:"
+
+#: includes/class-sensei-lesson.php:1547
+msgid "Preview:"
+msgstr "Previsualización:"
+
+#: includes/class-sensei-lesson.php:1559
+msgid "Guide/Teacher Notes for grading the answer"
+msgstr "Guía/notas del profesor para evaluar la respuesta"
+
+#: includes/class-sensei-lesson.php:1571
+msgid "Recommended Answer"
+msgstr "Respuesta recomendada"
+
+#: includes/class-sensei-lesson.php:1589
+msgid "Description for student explaining what needs to be uploaded"
+msgstr "Descripción para el alumno explicando lo que tiene que subir"
+
+#: includes/class-sensei-lesson.php:1593
+msgid "Guide/Teacher Notes for grading the upload"
+msgstr "Guía/notas del profesor para evaluar el fichero a subir"
+
+#: includes/class-sensei-lesson.php:1626
+msgid ""
+"This feedback will be automatically displayed to the student once they have "
+"completed the quiz."
+msgstr ""
+"Esta reacción se mostrará automáticamente a los estudiantes una vez que "
+"hayan completado el cuestionario."
+
+#: includes/class-sensei-lesson.php:1627
+msgid "Answer Feedback"
+msgstr "Reacción a la respuesta"
+
+#: includes/class-sensei-lesson.php:1696
+msgid ""
+"There is no quiz for this lesson yet - please add one in the 'Quiz "
+"Questions' box."
+msgstr ""
+"No hay ningún cuestionario para esta lección todavía - por favor añade uno "
+"en el cuadro 'Preguntas del cuestionario'."
+
+#: includes/class-sensei-lesson.php:1745
+msgid "Pass required to complete lesson"
+msgstr "Se requiere aprobar para completar la lección."
+
+#: includes/class-sensei-lesson.php:1746
+msgid "The passmark must be achieved before the lesson is complete."
+msgstr ""
+"El mínimo exigido debe ser alcanzado antes de que la lección se complete."
+
+#: includes/class-sensei-lesson.php:1753
+msgid "Quiz passmark percentage"
+msgstr "Cuestionario completado (%)"
+
+#: includes/class-sensei-lesson.php:1764
+msgid "Number of questions to show"
+msgstr "Número de preguntas a mostrar"
+
+#: includes/class-sensei-lesson.php:1765
+msgid ""
+"Show a random selection of questions from this quiz each time a student "
+"views it."
+msgstr ""
+"Muestra una selección aleatoria de preguntas de este cuestionario cada vez "
+"que un estudiante lo toma."
+
+#: includes/class-sensei-lesson.php:1774
+msgid "Randomise question order"
+msgstr "Orden de preguntas aleatorio"
+
+#: includes/class-sensei-lesson.php:1782
+msgid "Grade quiz automatically"
+msgstr "Calificar cuestionario automáticamente"
+
+#: includes/class-sensei-lesson.php:1783
+msgid ""
+"Grades quiz and displays answer explanation immediately after completion. "
+"Only applicable if quiz is limited to Multiple Choice, True/False and Gap "
+"Fill questions. Questions that have a grade of zero are skipped during "
+"autograding."
+msgstr ""
+"Califica el cuestionario y muestra una explicación de la respuesta al "
+"completarla. Sólo aplicable si el test está limitado a preguntas Opción "
+"Múltiple, Verdadero/Falso y Llenar el vacío. Preguntas que tienen "
+"calificación 0 se omiten durante la calificación automática."
+
+#: includes/class-sensei-lesson.php:1790
+msgid "Allow user to retake the quiz"
+msgstr "Permitir al usuario retomar el cuestionario"
+
+#: includes/class-sensei-lesson.php:1791
+msgid "Enables the quiz reset button."
+msgstr "Habilita el botón de reinicio del cuestionario."
+
+#: includes/class-sensei-lesson.php:1836
+msgid "Are you sure you want to remove this question?"
+msgstr "¿Estás seguro de querer eliminar esta pregunta?"
+
+#: includes/class-sensei-lesson.php:1836
+msgid "Are you sure you want to remove these questions?"
+msgstr "¿Estás seguro de querer eliminar estas preguntas?"
+
+#: includes/class-sensei-lesson.php:1837
+msgid ""
+"You have selected more questions than this category contains - please reduce "
+"the number of questions that you are adding."
+msgstr ""
+"Has seleccionado más preguntas que las que contiene esta categoría - por "
+"favor reduce el número de preguntas que estás agregando."
+
+#: includes/class-sensei-lesson.php:1893
+msgctxt "column name"
+msgid "Lesson Title"
+msgstr "Título de la lección"
+
+#: includes/class-sensei-lesson.php:1894
+msgctxt "column name"
+msgid "Course"
+msgstr "Curso"
+
+#: includes/class-sensei-lesson.php:1895
+msgctxt "column name"
+msgid "Pre-requisite Lesson"
+msgstr "Prerrequisitos de la lección"
+
+#: includes/class-sensei-lesson.php:2053
+msgid "%1$s Question(s) from %2$s"
+msgstr "%1$s Pregunta(s) de %2$s"
+
+#: includes/class-sensei-lesson.php:2602
+msgid "Easy"
+msgstr "Fácil"
+
+#: includes/class-sensei-lesson.php:2603
+msgid "Standard"
+msgstr "Media"
+
+#: includes/class-sensei-lesson.php:2604
+msgid "Hard"
+msgstr "Difícil"
+
+#: includes/class-sensei-lesson.php:3116
+msgid "No Change"
+msgstr "Ningún cambio"
+
+#: includes/class-sensei-lesson.php:3132
+msgid "Lesson Course"
+msgstr "Lección del curso"
+
+#: includes/class-sensei-lesson.php3155, includes/class-sensei-lesson.php:3176
+msgid "No"
+msgstr ""
+
+#: includes/class-sensei-lesson.php3156, includes/class-sensei-lesson.php:3177
+msgid "Yes"
+msgstr "Si"
+
+#: includes/class-sensei-lesson.php:3163
+msgid "Pass required"
+msgstr "Paso requerido"
+
+#: includes/class-sensei-lesson.php:3169
+msgid "Pass Percentage"
+msgstr "Porcentaje completado"
+
+#: includes/class-sensei-lesson.php:3182
+msgid "Enable quiz reset button"
+msgstr "Habilitar botón de reinicio del cuestionario"
+
+#: includes/class-sensei-lesson.php3423,
+#: templates/course-results/lessons.php74,
+#: templates/course-results/lessons.php:131
+msgid "Start %s"
+msgstr "Comenzar %s"
+
+#: includes/class-sensei-lesson.php:3444
+msgid "Length:"
+msgstr ""
+
+#: includes/class-sensei-lesson.php:3444
+msgid "minutes"
+msgstr "minutos"
+
+#: includes/class-sensei-lesson.php:3450
+msgid "Author:"
+msgstr ""
+
+#: includes/class-sensei-lesson.php:3455
+msgid "Complexity:"
+msgstr ""
+
+#: includes/class-sensei-lesson.php:3461
+msgid "Complete"
+msgstr "Completo"
+
+#: includes/class-sensei-lesson.php3640, includes/class-sensei-lesson.php3660,
+#: includes/class-sensei-lesson.php3686, includes/class-sensei-utils.php1275,
+#: includes/class-sensei-utils.php:1357
+msgid "Sign Up"
+msgstr "Registrarse"
+
+#: includes/class-sensei-lesson.php3646, includes/class-sensei-lesson.php3666,
+#: includes/class-sensei.php:724
+msgid ""
+"This is a preview lesson. Please purchase the %1$s to access all lessons."
+msgstr ""
+"Esta es una previsualización de la lección. Por favor compra el/la %1$s para "
+"acceder a todas las lecciones."
+
+#: includes/class-sensei-lesson.php3650, includes/class-sensei-lesson.php:3670
+msgid "Please purchase the %1$s before starting the lesson."
+msgstr "Por favor compra el %1$s antes de comenzar esta lección."
+
+#: includes/class-sensei-lesson.php3692, includes/class-sensei.php:730
+msgid ""
+"This is a preview lesson. Please sign up for the %1$s to access all lessons."
+msgstr ""
+"Esta es previsualización de la lección. Por favor regístrate en el/la %1$s "
+"para acceder a todas las lecciones."
+
+#: includes/class-sensei-lesson.php3696, includes/class-sensei.php:733
+msgid "Please sign up for the %1$s before starting the lesson."
+msgstr "Por favor, regístrate en el %1$s antes de empezar la lección."
+
+#: includes/class-sensei-lesson.php:3724
+msgid "You must first complete %1$s before viewing this Lesson"
+msgstr "Primero debes completar %1$s antes de ver esta lección"
+
+#: includes/class-sensei-lesson.php:3756
+msgid "Lessons Archive"
+msgstr "Archivo de lecciones"
+
+#: includes/class-sensei-lesson.php3873, includes/class-sensei-lesson.php:3875
+msgid "View the Lesson Quiz"
+msgstr "Ver los cuestionarios de la lección"
+
+#: includes/class-sensei-list-table.php:131
+msgid "Search Users"
+msgstr "Buscar usuarios"
+
+#: includes/class-sensei-list-table.php:247
+msgid "No items found."
+msgstr "No se encontraron elementos."
+
+#: includes/class-sensei-messages.php112,
+#: includes/class-sensei-messages.php112,
+#: includes/class-sensei-posttypes.php619,
+#: includes/class-sensei-posttypes.php:619
+msgid "Messages"
+msgstr "Mensajes"
+
+#: includes/class-sensei-messages.php:120
+msgid "Message Information"
+msgstr "Información de mensajes"
+
+#: includes/class-sensei-messages.php:130
+msgid "Message sent by:"
+msgstr "Mensaje enviado por:"
+
+#: includes/class-sensei-messages.php:131
+msgid "The username of the learner who sent this message."
+msgstr "El nombre de usuario del alumno que envió este mensaje."
+
+#: includes/class-sensei-messages.php:137
+msgid "Message received by:"
+msgstr "Mensaje recibido por:"
+
+#: includes/class-sensei-messages.php:138
+msgid "The username of the teacher who received this message."
+msgstr "El nombre de usuario del profesor que recibió este mensaje."
+
+#: includes/class-sensei-messages.php:153
+msgid "Message from %1$s:"
+msgstr "Mensaje de %1$s:"
+
+#: includes/class-sensei-messages.php:154
+msgid "The %1$s to which this message relates."
+msgstr "El/La %1$s al cual se refiere este mensaje."
+
+#: includes/class-sensei-messages.php:188
+msgid "Contact Lesson Teacher"
+msgstr "Contactar con el profesor de la lección"
+
+#: includes/class-sensei-messages.php:190
+msgid "Contact Course Teacher"
+msgstr "Contactar con el profesor del curso"
+
+#: includes/class-sensei-messages.php:192
+msgid "Contact Teacher"
+msgstr "Contactar con el profesor"
+
+#: includes/class-sensei-messages.php:236
+msgid "Your private message has been sent."
+msgstr "Tu mensaje privado ha sido enviado."
+
+#: includes/class-sensei-messages.php:241
+msgid "Send Private Message"
+msgstr "Enviar un mensaje privado"
+
+#: includes/class-sensei-messages.php:247
+msgid "Enter your private message."
+msgstr "Escribe tu mensaje privado."
+
+#: includes/class-sensei-messages.php:252
+msgid "Send Message"
+msgstr "Enviar mensaje"
+
+#: includes/class-sensei-messages.php:506
+msgid "You are not allowed to view this message."
+msgstr "No tienes autorización para ver este mensaje."
+
+#: includes/class-sensei-messages.php:523
+msgid "Please log in to view your messages."
+msgstr "Por favor ingresa para ver tus mensajes."
+
+#: includes/class-sensei-messages.php598,
+#: includes/class-sensei-messages.php:714
+msgid "Sent by %1$s on %2$s."
+msgstr "Enviado por %1$s. %2$s."
+
+#: includes/class-sensei-messages.php619,
+#: includes/class-sensei-messages.php:684
+msgid "Re: %1$s"
+msgstr "Re: %1$s"
+
+#: includes/class-sensei-modules.php155, includes/class-sensei-modules.php1099,
+#: includes/class-sensei-modules.php1151,
+#: includes/class-sensei-modules.php:1600
+msgid "Module"
+msgstr "Módulo"
+
+#: includes/class-sensei-modules.php:161
+msgid "Course Modules"
+msgstr "Módulos del curso"
+
+#: includes/class-sensei-modules.php:187
+msgid ""
+"No modules are available for this lesson yet. %1$sPlease select a course "
+"first.%2$s"
+msgstr ""
+"Todavía no hay módulos disponibles para esta lección. %1$sPor favor "
+"selecciona primero un curso.%2$s"
+
+#: includes/class-sensei-modules.php:230
+msgid ""
+"No modules are available for this lesson yet. %1$sPlease add some to %3$sthe "
+"course%4$s.%2$s"
+msgstr ""
+"Todavía no hay módulos disponibles para esta lección. %1$sPor favor agrega "
+"algunos para %3$sel curso%4$s.%2$s"
+
+#: includes/class-sensei-modules.php300, includes/class-sensei-modules.php:357
+msgid "Course(s)"
+msgstr "Curso(s)"
+
+#: includes/class-sensei-modules.php:305
+msgid "Search for courses..."
+msgstr "Buscar cursos..."
+
+#: includes/class-sensei-modules.php:314
+msgid "Search for and select the courses that this module will belong to."
+msgstr "Busca y selecciona los cursos a los que este módulo pertenecerá."
+
+#: includes/class-sensei-modules.php:436
+msgid "No course"
+msgstr "No hay cursos"
+
+#: includes/class-sensei-modules.php:514
+msgid "Back to the module"
+msgstr "Volver al módulo"
+
+#: includes/class-sensei-modules.php689, includes/template-functions.php:703
+msgid "In progress"
+msgstr "En proceso"
+
+#: includes/class-sensei-modules.php855, includes/class-sensei-modules.php855,
+#: includes/class-sensei-modules.php1407,
+#: includes/class-sensei-modules.php1599,
+#: includes/class-sensei-modules.php:1609
+msgid "Modules"
+msgstr "Módulos"
+
+#: includes/class-sensei-modules.php858, includes/class-sensei-modules.php858,
+#: includes/class-sensei-modules.php:874
+msgid "Order Modules"
+msgstr "Ordenar módulos"
+
+#: includes/class-sensei-modules.php:883
+msgid "The module order has been saved for this course."
+msgstr "El orden de los módulos de este curso ha sido guardado."
+
+#: includes/class-sensei-modules.php:945
+msgid "Save module order"
+msgstr "Guardar orden de los módulos"
+
+#: includes/class-sensei-modules.php:946
+msgid "Edit course"
+msgstr "Editar curso"
+
+#: includes/class-sensei-modules.php:966
+msgid "Module order"
+msgstr "Orden de los módulos"
+
+#: includes/class-sensei-modules.php:983
+msgid "Order modules"
+msgstr "Ordenar módulos"
+
+#: includes/class-sensei-modules.php:1364
+msgid "Search for courses"
+msgstr "Buscar cursos"
+
+#: includes/class-sensei-modules.php:1601
+msgid "Search Modules"
+msgstr "Buscar módulos"
+
+#: includes/class-sensei-modules.php:1602
+msgid "All Modules"
+msgstr "Todos los módulos"
+
+#: includes/class-sensei-modules.php:1603
+msgid "Parent Module"
+msgstr "Módulo superior"
+
+#: includes/class-sensei-modules.php:1604
+msgid "Parent Module:"
+msgstr "Módulo superior:"
+
+#: includes/class-sensei-modules.php:1605
+msgid "Edit Module"
+msgstr "Editar módulo"
+
+#: includes/class-sensei-modules.php:1606
+msgid "Update Module"
+msgstr "Actualizar módulo"
+
+#: includes/class-sensei-modules.php:1607
+msgid "Add New Module"
+msgstr "Añadir nuevo módulo"
+
+#: includes/class-sensei-modules.php:1608
+msgid "New Module Name"
+msgstr "Nombre del nuevo módulo"
+
+#: includes/class-sensei-modules.php:1610
+msgid "No modules found."
+msgstr "Módulos no encontrados."
+
+#: includes/class-sensei-posttypes.php:120
+msgctxt "post type single url base"
+msgid "course"
+msgstr "curso"
+
+#: includes/class-sensei-posttypes.php:224
+msgctxt "post type single slug"
+msgid "lesson"
+msgstr "leccion"
+
+#: includes/class-sensei-posttypes.php:272
+msgctxt "post type single slug"
+msgid "quiz"
+msgstr "cuestionario"
+
+#: includes/class-sensei-posttypes.php:316
+msgctxt "post type single slug"
+msgid "question"
+msgstr "pregunta"
+
+#: includes/class-sensei-posttypes.php:356
+msgctxt "post type single slug"
+msgid "multiple_question"
+msgstr "pregunta_multiple"
+
+#: includes/class-sensei-posttypes.php:391
+msgctxt "post type single slug"
+msgid "messages"
+msgstr "mensajes"
+
+#: includes/class-sensei-posttypes.php:422
+msgctxt "taxonomy general name"
+msgid "Course Categories"
+msgstr "Categorías del curso"
+
+#: includes/class-sensei-posttypes.php:423
+msgctxt "taxonomy singular name"
+msgid "Course Category"
+msgstr "Categoría del curso"
+
+#: includes/class-sensei-posttypes.php:424
+msgid "Search Course Categories"
+msgstr "Buscar categorías del curso"
+
+#: includes/class-sensei-posttypes.php:426
+msgid "Parent Course Category"
+msgstr "Categoría superior del curso"
+
+#: includes/class-sensei-posttypes.php:427
+msgid "Parent Course Category:"
+msgstr "Categoría superior del curso:"
+
+#: includes/class-sensei-posttypes.php:428
+msgid "Edit Course Category"
+msgstr "Editar categoría del curso"
+
+#: includes/class-sensei-posttypes.php:429
+msgid "Update Course Category"
+msgstr "Actualizar categoría del curso"
+
+#: includes/class-sensei-posttypes.php:430
+msgid "Add New Course Category"
+msgstr "Añadir nueva categoría del curso"
+
+#: includes/class-sensei-posttypes.php:431
+msgid "New Course Category Name"
+msgstr "Nuevo nombre de categoría del curso"
+
+#: includes/class-sensei-posttypes.php:432
+msgid "Course Categories"
+msgstr "Categorías del curso"
+
+#: includes/class-sensei-posttypes.php:447
+msgctxt "taxonomy archive slug"
+msgid "course-category"
+msgstr "categoria-del-curso"
+
+#: includes/class-sensei-posttypes.php:463
+msgctxt "taxonomy general name"
+msgid "Quiz Types"
+msgstr "Tipos de cuestionarios"
+
+#: includes/class-sensei-posttypes.php:464
+msgctxt "taxonomy singular name"
+msgid "Quiz Type"
+msgstr "Tipo de cuestionario"
+
+#: includes/class-sensei-posttypes.php:465
+msgid "Search Quiz Types"
+msgstr "Buscar tipos de cuestionarios"
+
+#: includes/class-sensei-posttypes.php:466
+msgid "All Quiz Types"
+msgstr "Todos los tipos de cuestionarios"
+
+#: includes/class-sensei-posttypes.php:467
+msgid "Parent Quiz Type"
+msgstr "Tipo de cuestionario superior"
+
+#: includes/class-sensei-posttypes.php:468
+msgid "Parent Quiz Type:"
+msgstr "Tipo de cuestionario superior:"
+
+#: includes/class-sensei-posttypes.php:469
+msgid "Edit Quiz Type"
+msgstr "Editar tipo de cuestionario"
+
+#: includes/class-sensei-posttypes.php:470
+msgid "Update Quiz Type"
+msgstr "Actualizar tipo de cuestionario"
+
+#: includes/class-sensei-posttypes.php:471
+msgid "Add New Quiz Type"
+msgstr "Añadir nuevo tipo de cuestionario"
+
+#: includes/class-sensei-posttypes.php:472
+msgid "New Quiz Type Name"
+msgstr "Añadir nuevo nombre de tipo de cuestionario"
+
+#: includes/class-sensei-posttypes.php:473
+msgid "Quiz Types"
+msgstr "Tipos de cuestionarios"
+
+#: includes/class-sensei-posttypes.php:484
+msgctxt "taxonomy archive slug"
+msgid "quiz-type"
+msgstr "tipo-de-cuestionario"
+
+#: includes/class-sensei-posttypes.php:499
+msgctxt "taxonomy general name"
+msgid "Question Types"
+msgstr "Tipos de preguntas"
+
+#: includes/class-sensei-posttypes.php:500
+msgctxt "taxonomy singular name"
+msgid "Question Type"
+msgstr "Tipo de pregunta"
+
+#: includes/class-sensei-posttypes.php:501
+msgid "Search Question Types"
+msgstr "Buscar tipos de preguntas"
+
+#: includes/class-sensei-posttypes.php:502
+msgid "All Question Types"
+msgstr "Todos los tipos de preguntas"
+
+#: includes/class-sensei-posttypes.php:503
+msgid "Parent Question Type"
+msgstr "Tipo de preguntas superior"
+
+#: includes/class-sensei-posttypes.php:504
+msgid "Parent Question Type:"
+msgstr "Tipo de preguntas superior:"
+
+#: includes/class-sensei-posttypes.php:505
+msgid "Edit Question Type"
+msgstr "Editar tipo de pregunta "
+
+#: includes/class-sensei-posttypes.php:506
+msgid "Update Question Type"
+msgstr "Actualizar tipo de pregunta "
+
+#: includes/class-sensei-posttypes.php:507
+msgid "Add New Question Type"
+msgstr "Añadir nuevo tipo de pregunta "
+
+#: includes/class-sensei-posttypes.php:508
+msgid "New Question Type Name"
+msgstr "Nuevo nombre de tipo de pregunta "
+
+#: includes/class-sensei-posttypes.php:509
+msgid "Question Types"
+msgstr "Tipos de preguntas"
+
+#: includes/class-sensei-posttypes.php:521
+msgctxt "taxonomy archive slug"
+msgid "question-type"
+msgstr "tipo-de-pregunta"
+
+#: includes/class-sensei-posttypes.php:535
+msgctxt "taxonomy general name"
+msgid "Question Categories"
+msgstr "Categorías de preguntas"
+
+#: includes/class-sensei-posttypes.php:536
+msgctxt "taxonomy singular name"
+msgid "Question Category"
+msgstr "Categoría de preguntas"
+
+#: includes/class-sensei-posttypes.php:537
+msgid "Search Question Categories"
+msgstr "Buscar categorías de preguntas"
+
+#: includes/class-sensei-posttypes.php:538
+msgid "All Question Categories"
+msgstr "Todas las categorías de preguntas"
+
+#: includes/class-sensei-posttypes.php:539
+msgid "Parent Question Category"
+msgstr "Categoría superior de preguntas"
+
+#: includes/class-sensei-posttypes.php:540
+msgid "Parent Question Category:"
+msgstr "Categoría superior de preguntas:"
+
+#: includes/class-sensei-posttypes.php:541
+msgid "Edit Question Category"
+msgstr "Editar Categoría de Preguntas"
+
+#: includes/class-sensei-posttypes.php:542
+msgid "Update Question Category"
+msgstr "Actualizar categoría de preguntas"
+
+#: includes/class-sensei-posttypes.php:543
+msgid "Add New Question Category"
+msgstr "Agregar nueva categoría de preguntas"
+
+#: includes/class-sensei-posttypes.php:544
+msgid "New Question Category Name"
+msgstr "Nombre de la nueva categoría de preguntas"
+
+#: includes/class-sensei-posttypes.php:545
+msgid "Categories"
+msgstr "Categorías"
+
+#: includes/class-sensei-posttypes.php:561
+msgctxt "taxonomy archive slug"
+msgid "question-category"
+msgstr "categoria-de-preguntas"
+
+#: includes/class-sensei-posttypes.php:575
+msgctxt "taxonomy general name"
+msgid "Lesson Tags"
+msgstr "Etiquetas de lecciones"
+
+#: includes/class-sensei-posttypes.php:576
+msgctxt "taxonomy singular name"
+msgid "Lesson Tag"
+msgstr "Etiqueta de lección"
+
+#: includes/class-sensei-posttypes.php:577
+msgid "Search Lesson Tags"
+msgstr "Buscar etiquetas de lecciones"
+
+#: includes/class-sensei-posttypes.php:578
+msgid "All Lesson Tags"
+msgstr "Todas las etiquetas de lecciones"
+
+#: includes/class-sensei-posttypes.php:579
+msgid "Parent Tag"
+msgstr "Etiqueta superior"
+
+#: includes/class-sensei-posttypes.php:580
+msgid "Parent Tag:"
+msgstr "Etiqueta superior:"
+
+#: includes/class-sensei-posttypes.php:581
+msgid "Edit Lesson Tag"
+msgstr "Editar etiqueta de lección"
+
+#: includes/class-sensei-posttypes.php:582
+msgid "Update Lesson Tag"
+msgstr "Actualizar etiqueta de lección"
+
+#: includes/class-sensei-posttypes.php:583
+msgid "Add New Lesson Tag"
+msgstr "Añadir nueva etiqueta de lección"
+
+#: includes/class-sensei-posttypes.php:584
+msgid "New Tag Name"
+msgstr "Nuevo nombre de etiqueta"
+
+#: includes/class-sensei-posttypes.php:585
+msgid "Lesson Tags"
+msgstr "Etiquetas de lecciones"
+
+#: includes/class-sensei-posttypes.php:600
+msgctxt "taxonomy archive slug"
+msgid "lesson-tag"
+msgstr "etiqueta-leccion"
+
+#: includes/class-sensei-posttypes.php:616
+msgid "Quiz"
+msgstr "Cuestionario"
+
+#: includes/class-sensei-posttypes.php616,
+#: includes/class-sensei-posttypes.php616,
+#: includes/class-sensei-question.php130,
+#: includes/class-sensei-question.php:131
+msgid "Quizzes"
+msgstr "Cuestionarios"
+
+#: includes/class-sensei-posttypes.php617,
+#: includes/class-sensei-posttypes.php:617
+msgid "Questions"
+msgstr "Preguntas"
+
+#: includes/class-sensei-posttypes.php:618
+msgid "Multiple Question"
+msgstr "Pregunta múltiple"
+
+#: includes/class-sensei-posttypes.php618,
+#: includes/class-sensei-posttypes.php:618
+msgid "Multiple Questions"
+msgstr "Preguntas múltiples"
+
+#: includes/class-sensei-posttypes.php:619
+msgid "Message"
+msgstr "Mensajes"
+
+#: includes/class-sensei-posttypes.php:636
+msgctxt "post type general name"
+msgid "%s"
+msgstr "%s"
+
+#: includes/class-sensei-posttypes.php:637
+msgctxt "post type singular name"
+msgid "%s"
+msgstr "%s"
+
+#: includes/class-sensei-posttypes.php:638
+msgid "Add New"
+msgstr "Añadir nuevo/a"
+
+#: includes/class-sensei-posttypes.php:639
+msgid "Add New %s"
+msgstr "Añadir nuevo/a %s"
+
+#: includes/class-sensei-posttypes.php:641
+msgid "New %s"
+msgstr "Nuevo/a %s"
+
+#: includes/class-sensei-posttypes.php:642
+msgid "All %s"
+msgstr "Todos los %s"
+
+#: includes/class-sensei-posttypes.php:643
+msgid "View %s"
+msgstr "Ver %s"
+
+#: includes/class-sensei-posttypes.php:644
+msgid "Search %s"
+msgstr "Buscar %s"
+
+#: includes/class-sensei-posttypes.php:645
+msgid "No %s found"
+msgstr "No se encontró %s"
+
+#: includes/class-sensei-posttypes.php:646
+msgid "No %s found in Trash"
+msgstr "No se encontró %s en la papelera"
+
+#: includes/class-sensei-posttypes.php648,
+#: templates/course-results/lessons.php:133
+msgid "%s"
+msgstr "%s"
+
+#: includes/class-sensei-posttypes.php:685
+msgid "%1$s updated. %2$sView %1$s%3$s."
+msgstr "%1$s actualizado. %2$sVer %1$s%3$s."
+
+#: includes/class-sensei-posttypes.php:686
+msgid "Custom field updated."
+msgstr "Campo personalizado actualizado."
+
+#: includes/class-sensei-posttypes.php:687
+msgid "Custom field deleted."
+msgstr "Campo personalizado eliminado."
+
+#: includes/class-sensei-posttypes.php:688
+msgid "%1$s updated."
+msgstr "%1$s actualizado."
+
+#: includes/class-sensei-posttypes.php:689
+msgid "%1$s restored to revision from %2$s."
+msgstr "%1$s de la revisión ha sido restaurada de un total de %2$s."
+
+#: includes/class-sensei-posttypes.php:690
+msgid "%1$s published. %2$sView %1$s%3$s."
+msgstr "%1$s publicado. %2$sVer %1$s%3$s."
+
+#: includes/class-sensei-posttypes.php:691
+msgid "%1$s saved."
+msgstr "%1$s guardado."
+
+#: includes/class-sensei-posttypes.php:692
+msgid "%1$s submitted. %2$sPreview %1$s%3$s."
+msgstr "%1$s enviado. %2$sVista previa %1$s%3$s."
+
+#: includes/class-sensei-posttypes.php:693
+msgid "%1$s scheduled for: %2$s. %3$sPreview %4$s%5$s."
+msgstr "%1$s programado para: %2$s. %3$sVista previa %4$s%5$s."
+
+#: includes/class-sensei-posttypes.php:693
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/class-sensei-posttypes.php:694
+msgid "%1$s draft updated. %2$sPreview %3$s%4$s."
+msgstr "%1$s borrador actualizado. %2$sVista previa %3$s%4$s."
+
+#: includes/class-sensei-posttypes.php:709
+msgid "Enter a title for this course here"
+msgstr "Pon aquí el título de este curso"
+
+#: includes/class-sensei-posttypes.php:711
+msgid "Enter a title for this lesson here"
+msgstr "Pon aquí el título de esta lección"
+
+#: includes/class-sensei-question.php:62
+msgctxt "column name"
+msgid "Question"
+msgstr "Pregunta"
+
+#: includes/class-sensei-question.php:63
+msgctxt "column name"
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/class-sensei-question.php:64
+msgctxt "column name"
+msgid "Categories"
+msgstr "Categorías"
+
+#: includes/class-sensei-question.php:167
+msgid "%1$sThis question does not appear in any quizzes yet.%2$s"
+msgstr "%1$sEsta pregunta no aparece aún en ningún cuestionario.%3$s"
+
+#: includes/class-sensei-question.php:279
+msgid "All types"
+msgstr "Todos los tipos"
+
+#: includes/class-sensei-question.php:292
+msgid "All categories"
+msgstr "Todas las categorías"
+
+#: includes/class-sensei-question.php:733
+msgid "Incorrect - Right Answer:"
+msgstr "Incorrecto - Respuesta correcta:"
+
+#: includes/class-sensei-question.php:743
+msgid "Grade: %d"
+msgstr "Calificación: %d"
+
+#: includes/class-sensei-question.php:903
+msgid "Maximum upload file size: %d%s"
+msgstr "Tamaño máximo de archivo: %d%s"
+
+#: includes/class-sensei-quiz.php:143
+msgid "Quiz Saved Successfully."
+msgstr "Se guardó el cuestionario satisfactoriamente"
+
+#: includes/class-sensei-quiz.php:511
+msgid "Quiz Reset Successfully."
+msgstr "Se reinició el cuestionario satisfactorimente"
+
+#: includes/class-sensei-quiz.php:1135
+msgid "%s Quiz"
+msgstr ""
+
+#: includes/class-sensei-quiz.php:1302
+msgid "Complete Quiz"
+msgstr "Completa el cuestionario"
+
+#: includes/class-sensei-quiz.php:1304
+msgid "Save Quiz"
+msgstr "Guardar el cuestionario"
+
+#: includes/class-sensei-quiz.php:1310
+msgid "Reset Quiz"
+msgstr "Reiniciar el cuestionario"
+
+#: includes/class-sensei-settings-api.php:89
+msgid "Override init_sections() in your class."
+msgstr "Sobreescribir init_sections() en tu clase."
+
+#: includes/class-sensei-settings-api.php:100
+msgid "Override init_fields() in your class."
+msgstr "Sobreescribir init_fields() en tu clase."
+
+#: includes/class-sensei-settings-api.php:797
+msgid "%s is a required field"
+msgstr "%s es un campo obligatorio"
+
+#: includes/class-sensei-settings-api.php:814
+msgid "%s updated"
+msgstr "%s actualizado"
+
+#: includes/class-sensei-settings.php:31
+msgid "Sensei Settings"
+msgstr "Ajustes de Sensei"
+
+#: includes/class-sensei-settings.php:104
+msgid "General"
+msgstr "General"
+
+#: includes/class-sensei-settings.php:105
+msgid "Settings that apply to the entire plugin."
+msgstr "Ajustes que se aplican a todo el plugin."
+
+#: includes/class-sensei-settings.php:110
+msgid "Settings that apply to all Courses."
+msgstr "Ajustes que se aplican a todos los cursos."
+
+#: includes/class-sensei-settings.php:115
+msgid "Settings that apply to all Lessons."
+msgstr "Ajustes que se aplican a todas las lecciones."
+
+#: includes/class-sensei-settings.php:119
+msgid "Email Notifications"
+msgstr "Avisos por correo electrónico"
+
+#: includes/class-sensei-settings.php:120
+msgid "Settings for email notifications sent from your site."
+msgstr ""
+"Ajustes para los avisos por correo electrónico enviados desde tu sitio."
+
+#: includes/class-sensei-settings.php:124
+msgid "Learner Profiles"
+msgstr "Perfiles de alumnos"
+
+#: includes/class-sensei-settings.php:125
+msgid "Settings for public Learner Profiles."
+msgstr "Ajustes para los perfiles públicos de los alumnos."
+
+#: includes/class-sensei-settings.php:130
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/class-sensei-settings.php:131
+msgid "Optional settings for WooCommerce functions."
+msgstr "Ajustes opcionales para las funciones WooCommerce. "
+
+#: includes/class-sensei-settings.php:137
+msgid "WooCommerce Memberships"
+msgstr ""
+
+#: includes/class-sensei-settings.php:138
+msgid "Optional settings for WooCommerce Memberships functions."
+msgstr ""
+
+#: includes/class-sensei-settings.php:144
+msgid "Language"
+msgstr "Idioma"
+
+#: includes/class-sensei-settings.php:145
+msgid "Language options."
+msgstr "Opciones de idioma."
+
+#: includes/class-sensei-settings.php:164
+msgid "Once all the course lessons have been completed"
+msgstr "Una vez que todas las lecciones del curso hayan sido completadas"
+
+#: includes/class-sensei-settings.php:164
+msgid "At any time (by clicking the 'Complete Course' button)"
+msgstr "A cualquier hora (haciendo clic en el botón \"Completar curso\")"
+
+#: includes/class-sensei-settings.php:165
+msgid "Course Excerpt"
+msgstr "Extracto del curso"
+
+#: includes/class-sensei-settings.php:165
+msgid "Full Course Content"
+msgstr "Contenido completo del curso"
+
+#: includes/class-sensei-settings.php:167
+msgid "Don't show quiz question points"
+msgstr ""
+
+#: includes/class-sensei-settings.php:168
+msgid "Number (e.g. 1. Default)"
+msgstr ""
+
+#: includes/class-sensei-settings.php:169
+msgid "Brackets (e.g. [1])"
+msgstr ""
+
+#: includes/class-sensei-settings.php:170
+msgid "Text (e.g. Points: 1)"
+msgstr ""
+
+#: includes/class-sensei-settings.php:171
+msgid "Text and Brackets (e.g. [Points: 1])"
+msgstr ""
+
+#: includes/class-sensei-settings.php:176
+msgid "Access Permissions"
+msgstr "Permisos de acceso"
+
+#: includes/class-sensei-settings.php:177
+msgid "Users must be logged in to view Course and Lesson content."
+msgstr ""
+"Los usuarios deben iniciar sesión para ver el contenido del curso y las "
+"lecciones."
+
+#: includes/class-sensei-settings.php:184
+msgid "Disable Private Messages"
+msgstr "Inhabilitar mensajes privados"
+
+#: includes/class-sensei-settings.php:185
+msgid "Disable the private message functions between learners and teachers."
+msgstr ""
+"Deshabilitar las funciones de mensajes privados entre los alumnos y los "
+"profesores."
+
+#: includes/class-sensei-settings.php:192
+msgid "Course Archive Page"
+msgstr "Página del archivo del curso"
+
+#: includes/class-sensei-settings.php:193
+msgid ""
+"The page to use to display courses. If you leave this blank the default "
+"custom post type archive will apply."
+msgstr ""
+"La página que se usuará para mostrar los cursos. Si lo deja en blanco se "
+"aplicará el post predeterminado del tipo del archivo."
+
+#: includes/class-sensei-settings.php:202
+msgid "My Courses Page"
+msgstr "Mi página de cursos"
+
+#: includes/class-sensei-settings.php:203
+msgid ""
+"The page to use to display the courses that a user is currently taking as "
+"well as the courses a user has complete."
+msgstr ""
+"La página que se utilizará para mostrar los cursos que un usuario está dando,"
+" así como los cursos que un usuario ha completado."
+
+#: includes/class-sensei-settings.php:212
+msgid "Use placeholder images"
+msgstr "Use imágenes de marcadores de posición"
+
+#: includes/class-sensei-settings.php:213
+msgid ""
+"Output a placeholder image when no featured image has been specified for "
+"Courses and Lessons."
+msgstr ""
+"Muestra una imagen de marcador de posición cuando no hay imagen específica "
+"para cursos y lecciones."
+
+#: includes/class-sensei-settings.php:220
+msgid "Disable Sensei Styles"
+msgstr "Desactivar estilos de Sensei"
+
+#: includes/class-sensei-settings.php:221
+msgid ""
+"Prevent the frontend stylesheets from loading. This will remove the default "
+"styles for all Sensei elements."
+msgstr ""
+"Evitar que se carguen las hojas de estilo en portada. Esto eliminará los "
+"estilos predeterminados para todos los elementos de Sensei."
+
+#: includes/class-sensei-settings.php:227
+msgid "Quiz question points format"
+msgstr ""
+
+#: includes/class-sensei-settings.php:228
+msgid "Set the quiz question points format"
+msgstr ""
+
+#: includes/class-sensei-settings.php:236
+msgid "Disable Sensei Javascript"
+msgstr "Desactivar el Javascript de Sensei"
+
+#: includes/class-sensei-settings.php:237
+msgid ""
+"Prevent the frontend javascript from loading. This affects the progress bars "
+"and the My Courses tabs."
+msgstr ""
+"Evitar que se cargue el javascript en portada. Esto afecta a las barras de "
+"progreso y a la pestañas de Mis cursos."
+
+#: includes/class-sensei-settings.php:244
+msgid "Disable HTML security"
+msgstr ""
+
+#: includes/class-sensei-settings.php:245
+msgid ""
+"Allow any HTML tags in the Video Embed field. Warning: Enabling this may "
+"leave your site more vulnerable to XSS attacks"
+msgstr ""
+
+#: includes/class-sensei-settings.php:252
+msgid "Delete data on uninstall"
+msgstr ""
+
+#: includes/class-sensei-settings.php:253
+msgid ""
+"Delete Sensei data when the plugin is deleted. Once removed, this data "
+"cannot be restored."
+msgstr ""
+
+#: includes/class-sensei-settings.php:262
+msgid "Courses are complete:"
+msgstr "Los cursos están completos:"
+
+#: includes/class-sensei-settings.php:263
+msgid "This will determine when courses are marked as complete."
+msgstr "Esta opción determinará cuando se marcará un curso como completo."
+
+#: includes/class-sensei-settings.php:272
+msgid "Display Course Author"
+msgstr "Mostrar el autor del curso"
+
+#: includes/class-sensei-settings.php:273
+msgid "Output the Course Author on Course archive and My Courses page."
+msgstr ""
+"Mostrar el autor del curso en la página de archivo del curso y Mis cursos."
+
+#: includes/class-sensei-settings.php:280
+msgid "My Courses Pagination"
+msgstr "Paginación de Mis cursos"
+
+#: includes/class-sensei-settings.php:281
+msgid "The number of courses to output for the my courses page."
+msgstr "El número de cursos a mostrar en la página Mis cursos."
+
+#: includes/class-sensei-settings.php:290
+msgid "Course Archive Image"
+msgstr "Imagen del archivo del curso"
+
+#: includes/class-sensei-settings.php:291
+msgid "Output the Course Image on the Course Archive Page."
+msgstr "Mostrar la imagen del curso en la página de archivo del curso"
+
+#: includes/class-sensei-settings.php:298
+msgid "Image Width - Archive"
+msgstr "Ancho de imagen - Archivo"
+
+#: includes/class-sensei-settings.php:299
+msgid "The width in pixels of the featured image for the Course Archive page."
+msgstr ""
+"El ancho en  pixeles de la imagen destacada para la página de archivos del "
+"curso."
+
+#: includes/class-sensei-settings.php:307
+msgid "Image Height - Archive"
+msgstr "Alto de imagen - Archivo"
+
+#: includes/class-sensei-settings.php:308
+msgid "The height in pixels of the featured image for the Course Archive page."
+msgstr ""
+"La altura en pixeles de la imagen destacada para la página de archivos del "
+"curso."
+
+#: includes/class-sensei-settings.php:316
+msgid "Image Hard Crop - Archive"
+msgstr "Recortar Imagen - Archivar"
+
+#: includes/class-sensei-settings.php317,
+#: includes/class-sensei-settings.php351,
+#: includes/class-sensei-settings.php430,
+#: includes/class-sensei-settings.php:464
+msgid ""
+"After changing this setting, you may need to %1$sregenerate your "
+"thumbnails%2$s."
+msgstr ""
+"Después de cambiar este ajuste puede que tengas que %1$sregenerar tus "
+"miniaturas%2$s."
+
+#: includes/class-sensei-settings.php:324
+msgid "Single Course Image"
+msgstr "Imagen de curso único"
+
+#: includes/class-sensei-settings.php:325
+msgid "Output the Course Image on the Single Course Page."
+msgstr "Mostrar la imagen del curso en la página del curso único."
+
+#: includes/class-sensei-settings.php332,
+#: includes/class-sensei-settings.php:445
+msgid "Image Width - Single"
+msgstr "Ancho de la Imagen - Único"
+
+#: includes/class-sensei-settings.php:333
+msgid ""
+"The width in pixels of the featured image for the Course single post page."
+msgstr ""
+"El ancho en pixeles de la imagen destacada para la imagen del curso único."
+
+#: includes/class-sensei-settings.php341,
+#: includes/class-sensei-settings.php:454
+msgid "Image Height - Single"
+msgstr "Altura de Imagen - Único"
+
+#: includes/class-sensei-settings.php:342
+msgid ""
+"The height in pixels of the featured image for the Course single post page."
+msgstr ""
+"La altura en pixeles de la imagen destacada para la imagen del curso único."
+
+#: includes/class-sensei-settings.php350,
+#: includes/class-sensei-settings.php:463
+msgid "Image Hard Crop - Single"
+msgstr "Recortar Imagen - Único"
+
+#: includes/class-sensei-settings.php:358
+msgid "Single Course page displays:"
+msgstr "La página del curso único muestra:"
+
+#: includes/class-sensei-settings.php:359
+msgid "Determines what content to display on the single course page."
+msgstr "Determina que contenido mostrar en la página del curso único."
+
+#: includes/class-sensei-settings.php:368
+msgid "Featured Courses Panel"
+msgstr "Panel de cursos destacados"
+
+#: includes/class-sensei-settings.php:369
+msgid "Output the Featured Courses Panel on the Course Archive Page."
+msgstr ""
+"Mostrar el panel de cursos destacados en la página de archivo del curso."
+
+#: includes/class-sensei-settings.php:376
+msgid "More link text"
+msgstr "texto del enlace Leer más"
+
+#: includes/class-sensei-settings.php:377
+msgid ""
+"The text that will be displayed on the Course Archive for the more courses "
+"link."
+msgstr ""
+"El texto que será mostrado en el archivo del curso para los demás enlaces de "
+"cursos."
+
+#: includes/class-sensei-settings.php:379
+msgid "More"
+msgstr "Más"
+
+#: includes/class-sensei-settings.php:387
+msgid "Allow Comments for Lessons"
+msgstr "Permitir comentarios en las lecciones"
+
+#: includes/class-sensei-settings.php:388
+msgid ""
+"This will allow learners to post comments on the single Lesson page, only "
+"learner who have access to the Lesson will be allowed to comment."
+msgstr ""
+"Esta opción permitirá a los alumnos escribir comentarios en la página de una "
+"lección única. Solamente el estudiante que tenga acceso a la lección será "
+"autorizado a comentar."
+
+#: includes/class-sensei-settings.php:395
+msgid "Display Lesson Author"
+msgstr "Mostrar el autor de la lección"
+
+#: includes/class-sensei-settings.php:396
+msgid "Output the Lesson Author on Course single page & Lesson archive page."
+msgstr ""
+"Mostrar el autor de la lección en las páginas de curso único y de archivo de "
+"lección"
+
+#: includes/class-sensei-settings.php:403
+msgid "Course Lesson Images"
+msgstr "Imágenes de la lección del curso"
+
+#: includes/class-sensei-settings.php:404
+msgid "Output the Lesson Image on the Single Course Page."
+msgstr "Mostrar la imagen de la lección en la página del curso único."
+
+#: includes/class-sensei-settings.php:411
+msgid "Image Width - Course Lessons"
+msgstr "Ancho de la imagen - Lecciones del curso"
+
+#: includes/class-sensei-settings.php:412
+msgid ""
+"The width in pixels of the featured image for the Lessons on the Course "
+"Single page."
+msgstr ""
+"El ancho en pixeles de la imagen destacada para las lecciones en la página "
+"de curso único."
+
+#: includes/class-sensei-settings.php:420
+msgid "Image Height - Course Lessons"
+msgstr "Altura de la imagen - Lecciones del curso"
+
+#: includes/class-sensei-settings.php:421
+msgid ""
+"The height in pixels of the featured image for the Lessons on the Course "
+"Single page."
+msgstr ""
+"La altura en pixeles de la imagen destacada para las lecciones en la página "
+"de curso único."
+
+#: includes/class-sensei-settings.php:429
+msgid "Image Hard Crop - Course Lessons"
+msgstr "Recortar la imagen - Lecciones del curso"
+
+#: includes/class-sensei-settings.php:437
+msgid "Single Lesson Images"
+msgstr "Imagenes de lección única"
+
+#: includes/class-sensei-settings.php:438
+msgid "Output the Lesson Image on the Single Lesson Page."
+msgstr "Mostrar la imagen de la lección en la página de lección única"
+
+#: includes/class-sensei-settings.php:446
+msgid ""
+"The width in pixels of the featured image for the Lessons single post page."
+msgstr "El ancho en pixeles de la imagen destacada en la página de lecciones."
+
+#: includes/class-sensei-settings.php:455
+msgid ""
+"The height in pixels of the featured image for the Lessons single post page."
+msgstr "La altura en pixeles de la imagen destacada en la página de lecciones."
+
+#: includes/class-sensei-settings.php:476
+msgid "Public learner profiles"
+msgstr "Perfiles públicos de alumnos"
+
+#: includes/class-sensei-settings.php:477
+msgid ""
+"Enable public learner profiles that will be accessible to everyone. Profile "
+"URL format: %s"
+msgstr ""
+"Habilitar perfiles públicos de alumnos que serán accesibles para todos. "
+"Formato de URL de perfil: %s"
+
+#: includes/class-sensei-settings.php:484
+msgid "Show learner's courses"
+msgstr "Mostrar los cursos del estudiante"
+
+#: includes/class-sensei-settings.php:485
+msgid "Display the learner's active and completed courses on their profile."
+msgstr "Mostrar los cursos activos y completados en el perfil del alumno."
+
+#: includes/class-sensei-settings.php:494
+msgid "Their quiz is graded (auto and manual grading)"
+msgstr "Tu cuestionario tiene calificación (automática y manual)"
+
+#: includes/class-sensei-settings.php:495
+msgid "They complete a course"
+msgstr "Completan un curso"
+
+#: includes/class-sensei-settings.php:499
+msgid "A learner starts their course"
+msgstr "Un alumno comienza su curso"
+
+#: includes/class-sensei-settings.php:500
+msgid "A learner completes their course"
+msgstr "Un alumno completa su curso"
+
+#: includes/class-sensei-settings.php:501
+msgid "A learner completes a lesson"
+msgstr "Un alumno completa una lección"
+
+#: includes/class-sensei-settings.php:502
+msgid "A learner submits a quiz for grading"
+msgstr "Un alumno envía un cuestionario para ser corregido"
+
+#: includes/class-sensei-settings.php:503
+msgid "A learner sends a private message to a teacher"
+msgstr "Un alumno envía un mensaje privado a un profesor."
+
+#: includes/class-sensei-settings.php:507
+msgid "They receive a reply to their private message"
+msgstr "Ellos reciben una respuesta a sus mensajes privados"
+
+#: includes/class-sensei-settings.php:511
+msgid "Emails Sent to Learners"
+msgstr "Correos electrónicos enviados a los alumnos"
+
+#: includes/class-sensei-settings.php:512
+msgid "Select the notifications that will be sent to learners."
+msgstr "Selecciona los avisos que se enviarán a los alumnos."
+
+#: includes/class-sensei-settings.php:520
+msgid "Emails Sent to Teachers"
+msgstr "Correos electrónicos enviados a los profesores"
+
+#: includes/class-sensei-settings.php:521
+msgid "Select the notifications that will be sent to teachers."
+msgstr "Selecciona los avisos que se enviarán a los profesores."
+
+#: includes/class-sensei-settings.php:529
+msgid "Emails Sent to All Users"
+msgstr "Correos electrónicos enviados a todos los usuarios"
+
+#: includes/class-sensei-settings.php:530
+msgid "Select the notifications that will be sent to all users."
+msgstr "Selecciona los avisos que se enviarán a todos los usuarios."
+
+#: includes/class-sensei-settings.php:538
+msgid "\"From\" Name"
+msgstr "Nombre del remitente"
+
+#: includes/class-sensei-settings.php:539
+msgid "The name from which all emails will be sent."
+msgstr "El nombre desde el que se enviarán todos los correos electrónicos."
+
+#: includes/class-sensei-settings.php:547
+msgid "\"From\" Address"
+msgstr "Dirección del remitente"
+
+#: includes/class-sensei-settings.php:548
+msgid "The address from which all emails will be sent."
+msgstr "La dirección desde la cual se enviarán todos los correos."
+
+#: includes/class-sensei-settings.php:556
+msgid "Header Image"
+msgstr "Imagen de cabecera"
+
+#: includes/class-sensei-settings.php:557
+msgid ""
+"Enter a URL to an image you want to show in the email's header. Upload your "
+"image using the %1$smedia uploader%2$s."
+msgstr ""
+"Introduce la URL de la imagen que quieres mostrar en el encabezado del "
+"correo electrónico. Sube esta imagen utilizando la opción %1$sSubir "
+"medios%2$s."
+
+#: includes/class-sensei-settings.php:565
+msgid "Email Footer Text"
+msgstr "Texto del pie del correo"
+
+#: includes/class-sensei-settings.php:566
+msgid "The text to appear in the footer of Sensei emails."
+msgstr ""
+"El texto que aparecerá en el pie de los correos electrónicos de Sensei."
+
+#: includes/class-sensei-settings.php568, templates/emails/footer.php:23
+msgid "%1$s - Powered by Sensei"
+msgstr "%1$s - Creado con Sensei"
+
+#: includes/class-sensei-settings.php:574
+msgid "Base Colour"
+msgstr "Color base"
+
+#: includes/class-sensei-settings.php:575
+msgid "The base colour for Sensei email templates. Default %1$s#557da1%2$s."
+msgstr ""
+"El color base para las plantillas de correo electrónico de Sensei. "
+"Predeterminado %1$s#557da1%2$s."
+
+#: includes/class-sensei-settings.php:583
+msgid "Background Colour"
+msgstr "Color de Fondo"
+
+#: includes/class-sensei-settings.php:584
+msgid ""
+"The background colour for Sensei email templates. Default %1$s#f5f5f5%2$s."
+msgstr ""
+"El color de fondo para las plantillas de correo electrónico de Sensei. "
+"Predeterminado %1$s#f5f5f5%2$s."
+
+#: includes/class-sensei-settings.php:592
+msgid "Body Background Colour"
+msgstr "Color del fondo del cuerpo"
+
+#: includes/class-sensei-settings.php:593
+msgid ""
+"The main body background colour for Sensei email templates. Default "
+"%1$s#fdfdfd%2$s."
+msgstr ""
+"El color principal de fondo de cuerpo para las plantillas de correo "
+"electrónico de Sensei.%1$s#fdfdfd%2$s."
+
+#: includes/class-sensei-settings.php:601
+msgid "Body Text Colour"
+msgstr "Color de texto del cuerpo"
+
+#: includes/class-sensei-settings.php:602
+msgid ""
+"The main body text colour for Sensei email templates. Default "
+"%1$s#505050%2$s."
+msgstr ""
+"El color principal del texto del cuerpo para las plantillas de correo "
+"electrónico de Sensei. Predeterminado %1$s#505050%2$s."
+
+#: includes/class-sensei-settings.php:612
+msgid "Enable WooCommerce Courses"
+msgstr "Habilitar los cursos en WooCommerce"
+
+#: includes/class-sensei-settings.php:613
+msgid "Use WooCommerce to sell Courses by linking a Product to a Course."
+msgstr "Usar WooCommerce para vender cursos enlazando un producto a un curso."
+
+#: includes/class-sensei-settings.php:620
+msgid "Enable Sensei WooCommerce Integration Debugging"
+msgstr ""
+
+#: includes/class-sensei-settings.php:621
+msgid ""
+"Advanced: Log Sensei/WooCommerce integration events (Uses WC_Logger, logs "
+"events at `notice` level)"
+msgstr ""
+
+#: includes/class-sensei-settings.php:631
+msgid "Restrict course video"
+msgstr ""
+
+#: includes/class-sensei-settings.php:632
+msgid "Used when you don't want the course video to be viewable by non-members"
+msgstr ""
+
+#: includes/class-sensei-settings.php:638
+msgid "Auto-start courses belonging to a membership"
+msgstr ""
+
+#: includes/class-sensei-settings.php:639
+msgid "Automatically start courses belonging to a WC Membership when activated"
+msgstr ""
+
+#: includes/class-sensei-settings.php:648
+msgid "Install Language Pack"
+msgstr "Instalar paquete de idioma"
+
+#: includes/class-sensei-settings.php:649
+msgid ""
+"Use this action to install or re-install translation for your language if "
+"available."
+msgstr ""
+"Usa esta acción para instalar o reinstalar la traducción para tu idioma si "
+"está disponible."
+
+#: includes/class-sensei-settings.php:705
+msgid "Select a Page:"
+msgstr "Seleccionar una página:"
+
+#: includes/class-sensei-teacher.php117, includes/class-sensei-teacher.php227,
+#: includes/class-sensei-teacher.php1120, includes/class-sensei-updates.php:933
+msgid "Teacher"
+msgstr "Profesor"
+
+#: includes/class-sensei-teacher.php:903
+msgid "New course created."
+msgstr "Nuevo curso creado."
+
+#: includes/class-sensei-teacher.php:914
+msgid "New course created by"
+msgstr "Nuevo curso creado por"
+
+#: includes/class-sensei-teacher.php:1269
+msgid "Show all teachers"
+msgstr "Mostrar todos los profesores"
+
+#: includes/class-sensei-teacher.php:1574
+msgid "All courses by %s"
+msgstr "Todos los cursos por %s"
+
+#: includes/class-sensei-updates.php:37
+msgid "Assign role capabilities"
+msgstr "Asignar capacidades del perfil"
+
+#: includes/class-sensei-updates.php:37
+msgid "Assigns Sensei capabilites to the relevant user roles."
+msgstr "Asignar permisos de Sensei a los perfiles de usuario relevantes."
+
+#: includes/class-sensei-updates.php:40
+msgid "Set default quiz grade type"
+msgstr "Establecer el tipo predeterminado de calificación del cuestionario"
+
+#: includes/class-sensei-updates.php:40
+msgid "Sets all quizzes to the default 'auto' grade type."
+msgstr "Asignar a todos los cuestionarios el tipo de calificación 'auto'."
+
+#: includes/class-sensei-updates.php:41
+msgid "Set default question type"
+msgstr "Establece tipo de pregunta predeterminado"
+
+#: includes/class-sensei-updates.php:41
+msgid "Sets all questions to the default 'multiple choice' type."
+msgstr "Establece todas las preguntas como 'opción múltiple'."
+
+#: includes/class-sensei-updates.php:43
+msgid "Update question answer data"
+msgstr "Actualización de los datos de las respuestas de las preguntas"
+
+#: includes/class-sensei-updates.php:43
+msgid "Updates questions to use the new question types structure."
+msgstr ""
+"Actualizar las preguntas para usar el nuevo tipo de estructura de pregunta."
+
+#: includes/class-sensei-updates.php:45
+msgid "Update question grade points"
+msgstr "Actualización de la puntuación de la pregunta"
+
+#: includes/class-sensei-updates.php:45
+msgid "Sets all question grade points to the default value of '1'."
+msgstr ""
+"Asignar a todos los puntos de calificación de preguntas el valor por defecto "
+"'1'."
+
+#: includes/class-sensei-updates.php:48
+msgid "Convert essay paste questions into multi-line questions"
+msgstr "Convertir preguntas de redacción a preguntas multi-línea"
+
+#: includes/class-sensei-updates.php:48
+msgid ""
+"Converts all essay paste questions into multi-line questions as the essay "
+"paste question type was removed in v1.5.0."
+msgstr ""
+"Convierte todas las preguntas de redacción en preguntas multi-línea ya que "
+"las preguntas de redacción fueron removidas en la versión v1.5.0."
+
+#: includes/class-sensei-updates.php:49
+msgid "Set all quizzes to have a random question order"
+msgstr "Asigna a todos los cuestionarios un orden aleatório de preguntas"
+
+#: includes/class-sensei-updates.php:49
+msgid ""
+"Sets the order all of questions in all quizzes to a random order, which can "
+"be switched off per quiz."
+msgstr ""
+"Asigna el orden de todas las preguntas en todos los cuestionarios a un orden "
+"aleatorio, lo que puede ser configurado por cada cuestionario."
+
+#: includes/class-sensei-updates.php:50
+msgid "Set all quizzes to show all questions"
+msgstr ""
+"Configura todos los cuestionarios para que muestren todas las preguntas"
+
+#: includes/class-sensei-updates.php:50
+msgid "Sets all quizzes to show all questions - this can be changed per quiz."
+msgstr ""
+"Configura todos los cuestionarios para que muestren todas las preguntas - "
+"puede ser personalizado en cada cuestionario."
+
+#: includes/class-sensei-updates.php:51
+msgid "Remove Sensei activity for deleted users"
+msgstr "Borra la actividad de Sensei de los usuarios eliminados"
+
+#: includes/class-sensei-updates.php:51
+msgid ""
+"Removes all course, lesson &amp; quiz activity for users that have already "
+"been deleted from the database. This will fix incorrect learner counts in "
+"the Analysis section."
+msgstr ""
+"Elimina todos los cursos, lecciones y actividad de cuestionarios para "
+"usuarios que han sido eliminados de la base de datos. Esto soluciona conteos "
+"erróneos de alumnos en la sección de análisis."
+
+#: includes/class-sensei-updates.php:53
+msgid "Add 'Teacher' role"
+msgstr "Añadir el perfil 'Profesor'"
+
+#: includes/class-sensei-updates.php:53
+msgid ""
+"Adds a 'Teacher' role to your WordPress site that will allow users to mange "
+"the Grading and Analysis pages."
+msgstr ""
+"Añade un perfil 'Profesor' a tu sitio WordPress que le permitirá gestionar "
+"calificaciones y análisis."
+
+#: includes/class-sensei-updates.php:54
+msgid "Add administrator capabilities"
+msgstr "Añadir capacidades de administrador"
+
+#: includes/class-sensei-updates.php:54
+msgid ""
+"Adds the 'manage_sensei' and 'manage_sensei_grades' capabilities to the "
+"Administrator role."
+msgstr ""
+"Añade las capacidades de 'manage_sensei' y 'manage_sensei_grades' al perfil "
+"de Administrador."
+
+#: includes/class-sensei-updates.php:55
+msgid "Restructure question meta data"
+msgstr "Reestructurar meta datos de la pregunta"
+
+#: includes/class-sensei-updates.php:55
+msgid ""
+"Restructures the question meta data as it relates to quizzes - this accounts "
+"for changes in the data structure in v1.6+."
+msgstr ""
+"Reestructura los meta datos de la pregunta ya que se relaciona con "
+"cuestionarios - esto se requiere por cambios en la estructura de datos en la "
+"versión v1.6+."
+
+#: includes/class-sensei-updates.php:56
+msgid "Add new quiz settings"
+msgstr "Añadir nuevos ajustes al cuestionario"
+
+#: includes/class-sensei-updates.php:56
+msgid ""
+"Adds new settings to quizzes that were previously registered as global "
+"settings."
+msgstr ""
+"Añade nuevas ajustes a cuestionarios que fueron previamente registrados como "
+"ajustes globales."
+
+#: includes/class-sensei-updates.php:57
+msgid "Set default order of lessons"
+msgstr "Aplicar el orden de lecciones por defecto"
+
+#: includes/class-sensei-updates.php:57
+msgid ""
+"Adds data to lessons to ensure that they show up on the 'Order Lessons' "
+"screen - if this update has been run once before then it will reset all "
+"lessons to the default order."
+msgstr ""
+"Añade información a las lecciones para asegurarse que aparezcan en la "
+"pantalla 'Ordenar lecciones' - si esta actualización ya se efectuó antes "
+"entonces se limpiará el orden de todas las lecciones al original."
+
+#: includes/class-sensei-updates.php:60
+msgid "Add Editor capabilities"
+msgstr "Añadir permisos de Editor"
+
+#: includes/class-sensei-updates.php:60
+msgid "Adds the 'manage_sensei_grades' capability to the Editor role."
+msgstr "Añade la capacidad 'manage_sensei_grades' a perfil de Editor."
+
+#: includes/class-sensei-updates.php:61
+msgid "Update Gap Fill questions"
+msgstr "Actualiza preguntas de completar el vacío"
+
+#: includes/class-sensei-updates.php:61
+msgid ""
+"Updates the format of gap fill questions to allow auto grading and greater "
+"flexibility in matching."
+msgstr ""
+"Actualiza el formato de preguntas de completar el vacío para permitir la "
+"calificación automática."
+
+#: includes/class-sensei-updates.php:62
+msgid "Restructure quiz lesson relationship"
+msgstr "Reorganizar las relaciones en las lecciones del cuestionario"
+
+#: includes/class-sensei-updates.php:62
+msgid ""
+"Adds data to quizzes and lessons to ensure that they maintain their 1 to 1 "
+"relationship."
+msgstr ""
+"Añade contenido a cuestionarios y lecciones para asegurar que mantienen su "
+"relación 1 a 1."
+
+#: includes/class-sensei-updates.php:63
+msgid "Update lesson statuses"
+msgstr "Actualiza los estados de lección"
+
+#: includes/class-sensei-updates.php:63
+msgid "Update existing lesson statuses."
+msgstr "Actualiza los estados de lección existente."
+
+#: includes/class-sensei-updates.php:64
+msgid "Convert lesson statuses"
+msgstr "Convertir los estados de lección"
+
+#: includes/class-sensei-updates.php:64
+msgid "Convert to new lesson statuses."
+msgstr "Convertir a nuevos estados de lección."
+
+#: includes/class-sensei-updates.php:65
+msgid "Convert course statuses"
+msgstr "Convertir los estados del curso"
+
+#: includes/class-sensei-updates.php:65
+msgid "Convert to new course statuses."
+msgstr "Convertir a nuevos estados de curso."
+
+#: includes/class-sensei-updates.php:66
+msgid "Convert question statuses"
+msgstr "Convertir estados de pregunta"
+
+#: includes/class-sensei-updates.php:66
+msgid "Convert to new question statuses."
+msgstr "Convertir a nuevos estados de pregunta"
+
+#: includes/class-sensei-updates.php:67
+msgid "Convert legacy Sensei activity types"
+msgstr "Convertir tipos de actividad antiguos de Sensei"
+
+#: includes/class-sensei-updates.php:67
+msgid ""
+"Convert all legacy Sensei activity types such as 'sensei_lesson_start' and "
+"'sensei_user_answer' to new status format."
+msgstr ""
+"Convierte todos los tipos de actividad antiguos de Sensei como "
+"'sensei_lesson_start' y 'sensei_user_answer' al nuevo formato de estados."
+
+#: includes/class-sensei-updates.php:68
+msgid "Update comment counts"
+msgstr "Actualizar contador de comentarios"
+
+#: includes/class-sensei-updates.php:68
+msgid "Update comment counts on Courses and Lessons due to status changes."
+msgstr ""
+"Actualiza el número de comentarios en cursos y lecciones dado a cambios de "
+"estado."
+
+#: includes/class-sensei-updates.php:70
+msgid "Add database index to comment statuses"
+msgstr "Añadir índice en la base de datos para estados de comentarios"
+
+#: includes/class-sensei-updates.php:70
+msgid ""
+"This indexes the comment statuses in the database, which will speed up all "
+"Sensei activity queries."
+msgstr ""
+"Esto indexa los estados de comentarios en la base de datos, lo que acelera "
+"las solicitudes de actividades de Sensei."
+
+#: includes/class-sensei-updates.php95, includes/class-sensei-updates.php:119
+msgid "Sensei Updates"
+msgstr "Actualizaciones de Sensei"
+
+#: includes/class-sensei-updates.php:95
+msgid "Data Updates"
+msgstr "Actualizaciones de datos"
+
+#: includes/class-sensei-updates.php142, includes/class-sensei-updates.php:191
+msgid "The nonce supplied in order to run this update function is invalid"
+msgstr ""
+"El nonce provisto para correr esta función de actualización es inválido"
+
+#: includes/class-sensei-updates.php:228
+msgid "Processing Updates..."
+msgstr "Procesando actualizaciones..."
+
+#: includes/class-sensei-updates.php:232
+msgid ""
+"If your browser doesn't start loading the next page automatically, click "
+"this button:"
+msgstr ""
+"Si tu navegador no comienza a cargar automáticamente la página siguiente, "
+"haz clic en este botón:"
+
+#: includes/class-sensei-updates.php:262
+msgid "Update completed successfully!"
+msgstr "Actualización finalizada correctamente."
+
+#: includes/class-sensei-updates.php:264
+msgid "Create a new lesson"
+msgstr "Crear una lección nueva"
+
+#: includes/class-sensei-updates.php:266
+msgid "run some more updates"
+msgstr "ejecutar algunas actualizaciones más."
+
+#: includes/class-sensei-updates.php:273
+msgid "Updates"
+msgstr "Actualizaciones"
+
+#: includes/class-sensei-updates.php:274
+msgid ""
+"These are updates that have been made available as new Sensei versions have "
+"been released. Updates of type %1$sAuto%2$s will run as you update Sensei to "
+"the relevant version - other updates need to be run manually and you can do "
+"that here."
+msgstr ""
+"Estas son las actualizaciones que han estado disponibles en la medida que "
+"nuevas versiones de Sensei se han lanzado. Las actualizaciones de tipo "
+"%1$sAutomáticas%2$s se ejecutarán cuando usted actualice Sensei a una "
+"versión relevante - otras actualizaciones necesitan ser ejecutadas "
+"manualmente y eso puede hacerlo aquí."
+
+#: includes/class-sensei-updates.php:277
+msgid ""
+"Only run these updates if you have been instructed to do so by WooThemes "
+"support staff."
+msgstr ""
+"Ejecutar estas actualizaciones solamente si ha sido recomendado por el "
+"equipo de soporte de WooThemes"
+
+#: includes/class-sensei-updates.php:321
+msgid "Originally included in %s v%s"
+msgstr "Originalmente incluído/a en %s v%s"
+
+#: includes/class-sensei-updates.php:325
+msgid "Auto"
+msgstr "Auto"
+
+#: includes/class-sensei-updates.php:327
+msgid "Manual"
+msgstr "Manual "
+
+#: includes/class-sensei-updates.php:333
+msgid "Are you sure you want to run the '%s' update?"
+msgstr "¿Estás seguro de querer ejecutar la actualización '%s' ?"
+
+#: includes/class-sensei-updates.php:337
+msgid "Re-run Update"
+msgstr "Volver a ejecutar la actualización"
+
+#: includes/class-sensei-updates.php:337
+msgid "Run Update"
+msgstr "Ejecutar actualización"
+
+#: includes/class-sensei-updates.php:510
+msgid "Important Sensei updates required"
+msgstr "Se requieren actualizaciones importantes de Sensei"
+
+#: includes/class-sensei-updates.php:512
+msgid "Important Sensei upgrades required!"
+msgstr "¡Se requieren actualizaciones importantes de Sensei !"
+
+#: includes/class-sensei-updates.php:513
+msgid ""
+"The latest version of Sensei requires some important database upgrades. In "
+"order to run these upgrades you will need to follow the step by step guide "
+"below. Your site will not function correctly unless you run these critical "
+"updates."
+msgstr ""
+"La última versión de Sensei requiere importantes actualizaciones en la base "
+"de datos. Para correr estas actualizaciones debes seguir la siguiente guía "
+"paso a paso. Tu sitio no funcionará correctamente si no efectúas estas "
+"actualizaciones críticas."
+
+#: includes/class-sensei-updates.php:515
+msgid ""
+"To run the upgrades click on each of the links below in the order that they "
+"appear."
+msgstr ""
+"Para correr las actualizaciones has click en cada uno de los links "
+"siguientes en el orden en el que aparecen."
+
+#: includes/class-sensei-updates.php:517
+msgid ""
+"Clicking each link will open up a new window/tab - do not close that "
+"window/tab until you see the message 'Update completed successfully'. Once "
+"you see that message you can close the window/tab and start the next upgrade "
+"by clicking on the next link in the list."
+msgstr ""
+"Haciendo clic en cada enlace abrirá una nueva ventana/pestaña - no cierres "
+"esa ventana/pestaña hasta que veas el mensaje 'Actualización completada "
+"correctamente'. Una vez que veas ese mensaje puedes cerrar esa "
+"ventana/solapa y comenzar la actualización siguiente haciendo clic en el "
+"enlace siguiente en la lista."
+
+#: includes/class-sensei-updates.php:519
+msgid ""
+"Once all the upgrades have been completed you will be able to use your "
+"WordPress site again."
+msgstr ""
+"Una vez completadas todas las actualizaciones podrás volver a usar de nuevo "
+"tu sitio WordPress."
+
+#: includes/class-sensei-updates.php:537
+msgid ""
+"Want to know what these upgrades are all about? %1$sFind out more here%2$s."
+msgstr ""
+"¿Quieres saber de qué se tratan estas actualizaciones? %1$sMás información "
+"aquí%2$s."
+
+#: includes/class-sensei-usage-tracking.php:67
+msgid ""
+"We'd love if you helped us make Sensei better by allowing us to collect\n"
+"\t\t\t\t<a href=\"%s\" target=\"_blank\">usage tracking data</a>.\n"
+"\t\t\t\tNo sensitive information is collected, and you can opt out at any "
+"time."
+msgstr ""
+
+#: includes/class-sensei-usage-tracking.php:104
+msgid "Enable usage tracking"
+msgstr ""
+
+#: includes/class-sensei-usage-tracking.php:111
+msgid ""
+"Help us make Sensei better by allowing us to collect\n"
+"\t\t\t\t\t<a href=\"%s\" target=\"_blank\">usage tracking data</a>.\n"
+"\t\t\t\t\tNo sensitive information is collected."
+msgstr ""
+
+#: includes/class-sensei-utils.php92, includes/class-sensei-utils.php:162
+msgid "At no point should user_id be equal to 0."
+msgstr "En ningún caso user_id debe ser 0."
+
+#: includes/class-sensei-utils.php:167
+msgid "Sensei activity type %s is no longer used."
+msgstr "El tipo de actividad Sensei %s no está más en uso."
+
+#: includes/class-sensei-utils.php:1185
+msgid "You have not started this course yet."
+msgstr "No has empezado este curso aún."
+
+#: includes/class-sensei-utils.php:1197
+msgid "You have passed this course with a grade of %1$d%%."
+msgstr "Has aprobado este curso con una calificación de %1$d%%."
+
+#: includes/class-sensei-utils.php:1201
+msgid "You require %1$d%% to pass this course. Your grade is %2$s%%."
+msgstr "Necesitas %1$d%% para aprobar este curso. Tu calificación es %2$s%%."
+
+#: includes/class-sensei-utils.php:1226
+msgid "You have not taken this lesson's quiz yet"
+msgstr "Aún no has completado el cuestionario de esta lección."
+
+#: includes/class-sensei-utils.php:1275
+msgid "Please sign up for %1$sthe course%2$s before taking this quiz"
+msgstr ""
+"Por favor regístrate en %1$sel curso%2$s antes de hacer este cuestionario"
+
+#: includes/class-sensei-utils.php:1281
+msgid "You must be logged in to take this quiz"
+msgstr "Debes iniciar sesión para hacer este cuestionario"
+
+#: includes/class-sensei-utils.php:1291
+msgid "Congratulations! You have passed this lesson."
+msgstr "¡Felicidades! Has aprobado esta lección."
+
+#: includes/class-sensei-utils.php:1295
+msgid "Congratulations! You have completed this lesson."
+msgstr "¡Felicidades! Has completado esta lección. "
+
+#: includes/class-sensei-utils.php:1300
+msgid "Congratulations! You have passed this lesson's quiz achieving %s%%"
+msgstr ""
+"¡Felicidades! Has aprobado el cuestionario de esta lección logrando %s%%"
+
+#: includes/class-sensei-utils.php:1302
+msgid "Congratulations! You have passed this quiz achieving %s%%"
+msgstr "¡Felicidades! Has aprobado el cuestionario logrando %s%%"
+
+#: includes/class-sensei-utils.php:1312
+msgid "Next Lesson"
+msgstr "Lección siguiente"
+
+#: includes/class-sensei-utils.php:1324
+msgid ""
+"You have completed this lesson's quiz and it will be graded soon. %1$sView "
+"the lesson quiz%2$s"
+msgstr ""
+"Has completado el cuestionario de esta lección y pronto serás calificado. "
+"%1$sVer el cuestionario de la lección%2$s"
+
+#: includes/class-sensei-utils.php:1326
+msgid ""
+"You have completed this quiz and it will be graded soon. You require %1$s%% "
+"to pass."
+msgstr ""
+"Has completado el cuestionario y pronto serás calificado. Necesitas %1$s%% "
+"para aprobar."
+
+#: includes/class-sensei-utils.php:1334
+msgid "You require %1$d%% to pass this lesson's quiz. Your grade is %2$s%%"
+msgstr ""
+"Necesitas %1$d%% para pasar el cuestionario de esta lección. Tu calificación "
+"es %2$s%%"
+
+#: includes/class-sensei-utils.php:1336
+msgid "You require %1$d%% to pass this quiz. Your grade is %2$s%%"
+msgstr "Necesitas %1$d%% para pasar el cuestionario. Tu calificación es %2$s%%"
+
+#: includes/class-sensei-utils.php:1347
+msgid "You require %1$d%% to pass this lesson's quiz."
+msgstr ""
+"Se requiere una calificación mínima de %1$d%% para aprobar el cuestionario "
+"de esta lección."
+
+#: includes/class-sensei-utils.php:1349
+msgid "You require %1$d%% to pass this quiz."
+msgstr ""
+"Se requiere una calificación mínima de %1$d%% para aprobar este cuestionario."
+
+#: includes/class-sensei-utils.php:1363
+msgid "Please purchase the %1$s before taking this quiz."
+msgstr "Por favor compra el %1$s antes de realizar este cuestionario"
+
+#: includes/class-sensei-utils.php:1367
+msgid "Please sign up for the %1$s before taking this quiz."
+msgstr "Por favor regístrate en %1$s antes de realizar este cuestionario"
+
+#: includes/class-sensei-utils.php1379, includes/class-sensei-utils.php:1379
+msgid "View the lesson quiz"
+msgstr "Ver el cuestionario de la lección"
+
+#: includes/class-sensei-view-helper.php:66
+msgid "Points: %s"
+msgstr ""
+
+#: includes/class-sensei-wc-subscriptions.php:174
+msgid "No active subscription"
+msgstr "No tienes suscripciones activas"
+
+#: includes/class-sensei-wc-subscriptions.php:175
+msgid ""
+"Sorry, you do not have an access to this content without an active "
+"subscription."
+msgstr ""
+"Disculpa, no tienes acceso a este contenido sin una suscripción activa."
+
+#: includes/class-sensei-wc.php:140
+msgid "Paid"
+msgstr "De Pago"
+
+#: includes/class-sensei-wc.php:148
+msgid "Free"
+msgstr "Gratis"
+
+#: includes/class-sensei-wc.php:445
+msgctxt ""
+"Purchase thank you note on Checkout page. The course link(s) will be show"
+msgid "You have purchased the following course:"
+msgid_plural "You have purchased the following courses:"
+msgstr[0] "Has comprado el siguiente curso:"
+msgstr[1] "Has comprado los siguientes cursos:"
+
+#: includes/class-sensei-wc.php:483
+msgid "complete purchase"
+msgstr "completar pago"
+
+#: includes/class-sensei-wc.php:812
+msgid "Register for this Course"
+msgstr ""
+
+#: includes/class-sensei-wc.php:814
+msgid "Purchase this Course"
+msgstr "Comprar este curso"
+
+#: includes/class-sensei-wc.php:966
+msgid ""
+"This course is already in your cart, please proceed to %1$s, to gain access."
+msgstr ""
+"Este curso ya está en tu carrito, por favor accede a %1$s, para tener acceso"
+
+#: includes/class-sensei-wc.php:1165
+msgid "Course details"
+msgstr "Detalles del curso"
+
+#: includes/class-sensei-wc.php:1197
+msgid "View course: %1$s"
+msgstr "Ver el curso: %1$s"
+
+#: includes/class-sensei-wc.php:1729
+msgid "The product you are buying contains a course you are already taking"
+msgstr ""
+
+#: includes/class-sensei.php:687
+msgid "Please complete the previous %1$s before taking this course."
+msgstr "Por favor complete el/la %1$s anterior antes de tomar este curso."
+
+#: includes/class-sensei.php:691
+msgid "Or %1$s login %2$s to access your purchased courses"
+msgstr "O %1$s login %2$s para acceder a sus cursos comprados"
+
+#: includes/class-sensei.php719, includes/class-sensei.php758,
+#: includes/class-sensei.php773, includes/class-sensei.php:785
+msgid "Restricted Access"
+msgstr "Acceso restringido"
+
+#: includes/class-sensei.php:726
+msgid "Please purchase the %1$s before starting this Lesson."
+msgstr "Por favor compra el/la %1$s antes de comenzar esta Lección."
+
+#: includes/class-sensei.php:760
+msgid "Please complete the previous %1$s before taking this Quiz."
+msgstr ""
+"Por favor completa el/la %1$s anterior antes de hacer este cuestionario."
+
+#: includes/class-sensei.php:777
+msgid "Please purchase the %1$s before starting this Quiz."
+msgstr "Por favor compra el/la %1$s antes de hacer este cuestionario."
+
+#: includes/class-sensei.php:779
+msgid "Please sign up for the %1$s before starting this Quiz."
+msgstr "Por favor regístrate en %1$s antes de iniciar este cuestionario."
+
+#: includes/class-sensei.php:787
+msgid "Please sign up for the %1$s before taking this Quiz."
+msgstr "Por favor regístrate en %1$s antes de hacer este cuestionario."
+
+#: includes/class-sensei.php:1306
+msgid "Docs"
+msgstr "Docs"
+
+#: includes/class-sensei.php:1311
+msgctxt "noun"
+msgid "Support"
+msgstr "Soporte"
+
+#: includes/class-sensei.php:1329
+msgctxt "plugin action link"
+msgid "Configure"
+msgstr "Configurar"
+
+#: includes/domain-models/class-sensei-domain-models-course.php:19
+msgid "Unique identifier for the object."
+msgstr ""
+
+#: includes/domain-models/class-sensei-domain-models-course.php:25
+msgid "The course title."
+msgstr "Título del curso"
+
+#: includes/domain-models/class-sensei-domain-models-course.php:32
+msgid "The author identifier."
+msgstr ""
+
+#: includes/domain-models/class-sensei-domain-models-course.php:38
+msgid "The course content."
+msgstr "Contenido del curso"
+
+#: includes/domain-models/class-sensei-domain-models-course.php:43
+msgid "The course excerpt."
+msgstr ""
+
+#: includes/domain-models/class-sensei-domain-models-course.php:54
+msgid "The course status."
+msgstr "Estado del curso"
+
+#: includes/domain-models/class-sensei-domain-models-course.php:60
+msgid "The course module ids."
+msgstr ""
+
+#: includes/domain-models/class-sensei-domain-models-course.php:64
+msgid "The course module id order."
+msgstr ""
+
+#: includes/domain-models/class-sensei-domain-models-course.php:68
+msgid "The course lessons."
+msgstr "Lecciones del curso"
+
+#: includes/domain-models/class-sensei-domain-models-course.php:75
+msgid "The course prerequisite."
+msgstr "Prerequisito del curso"
+
+#: includes/domain-models/class-sensei-domain-models-course.php:80
+msgid "Is the course featured."
+msgstr ""
+
+#: includes/domain-models/class-sensei-domain-models-course.php:86
+msgid "The course video embed html."
+msgstr ""
+
+#: includes/domain-models/class-sensei-domain-models-course.php:91
+msgid "The product associated with this course."
+msgstr ""
+
+#: includes/domain-models/class-sensei-domain-models-course.php:121
+msgid "Invalid author id"
+msgstr "ID de autor no válido"
+
+#: includes/domain-models/class-sensei-domain-models-course.php:125
+msgid "Invalid author permissions"
+msgstr "Permisos de autor no válidos"
+
+#: includes/domain-models/class-sensei-domain-models-course.php:134
+msgid "Cannot publish when author is missing"
+msgstr ""
+
+#: includes/domain-models/class-sensei-domain-models-course.php:139
+msgid "Author Cannot publish courses"
+msgstr ""
+
+#: includes/domain-models/class-sensei-domain-models-course.php:157
+msgid "Validation Error"
+msgstr ""
+
+#: includes/domain-models/class-sensei-domain-models-model-abstract.php:229
+msgid "%s cannot be empty"
+msgstr "%s no puede ser nulo"
+
+#: includes/emails/class-sensei-email-teacher-new-course-assignment.php:57
+msgid "Course assigned to you"
+msgstr "Curso asignado a ti"
+
+#: includes/emails/class-sensei-email-teacher-new-course-assignment.php:58
+msgid "New course assigned to you"
+msgstr "Nuevo curso asignado a ti"
+
+#: includes/emails/class-woothemes-sensei-email-learner-completed-course.php:60
+msgid "[%1$s] You have completed a course"
+msgstr "[%1$s] Has finalizado un curso"
+
+#: includes/emails/class-woothemes-sensei-email-learner-completed-course.php:61
+msgid "You have completed a course"
+msgstr "Has finalizado un curso"
+
+#: includes/emails/class-woothemes-sensei-email-learner-completed-course.php65,
+#: includes/emails/class-woothemes-sensei-email-learner-graded-quiz.php69,
+#: includes/emails/class-woothemes-sensei-email-teacher-completed-course.php:65
+msgid "passed"
+msgstr "superado "
+
+#: includes/emails/class-woothemes-sensei-email-learner-completed-course.php67,
+#: includes/emails/class-woothemes-sensei-email-learner-graded-quiz.php67,
+#: includes/emails/class-woothemes-sensei-email-teacher-completed-course.php:67
+msgid "failed"
+msgstr "fallido "
+
+#: includes/emails/class-woothemes-sensei-email-learner-graded-quiz.php:62
+msgid "[%1$s] Your quiz has been graded"
+msgstr "[%1$s] Tu cuestionario ha sido calificado"
+
+#: includes/emails/class-woothemes-sensei-email-learner-graded-quiz.php:63
+msgid "Your quiz has been graded"
+msgstr "Tu cuestionario ha sido calificado"
+
+#: includes/emails/class-woothemes-sensei-email-learner-graded-quiz.php:76
+msgid "[%1$s] You have completed a quiz"
+msgstr "[%1$s] Has finalizado un cuestionario"
+
+#: includes/emails/class-woothemes-sensei-email-learner-graded-quiz.php:77
+msgid "You have completed a quiz"
+msgstr "Has finalizado un cuestionario"
+
+#: includes/emails/class-woothemes-sensei-email-new-message-reply.php:94
+msgid "[%1$s] You have a new message"
+msgstr "[%1$s] Tienes un nuevo mensaje"
+
+#: includes/emails/class-woothemes-sensei-email-new-message-reply.php:95
+msgid "You have received a reply to your private message"
+msgstr "Has recibido una respuesta a tu mensaje privado"
+
+#: includes/emails/class-woothemes-sensei-email-teacher-completed-course.php:61
+msgid "[%1$s] Your student has completed a course"
+msgstr "[%1$s] Tu estudiante ha finalizado un curso"
+
+#: includes/emails/class-woothemes-sensei-email-teacher-completed-course.php:62
+msgid "Your student has completed a course"
+msgstr "Tu estudiante ha finalizado un curso"
+
+#: includes/emails/class-woothemes-sensei-email-teacher-completed-lesson.php:31
+msgid "[%1$s] Your student has completed a lesson"
+msgstr "[%1$s] Tus alumnos han completado una lección"
+
+#: includes/emails/class-woothemes-sensei-email-teacher-completed-lesson.php:32
+msgid "Your student has completed a lesson"
+msgstr "Tu alumno ha completado una lección"
+
+#: includes/emails/class-woothemes-sensei-email-teacher-new-message.php:57
+msgid "[%1$s] You have received a new private message"
+msgstr "[%1$s] Has recibido un nuevo mensaje privado"
+
+#: includes/emails/class-woothemes-sensei-email-teacher-new-message.php:58
+msgid "Your student has sent you a private message"
+msgstr "Tu estudiante te ha enviado un mensaje privado"
+
+#: includes/emails/class-woothemes-sensei-email-teacher-quiz-submitted.php:63
+msgid "[%1$s] Your student has submitted a quiz for grading"
+msgstr "[%1$s] Tu estudiante ha enviado un cuestionario para ser calificado"
+
+#: includes/emails/class-woothemes-sensei-email-teacher-quiz-submitted.php:64
+msgid "Your student has submitted a quiz for grading"
+msgstr "Tu estudiante ha enviado un cuestionario para ser calificado."
+
+#: includes/emails/class-woothemes-sensei-email-teacher-started-course.php:56
+msgid "[%1$s] Your student has started a course"
+msgstr "[%1$s] Tu estudiante ha comenzado un curso"
+
+#: includes/emails/class-woothemes-sensei-email-teacher-started-course.php:57
+msgid "Your student has started a course"
+msgstr "Su estudiante ha comenzado un curso"
+
+#: includes/rest-api/class-sensei-rest-api-endpoint-courses.php104,
+#: includes/rest-api/class-sensei-rest-api-endpoint-courses.php:141
+msgid "Course does not exist"
+msgstr ""
+
+#: includes/rest-api/class-sensei-rest-api-endpoint-courses.php:137
+msgid "No Course ID provided"
+msgstr ""
+
+#: includes/sensei-functions.php:200
+msgid "SENSEI: The hook '%s', has been deprecated since '%s'."
+msgstr "SENSEI: El hook '%s', ha sido descartado desde '%s'."
+
+#: includes/sensei-functions.php:204
+msgid "Please use '%s' instead."
+msgstr "Por favor usa '%s' en su lugar."
+
+#: includes/shortcodes/class-sensei-shortcode-course-categories.php:94
+msgid "No course categories found."
+msgstr "No se encontraron categorías del curso."
+
+#: includes/shortcodes/class-sensei-shortcode-course-page.php:72
+msgid "Please supply a course ID for the shortcode: %s"
+msgstr "Por favor facilita el ID de curso para el shortcode: %s"
+
+#: includes/shortcodes/class-sensei-shortcode-lesson-page.php:73
+msgid "Please supply a lesson ID for this shortcode."
+msgstr "Por favor facilita un ID de lección para este shortcode."
+
+#: includes/shortcodes/class-sensei-shortcode-lesson-page.php:87
+msgid "No posts found."
+msgstr "No se encontraron publicaciones."
+
+#: includes/shortcodes/class-sensei-shortcode-unpurchased-courses.php:134
+msgid ""
+"You must be logged in to view the non-purchased courses. Click here to "
+"%slogin%s."
+msgstr ""
+"Debes estar conectado para ver los cursos que aun no has comprado. Haz clic "
+"aquí para %sacceder%s."
+
+#: includes/shortcodes/class-sensei-shortcode-user-courses.php:435
+msgid "All Courses"
+msgstr "Todos los cursos"
+
+#: includes/shortcodes/class-sensei-shortcode-user-messages.php:76
+msgid "Please login to view your messages."
+msgstr "Por favor accede para ver tus mensajes"
+
+#: includes/shortcodes/class-sensei-shortcode-user-messages.php80,
+#: templates/archive-message.php:36
+msgid "You do not have any messages."
+msgstr "No tienes ningún mensaje."
+
+#: includes/template-functions.php:120
+msgid "Start taking this Course"
+msgstr "Empezar a hacer este curso"
+
+#: templates/archive-lesson.php:34
+msgid "No lessons found that match your selection."
+msgstr "No se encontró ninguna lección que coincida con tu selección."
+
+#: templates/course-results/lessons.php:148
+msgid "Total Grade"
+msgstr "Calificación total"
+
+#: templates/emails/admin-teacher-new-course-created.php22,
+#: templates/emails/teacher-new-course-assignment.php:22
+msgid "The Course"
+msgstr "El curso"
+
+#: templates/emails/admin-teacher-new-course-created.php:30
+msgid "was submitted for review by "
+msgstr "fue enviado para revisión por"
+
+#: templates/emails/admin-teacher-new-course-created.php:38
+msgid "You can review and publish the new course here:  "
+msgstr "Puedes revisar y publicar el curso nuevo aquí:"
+
+#: templates/emails/learner-completed-course.php:26
+msgid "You have completed and %1$s the course"
+msgstr "Ha finalizado y %1$s el curso"
+
+#: templates/emails/learner-graded-quiz.php:26
+msgid "You %1$s the lesson"
+msgstr "Has %1$s la lección"
+
+#: templates/emails/learner-graded-quiz.php:30
+msgid "with a grade of"
+msgstr "con una calificación de"
+
+#: templates/emails/learner-graded-quiz.php:34
+msgid "The pass mark is %1$s"
+msgstr "El mínimo requerido es %1$s"
+
+#: templates/emails/learner-graded-quiz.php:38
+msgid "You can review your grade and your answers %1$shere%2$s."
+msgstr "Puedes revisar tu calificación y tus respuestas %1$saquí%2$s"
+
+#: templates/emails/new-message-reply.php:28
+msgid "has replied to your private message regarding the %1$s"
+msgstr "ha respondido a su mensaje privado respecto a %1$s"
+
+#: templates/emails/new-message-reply.php:38
+msgid "You can view the message and reply %1$shere%2$s."
+msgstr "Puedes ver el mensaje y responder %1$saquí%2$s."
+
+#: templates/emails/teacher-completed-course.php26,
+#: templates/emails/teacher-completed-lesson.php26,
+#: templates/emails/teacher-new-message.php26,
+#: templates/emails/teacher-quiz-submitted.php26,
+#: templates/emails/teacher-started-course.php:26
+msgid "Your student"
+msgstr "Tu estudiante"
+
+#: templates/emails/teacher-completed-course.php:30
+msgid "has completed and %1$s the course"
+msgstr "Ha completado y %1$s el curso"
+
+#: templates/emails/teacher-completed-course.php36,
+#: templates/emails/teacher-started-course.php:36
+msgid "Manage this course's learners %1$shere%2$s."
+msgstr "Gestionar los alumnos de este curso %1$saquí%2$s."
+
+#: templates/emails/teacher-completed-lesson.php:30
+msgid "has completed the lesson"
+msgstr "ha completado la lección"
+
+#: templates/emails/teacher-completed-lesson.php:36
+msgid "Manage this lesson's learners %1$shere%2$s."
+msgstr "Administra los alumnos de esta lección %1$saquí%2$s."
+
+#: templates/emails/teacher-new-course-assignment.php:30
+msgid "has been assigned to you."
+msgstr "te ha sido asignado."
+
+#: templates/emails/teacher-new-course-assignment.php:38
+msgid "You can edit the assigned course here: "
+msgstr "Puedes editar el curso asignado aquí:"
+
+#: templates/emails/teacher-new-message.php:30
+msgid "has sent you a private message regarding the %1$s"
+msgstr "te ha enviado un mensaje privado respecto a %1$s"
+
+#: templates/emails/teacher-new-message.php:40
+msgid "You can reply to this message %1$shere%2$s."
+msgstr "Puedes responder a este mensaje %1$saquí%2$s.."
+
+#: templates/emails/teacher-quiz-submitted.php:30
+msgid "has submitted the quiz for lesson"
+msgstr "ha enviado el cuestionario de la lección"
+
+#: templates/emails/teacher-quiz-submitted.php:34
+msgid "for grading."
+msgstr "para ser calificado."
+
+#: templates/emails/teacher-quiz-submitted.php:38
+msgid "You can grade this quiz %1$shere%2$s."
+msgstr "Puedes calificar este cuestionario %1$saquí%2$s."
+
+#: templates/emails/teacher-started-course.php:30
+msgid "has started the course"
+msgstr "ha comenzado el curso"
+
+#: templates/learner-profile.php:65
+msgid "The user requested does not exist."
+msgstr "El usuario solicitado no existe."
+
+#: templates/single-course/modules.php:109
+msgid "Free Preview"
+msgstr "Vista previa"
+
+#: templates/single-quiz.php:115
+msgid "There are no questions for this Quiz yet. Check back soon."
+msgstr ""
+"Aún no hay preguntas para este cuestionario. Compruébalo de nuevo más "
+"adelante."
+
+#: templates/single-quiz/question_type-file-upload.php:46
+msgid "Uploading a new file will replace your existing one:"
+msgstr "Al subir un nuevo archivo se reemplazará el existente:"
+
+#: templates/single-quiz/question_type-single-line.php:28
+msgid "Answer:"
+msgstr "Respuesta:"
+
+#: templates/teacher-archive.php:36
+msgid "There are no courses for this teacher."
+msgstr "No hay cursos para este profesor."
+
+#: templates/user/login-form.php:40
+msgid "Username or Email"
+msgstr "Usuario o correo electrónico"
+
+#: templates/user/login-form.php:69
+msgid "Lost your password?"
+msgstr "¿Has perdido tu contraseña?"
+
+#: templates/user/login-form.php:77
+msgid "Remember me"
+msgstr "Recuerdame"
+
+#: widgets/widget-woothemes-sensei-category-courses.php:29
+msgid "This widget will output a list of Courses for a specific category."
+msgstr "Este widget mostrará una lista de cursos de una categoría específica."
+
+#: widgets/widget-woothemes-sensei-category-courses.php:31
+msgid "Sensei - Category Courses"
+msgstr "Sensei - Cursos de categoría"
+
+#: widgets/widget-woothemes-sensei-category-courses.php127,
+#: widgets/widget-woothemes-sensei-course-categories.php125,
+#: widgets/widget-woothemes-sensei-course-component.php149,
+#: widgets/widget-woothemes-sensei-lesson-component.php:134
+msgid "Title (optional):"
+msgstr "Título (opcional):"
+
+#: widgets/widget-woothemes-sensei-category-courses.php:132
+msgid "Course Category:"
+msgstr "Categoría de curso:"
+
+#: widgets/widget-woothemes-sensei-category-courses.php:134
+msgid "Select Category:"
+msgstr "Seleccionar categoría:"
+
+#: widgets/widget-woothemes-sensei-category-courses.php140,
+#: widgets/widget-woothemes-sensei-course-component.php:163
+msgid "Number of Courses (optional):"
+msgstr "Número de cursos (opcional):"
+
+#: widgets/widget-woothemes-sensei-course-categories.php:29
+msgid "This widget will output a list of Course Categories."
+msgstr "Este widget mostrará una lista de las categorías de cursos"
+
+#: widgets/widget-woothemes-sensei-course-categories.php:31
+msgid "Sensei - Course Categories"
+msgstr "Sensei - Categorías de cursos"
+
+#: widgets/widget-woothemes-sensei-course-categories.php:130
+msgid "Number of Categories (optional):"
+msgstr "Número de categorías (opcional):"
+
+#: widgets/widget-woothemes-sensei-course-categories.php:136
+msgid "Show post counts"
+msgstr "Mostrar el número de publicaciones"
+
+#: widgets/widget-woothemes-sensei-course-categories.php:141
+msgid "Show hierarchy"
+msgstr "Mostrar jerarquía"
+
+#: widgets/widget-woothemes-sensei-course-component.php:29
+msgid ""
+"This widget will output a list of Courses - New, Featured, Free, Paid, "
+"Active, Completed."
+msgstr ""
+"Este widget mostrará una lista de Cursos - Nuevos, Destacados, Gratis, "
+"Pagados, Activos, Finalizados."
+
+#: widgets/widget-woothemes-sensei-course-component.php:31
+msgid "Sensei - Course Component"
+msgstr "Sensei - Componente del curso"
+
+#: widgets/widget-woothemes-sensei-course-component.php:36
+msgid "My Active Courses"
+msgstr "Mis cursos activos"
+
+#: widgets/widget-woothemes-sensei-course-component.php:37
+msgid "My Completed Courses"
+msgstr "Mis cursos finalizados"
+
+#: widgets/widget-woothemes-sensei-course-component.php154,
+#: widgets/widget-woothemes-sensei-lesson-component.php:139
+msgid "Component:"
+msgstr "Componente:"
+
+#: widgets/widget-woothemes-sensei-course-component.php:244
+msgid "You have no featured courses."
+msgstr "No tienes cursos destacados."
+
+#: widgets/widget-woothemes-sensei-course-component.php:252
+msgid "You have no completed courses."
+msgstr "No tienes cursos completos."
+
+#: widgets/widget-woothemes-sensei-course-component.php:256
+msgid "You have no courses."
+msgstr "No tienes cursos."
+
+#: widgets/widget-woothemes-sensei-lesson-component.php:29
+msgid "This widget will output a list of the latest Lessons."
+msgstr "Este widget mostrará una lista de las últimas lecciones."
+
+#: widgets/widget-woothemes-sensei-lesson-component.php:31
+msgid "Sensei - Lesson Component"
+msgstr "Sensei - Componente de lección"
+
+#: widgets/widget-woothemes-sensei-lesson-component.php:34
+msgid "New Lessons"
+msgstr "Nuevas lecciones"
+
+#: widgets/widget-woothemes-sensei-lesson-component.php:148
+msgid "Number of Lessons (optional):"
+msgstr "Número de lecciones (opcional):"
+
+#: widgets/widget-woothemes-sensei-lesson-component.php:209
+msgid "More Lessons"
+msgstr "Más lecciones"
