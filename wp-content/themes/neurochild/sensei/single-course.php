@@ -12,7 +12,7 @@
 ?>
 
 <?php  get_sensei_header();  ?>
-333333
+
 <article <?php post_class( array( 'course', 'post' ) ); ?>>
 
     <?php
