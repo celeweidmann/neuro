@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-<section class="row home__featured" style="background-image: url(https://picsum.photos/1200/800/?blur);">
+<section class="row home__featured" style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/dist/images/bg-home-block1.png'; ?>);">
   <div class="col-md-6 text-right">
     <h1>Diplomado Internacional en Liderazgo Neuroespiritual</h1>
   </div>
