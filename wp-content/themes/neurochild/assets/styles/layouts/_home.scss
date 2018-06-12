@@ -1,17 +1,17 @@
 .home {
-    // margin-top: 7.5rem;
     &__featured {
         background-size: cover;
         color: $white;
     }
     &__institucional {
-        @include linearGradientWithImage($color1, $color2, 'https://picsum.photos/1200/800/?blur');
-        /*background-color: $lightblue;*/
-        background-position-x: calc(50% + 600px), 0;
-        background-repeat: no-repeat;
+        @include linearGradient($color1, $color2);
+        @include media-breakpoint-up(md) {
+            @include linearGradientWithImage($color1, $color2, '../images/bg-home-block2.png');
+            background-position-x: calc(50% + 530px), 0;
+            background-repeat: no-repeat;
+        }
     }
     &__courses {
-        /*background-color: $violet;*/
         @include linearGradient($color3, $color4);
         .card {
             background-color: transparent;
