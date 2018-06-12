@@ -29,4 +29,5 @@ function assets() {
   wp_enqueue_script('colibre/js', get_stylesheet_directory_uri() . '/dist/scripts/main.js', ['jquery'], null, true);
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);
-?>
+
+add_filter( 'sensei_load_default_supported_theme_wrappers', '__return_false' );
