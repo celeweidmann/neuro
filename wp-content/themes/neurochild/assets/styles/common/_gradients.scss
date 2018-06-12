@@ -1,25 +1,19 @@
 /*gradient institucional*/
-$color1: #d3ccef;
-$color2: #e9e4ff;
 
-@mixin linearGradient($color1, $color2){
-background: $color1;
-background: -moz-linear-gradient(to right,$color1, $color2);
-background: -webkit-gradient(to right, color-stop($color1), color-stop($color2));
-background: -webkit-linear-gradient(to right,$color1,$color2);
-background: -o-linear-gradient(to right, $color1,$color2);
-background: linear-gradient(to right, $color1,$color2);
+@mixin linearGradient($color1, $color2) {
+    background-color: $color1;
+    background-image: -moz-linear-gradient(to right, $color1, $color2);
+    background-image: -webkit-gradient(to right, color-stop($color1), color-stop($color2));
+    background-image: -webkit-linear-gradient(to right, $color1, $color2);
+    background-image: -o-linear-gradient(to right, $color1, $color2);
+    background-image: linear-gradient(to right, $color1, $color2);
 }
 
-/*gradient cursos*/
-$color3: #734b6d;
-$color4: #42275a;
-
-@mixin linearGradient($color3, $color4){
-background: $color3;
-background: -moz-linear-gradient(to right,$color3, $color4);
-background: -webkit-gradient(to right, color-stop($color3), color-stop($color4));
-background: -webkit-linear-gradient(to right,$color3,$color4);
-background: -o-linear-gradient(to right, $color3,$color4);
-background: linear-gradient(to right, $color3,$color4);
+@mixin linearGradientWithImage($color1, $color2, $image) {
+    background-color: $color1;
+    background-image: url($image), -moz-linear-gradient(to right, $color1, $color2);
+    background-image: url($image), -webkit-gradient(to right, color-stop($color1), color-stop($color2));
+    background-image: url($image), -webkit-linear-gradient(to right, $color1, $color2);
+    background-image: url($image), -o-linear-gradient(to right, $color1, $color2);
+    background-image: url($image), linear-gradient(to right, $color1, $color2);
 }

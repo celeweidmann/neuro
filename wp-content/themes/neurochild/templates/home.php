@@ -24,7 +24,7 @@ get_header(); ?>
   </div>
 </section>
 
-<section class="row home__institucional" style="background-image: url(https://picsum.photos/1200/800/?blur);">
+<section class="row home__institucional">
   <div class="col-md-6 text-right">
     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique libero augue, ut commodo lacus sodales at. Pellentesque scelerisque metus at nisi pellentesque euismod. Donec nisl ante, interdum id libero at, tempus tincidunt lorem. Cras dapibus ante vel elit facilisis, a semper ligula viverra. Donec non libero vel ex luctus volutpat gravida pretium urna. Ut laoreet est id turpis euismod, ut euismod augue luctus.</div>
     <div><button class="btn">Conocenos</button></div>

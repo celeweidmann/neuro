@@ -5,9 +5,9 @@
         color: $white;
     }
     &__institucional {
-        @include linearGradient($color1, $color2);
+        @include linearGradientWithImage($color1, $color2, 'https://picsum.photos/1200/800/?blur');
         /*background-color: $lightblue;*/
-        background-position-x: calc(50% + 600px);
+        background-position-x: calc(50% + 600px), 0;
         background-repeat: no-repeat;
     }
     &__courses {
@@ -22,11 +22,11 @@
             padding-right: 10%;
             border: 0px;
             img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
         }
     }
 }
