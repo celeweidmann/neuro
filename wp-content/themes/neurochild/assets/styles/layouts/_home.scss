@@ -1,7 +1,7 @@
 .home {
     &__featured {
         background-size: cover;
-        color: $white;
+        color: $blue;
     }
     &__institucional {
         @include linearGradient($color1, $color2);
