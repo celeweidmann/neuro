@@ -1,0 +1,47 @@
+body.login {
+    background: rgb(17,7,43);
+}
+
+.login h1 a {
+    background-image: none;
+    color: #fff;
+    height: auto;
+    margin: 0;
+    width: 100%;
+    text-indent: 0;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, .5);
+}
+
+.login #nav {
+    margin: 12px 0 36px;
+    text-align: center;
+}
+
+.login .button-primary {
+    background-color: #3399ff;
+    border: 1px solid #3399ff;
+    box-shadow: 0 1px 1px #3399ff;
+    color: #fff;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+}
+
+.login .button-primary:hover {
+    color: #3399ff;
+    background-color: transparent;
+    border: 1px solid #3399ff;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+}
+
+.login #login_error, .login .message {
+    color: #000000;
+}
+
+.wp-core-ui .button, .wp-core-ui .button.button-large, .wp-core-ui .button.button-small {
+    font-size: 13px;
+}
