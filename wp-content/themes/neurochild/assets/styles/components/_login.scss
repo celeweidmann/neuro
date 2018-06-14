@@ -1,14 +1,16 @@
 .login {
-    background-color: rgba(74, 118, 90, 0.6);
+    background-color: $violet;
     h1 a,
     h1 a:focus,
     h1 a:hover,
     h1 a:visited {
         background-image: none;
-        font-family: 'Roboto';
+        font-family: $heading-font-family;
+        font-weight: 300;
+        text-transform: uppercase;
         font-size: 2rem;
-        color: #fff;
-        color: rgba(74, 118, 90, 0.9);
+        color: $white;
+        color: $lightblue;
         height: auto;
         line-height: 3rem;
         margin: 0;

@@ -1,4 +1,4 @@
-.btn {
+.btn, .button {
     color: $white;
     background-color: $blue50;
     border-radius: 100px;
@@ -14,7 +14,18 @@
     &:hover {
         background-color: $white50;
         color: $violet;
+    }
+}
 
-
+.wp-core-ui .button-primary {
+    background: $blue50;
+    border-radius: 100px;
+    border-color: $blue50;
+    box-shadow: none;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    &:hover {
+        background-color: $blue;
     }
 }
