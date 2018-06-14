@@ -36,7 +36,7 @@ add_filter('login_headerurl', 'colibre_header_url');
  * Cargar css en la pantalla de login
  */
 function colibre_login_css() {
-  wp_enqueue_style( 'colibre_main_styles', get_stylesheet_directory_uri() . '/style_login.css');
+  wp_enqueue_style( 'colibre_main_styles', get_stylesheet_directory_uri() . '/dist/styles/main.css');
 }
 add_action('login_enqueue_scripts', 'colibre_login_css');
 
