@@ -20,14 +20,27 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <!-- <img src="<?php echo get_stylesheet_directory_uri() . '/dist/images/logo-neuroespiritual.png'; ?>" alt="logo-neuroespiritual-footer" class=""> -->
-            <img src="http://via.placeholder.com/350x430">
+            <div class="cv-card">
+              <div class="cv-card__photo">
+                <img class="mx-auto d-block rounded-circle" src="<?php echo get_stylesheet_directory_uri() . '/dist/images/foto-jose.png'; ?>" alt="Foto Jose Bizai">
+              </div>
+              <div class="cv-card__logo">
+                <img class="mx-auto d-block" src="<?php echo get_stylesheet_directory_uri() . '/dist/images/logo-jose-bizai.png'; ?>" alt="Logo Jose Bizai">
+              </div>
+              <div class="cv-card__text text-center">
+                <span>Director del Diplomado y docente responsable.</span>
+              </div>
+              <div class="cv-card__buttons text-center">
+                <a class="btn" href="http://">cv</a>
+                <a class="btn" href="http://">web</a>
+              </div>
+            </div>
           </div>
           
           <div class="col-md-8">
             <div class="row">
             <div class="col-md-4">
-                <img class="mx-auto" src="http://via.placeholder.com/120x120">
+                <img class="mx-auto" src="<?php echo get_stylesheet_directory_uri() . '/dist/images/logo-certificado.png'; ?>">
               </div>
               <div class="col-md-8">
                 <h3>Certificado Internacional</h3>
@@ -37,10 +50,10 @@
             <hr>
             <div class="row">
               <div class="col-md-6">
-                <img class="mx-auto" src="http://via.placeholder.com/170x150">
+                <img class="mx-auto" src="<?php echo get_stylesheet_directory_uri() . '/dist/images/logo-aeapro.png'; ?>">
               </div>
               <div class="col-md-6">
-                <img class="mx-auto" src="http://via.placeholder.com/170x150">
+                <img class="mx-auto" src="<?php echo get_stylesheet_directory_uri() . '/dist/images/logo-red-latino.png'; ?>">
               </div>
             </div>
           </div>
