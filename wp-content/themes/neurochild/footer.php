@@ -38,13 +38,13 @@
           </div>
           
           <div class="col-md-8">
-            <div class="row">
-            <div class="col-md-4">
+            <div class="row certificado">
+            <div class="col-md-2">
                 <img class="mx-auto" src="<?php echo get_stylesheet_directory_uri() . '/dist/images/logo-certificado.png'; ?>">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-10">
                 <h3>Certificado Internacional</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique libero augue, ut commodo lacus sodales at.</p>
+                <p>Nuestro Diplomado cuenta con la <b>Certificación de Competencia Educacional Profesional en Coaching C.C.E.P.C.</b> de AEAPro con Registro Número AR619.1/18P, bajo normas ISO 9001 y con la certificación de Quality System IQNet.</p>
               </div>
             </div>
             <hr>
