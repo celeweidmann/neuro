@@ -1,7 +1,7 @@
 .btn, .button {
     color: $white;
     background-color: $blue50;
-    border-radius: 100px;
+    @include  border-radius(100px);
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -19,12 +19,28 @@
 
 .wp-core-ui .button-primary {
     background: $blue50;
-    border-radius: 100px;
+    @include  border-radius(100px);
     border-color: $blue50;
     box-shadow: none;
     color: #fff;
     text-decoration: none;
     text-shadow: none;
+    &:hover {
+        background-color: $blue;
+    }
+}
+
+a.button.send-message-button {
+    @include  border-radius(100px);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.75rem;
+    margin-top: 20px;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    
     &:hover {
         background-color: $blue;
     }

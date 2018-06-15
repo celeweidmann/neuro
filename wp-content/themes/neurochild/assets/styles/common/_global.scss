@@ -9,6 +9,10 @@ body {
         font-family: $heading-font-family; 
         font-weight: $heading-font-weight; 
     }
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { 
+        font-family: $heading-font-family; 
+        font-weight: $heading-font-weight; 
+    }
     .h1, .h2 { 
         line-height: 1.1; 
     }
@@ -44,6 +48,14 @@ body {
     }
     .ordered-list { 
         list-style: decimal; 
+    }
+    a {
+        color: $blue;
+        transition: color 0.5s ease;
+        &:hover {
+            color: $yellow;
+            text-decoration: none;
+        }
     }
     #content .col-full {
         margin-top: 100px;
