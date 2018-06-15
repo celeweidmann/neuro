@@ -38,7 +38,7 @@
           </div>
           
           <div class="col-md-8">
-            <div class="row certificado">
+            <div class="row footer__certificado">
             <div class="col-md-2">
                 <img class="mx-auto" src="<?php echo get_stylesheet_directory_uri() . '/dist/images/logo-certificado.png'; ?>">
               </div>
@@ -69,7 +69,7 @@
             <i class="fa fa-twitter fa-2x"></i>
             <i class="fa fa-youtube fa-2x"></i>
           </div>
-          <div class="col-md-6 text-right">
+          <div class="col-md-6 footer__text-right">
             diseño y desarrollo <strong><a href="http://www.colectivolibre.com.ar" target="_blank">Colectivo Libre</a></strong>
           </div>
         </div>

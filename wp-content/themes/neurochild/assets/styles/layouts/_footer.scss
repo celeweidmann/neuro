@@ -5,8 +5,33 @@
         color: $darkblue;
         padding: 5rem;
     }
+    &__certificado {
+        margin-top: 10%;
+        & h3{
+            color: $blue;
+        }
+        & p {
+            line-height: 1.3;
+            color: $text-color-gray;
+            font-size: 0.9rem;
+        }
+    }
     &__redes-sociales-block {
         background-color: $darkblue;
         padding: 1rem;
+        .fa {
+            margin-right: 20px;
+            margin-left: 20px;
+            font-size: 1.5em;
+        }
     }
+    &__text-right{
+        text-align: right!important;
+        color: $text-color-gray;
+        font-size: 0.9rem;
+        a {
+            color: $white;
+        }
+    }
+
 }
