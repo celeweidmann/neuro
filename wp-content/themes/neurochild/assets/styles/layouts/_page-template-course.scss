@@ -1,0 +1,74 @@
+//listado cursos
+.post-type-archive-course {
+    header {
+        text-transform: uppercase;
+        color: #ccc;
+    }
+    .course-container {
+        .course-title, .sensei-course-meta {
+            margin-left: 250px;
+        }
+        .hentry .wp-post-image{
+            border-radius: 50%;
+            margin-right: 50px;
+        }
+    }
+    .sensei-ordering {
+        display: none;
+    }
+    .sensei-course-filters {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.75rem;
+        li a {
+            border: 1px solid #ddd;
+            @include border-radius(100px);
+        }
+    }
+}
+//vista curso 
+.single-course {
+    header {
+        text-transform: uppercase;
+        color: $blue;
+    }
+   .progress {
+        background-color: $white;
+    }
+   .course .status, .course-lessons .status, .course-container .status,
+   #main .course .module-status, .module-archive #main .status{
+        @include border-radius(0px);
+    }
+}
+//vista lesson
+.lesson {
+    .video{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+//completar clase
+.quiz input.quiz-submit.complete, .lesson input.quiz-submit.complete{
+    background: $greendark;
+    &:hover{
+    background: $violet;}
+}
+
+//mensajes cursos
+.sensei p.sensei-message, .sensei div.sensei-message, .course-container p.sensei-message, .course-container div.sensei-message, 
+.course p.sensei-message, .course div.sensei-message, .lesson p.sensei-message, .lesson div.sensei-message, .quiz p.sensei-message, .quiz div.sensei-message, .learner-info p.sensei-message, .learner-info div.sensei-message,
+.sensei p.sensei-message a.next-lesson, .sensei div.sensei-message a.next-lesson,
+.course-container p.sensei-message a.next-lesson, .course-container div.sensei-message a.next-lesson, .course p.sensei-message a.next-lesson, 
+.course div.sensei-message a.next-lesson, .lesson p.sensei-message a.next-lesson, .lesson div.sensei-message a.next-lesson, .quiz p.sensei-message a.next-lesson, 
+.quiz div.sensei-message a.next-lesson, .learner-info p.sensei-message a.next-lesson, .learner-info div.sensei-message a.next-lesson{
+    @include border-radius(0px);
+}
+.sensei p.sensei-message a.next-lesson, .sensei div.sensei-message a.next-lesson, .course-container p.sensei-message a.next-lesson, .course-container div.sensei-message a.next-lesson, .course p.sensei-message a.next-lesson, .course div.sensei-message a.next-lesson, .lesson p.sensei-message a.next-lesson, .lesson div.sensei-message a.next-lesson, .quiz p.sensei-message a.next-lesson, .quiz div.sensei-message a.next-lesson, .learner-info p.sensei-message a.next-lesson, .learner-info div.sensei-message a.next-lesson{
+    color: $green;
+    border: 1px solid $green;
+    @include border-radius(100px);
+}
+
+.course-container a.button, .course-container a.button:visited, .course-container a.comment-reply-link, .course-container #commentform #submit, .course-container .submit, .course-container input[type=submit], .course-container input.button, .course-container button.button, .course a.button, .course a.button:visited, .course a.comment-reply-link, .course #commentform #submit, .course .submit, .course input[type=submit], .course input.button, .course button.button, .lesson a.button, .lesson a.button:visited, .lesson a.comment-reply-link, .lesson #commentform #submit, .lesson .submit, .lesson input[type=submit], .lesson input.button, .lesson button.button, .quiz a.button, .quiz a.button:visited, .quiz a.comment-reply-link, .quiz #commentform #submit, .quiz .submit, .quiz input[type=submit], .quiz input.button, .quiz button.button{
+    @include border-radius(100px);
+}
