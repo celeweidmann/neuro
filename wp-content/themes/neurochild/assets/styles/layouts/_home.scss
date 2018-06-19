@@ -2,6 +2,8 @@
     &__featured {
         background-size: cover;
         color: $blue;
+        padding-left: 15%!important;
+        padding-right: 15%!important;
     }
     &__institucional {
         @include linearGradient($color1, $color2);
@@ -18,8 +20,8 @@
             color: $white;
             text-align: center;
             align-items: center;
-            padding-left: 10%;
-            padding-right: 10%;
+            padding-left: 5%;
+            padding-right: 5%;
             border: 0px;
             img {
                 width: 200px;
