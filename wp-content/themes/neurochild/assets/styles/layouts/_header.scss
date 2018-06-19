@@ -1,8 +1,9 @@
 .header {
     &__navbar {
-        // background-color: $violet;
+        background: $nav-bar;
+        border-bottom: 0.5px solid $white50;
         .navbar-brand img{  
-            height: 100px;
+            height: 90px;
         }
     }
     &__menu.navbar-collapse {
