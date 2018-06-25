@@ -72,3 +72,13 @@
 .course-container a.button, .course-container a.button:visited, .course-container a.comment-reply-link, .course-container #commentform #submit, .course-container .submit, .course-container input[type=submit], .course-container input.button, .course-container button.button, .course a.button, .course a.button:visited, .course a.comment-reply-link, .course #commentform #submit, .course .submit, .course input[type=submit], .course input.button, .course button.button, .lesson a.button, .lesson a.button:visited, .lesson a.comment-reply-link, .lesson #commentform #submit, .lesson .submit, .lesson input[type=submit], .lesson input.button, .lesson button.button, .quiz a.button, .quiz a.button:visited, .quiz a.comment-reply-link, .quiz #commentform #submit, .quiz .submit, .quiz input[type=submit], .quiz input.button, .quiz button.button{
     @include border-radius(100px);
 }
+
+//mis-cursos
+#sensei-user-courses .wp-post-image {
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.sensei .entry-title {
+        text-transform: uppercase;
+        color: $grey-texto;
+}
