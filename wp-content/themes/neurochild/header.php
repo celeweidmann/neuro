@@ -83,7 +83,16 @@
   //do_action( 'storefront_before_content' ); ?>
 
   <div id="content" class="site-content" tabindex="-1">
-    <!-- <div class="col-full"> -->
+
+      <?php
+      /**
+      * Para las url de woocommerce acomodo el div principal
+      */
+        $url_actual = home_url( add_query_arg( array() ) );
+        if (strpos($url_actual, '/shop/') || strpos($url_actual, '/product-category/') || strpos($url_actual, '/product/')){
+          echo '<div class="col-full">';
+        }        
+      ?>
 
     <?php
     do_action( 'storefront_content_top' );
