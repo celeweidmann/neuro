@@ -29,7 +29,7 @@
     <!-- Menú Superior -->
     <nav class="header__navbar navbar fixed-top navbar-expand-lg navbar-dark pt-0" role="navigation">
       <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header__bs-navbar-collapse-id" aria-controls="header__bs-navbar-collapse-id" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="<?php echo esc_url( site_url( '/' ) ); ?>">
@@ -43,6 +43,7 @@
                 'depth'       => 2, // 1 = no dropdowns, 2 = with dropdowns.
                 'container'     => 'div',
                 'container_class' => 'collapse navbar-collapse',
+                'container_id'      => 'header__bs-navbar-collapse-id',
                 'menu_class'    => 'navbar__colibre_superior_right navbar-nav nav-custom',
                 'fallback_cb'   => 'WP_Bootstrap_Navwalker::fallback',
                 'walker'      => new WP_Bootstrap_Navwalker()

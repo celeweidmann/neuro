@@ -11,7 +11,9 @@
     }
     &__menu.navbar-collapse {
         display: grid !important;
-        justify-items: end;
+        @include media-breakpoint-up(lg) {
+            justify-items: end;
+        }
         a {
             color: $blue!important;
             text-transform: uppercase;
