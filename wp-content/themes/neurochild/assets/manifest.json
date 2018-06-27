@@ -17,6 +17,11 @@
                 "scripts/customizer.js"
             ]
         },
+        "googleMap.js": {
+            "files": [
+                "scripts/googleMap.js"
+            ]
+        },
         "jquery.js": {
             "bower": ["jquery"]
         },

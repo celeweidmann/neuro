@@ -1,0 +1,15 @@
+.contacto {
+    margin-top: 6rem;
+    @include media-breakpoint-up(lg) {
+        margin-top: 8rem;
+    }
+    &__address__icon {
+        margin-right: 0.625rem;
+    }
+    &__phone__icon {
+        margin-right: 0.625rem;
+    }
+    &__email__icon {
+        margin-right: 0.625rem;
+    }
+}

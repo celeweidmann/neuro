@@ -31,7 +31,51 @@ function assets() {
   if( is_front_page() ) {
     wp_enqueue_script('colibre/homejs', get_stylesheet_directory_uri() . '/dist/scripts/home.js', ['jquery','colibre/mainjs'], null, true);
   }
+
+  if ( is_page_template('templates/template-contacto.php') ) {
+    wp_enqueue_script('pcfe-google-places-api', '//maps.googleapis.com/maps/api/js?key=AIzaSyDbBHrXqugUnCsYa571LGm7oxnTQrade74'. '&libraries=places', NULL, '1.0', TRUE);
+    wp_enqueue_script('googleMap/js', get_stylesheet_directory_uri() . '/dist/scripts/googleMap.js', ['jquery', 'pcfe-google-places-api'], null, true);
+  }
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);
 
 add_filter( 'sensei_load_default_supported_theme_wrappers', '__return_false' );
+
+/**
+ * Registro de Map key
+ */
+function my_acf_google_map_api( $api ){
+  $api['key'] = 'AIzaSyDbBHrXqugUnCsYa571LGm7oxnTQrade74';
+  return $api;
+}
+add_filter('acf/fields/google_map/api', __NAMESPACE__ . '\\my_acf_google_map_api');
+
+/**
+ * Menú de Configuraciones Generales
+ */
+add_action('acf/init', __NAMESPACE__ . '\\colibre_acf_init');
+function colibre_acf_init() {
+  if( function_exists('acf_add_options_page') ) {
+    acf_add_options_page(array(
+      'page_title' 	=> 'Configuraciones Generales',
+      'menu_title'	=> 'Configuración',
+      'menu_slug' 	=> 'theme-general-settings',
+      'capability'	=> 'edit_posts',
+      'update_button'		=> __('Update', 'acf'),
+      'updated_message'	=> __("Options Updated", 'acf'),
+      'redirect'		=> false
+    ));
+    
+    acf_add_options_sub_page(array(
+      'page_title' 	=> 'Datos de la página de inicio',
+      'menu_title'	=> 'Página Inicio',
+      'parent_slug'	=> 'theme-general-settings',
+    ));
+    
+    acf_add_options_sub_page(array(
+      'page_title' 	=> 'Datos de Contacto',
+      'menu_title'	=> 'Página Contacto',
+      'parent_slug'	=> 'theme-general-settings',
+    ));
+  }
+}
