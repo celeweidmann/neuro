@@ -60,6 +60,9 @@ body {
     #content .col-full {
         margin-top: 100px;
     }
+    .woocommerce-error, .woocommerce-info, .woocommerce-message, .woocommerce-noreviews, p.no-comments{
+        margin: 120px 0px 50px 0px;
+    }
 }
 
 .sensei p.sensei-message.info, .sensei div.sensei-message.info, .course-container p.sensei-message.info, .course-container div.sensei-message.info, .course p.sensei-message.info, .course div.sensei-message.info, .lesson p.sensei-message.info, .lesson div.sensei-message.info, .quiz p.sensei-message.info, .quiz div.sensei-message.info, .learner-info p.sensei-message.info, .learner-info div.sensei-message.info,
