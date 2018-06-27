@@ -2,14 +2,17 @@
     &__navbar {
         background: $nav-bar;
         border-bottom: 0.5px solid $white50;
-        .navbar-brand img{  
-            height: 90px;
+        .navbar-brand img {
+            height: 64px;
+            @include media-breakpoint-up(md) {
+                height: 90px;
+            }
         }
     }
     &__menu.navbar-collapse {
         display: grid !important;
         justify-items: end;
-            a {
+        a {
             color: $blue!important;
             text-transform: uppercase;
             font-family: $heading-font-family;
@@ -17,8 +20,8 @@
             font-weight: 600;
             transition: color 0.5s ease;
             &:hover {
-            color: $text-color!important;
-            }    
+                color: $text-color!important;
+            }
         }
     }
 }

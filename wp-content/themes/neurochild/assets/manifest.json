@@ -19,6 +19,11 @@
         },
         "jquery.js": {
             "bower": ["jquery"]
+        },
+        "home.js": {
+            "files": [
+                "scripts/home.js"
+            ]
         }
     },
     "config": {

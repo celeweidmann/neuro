@@ -63,13 +63,13 @@
     <div class="footer__redes-sociales-block">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 footer__redes-sociales-block__iconos">
             <i class="fa fa-facebook-f fa-2x"></i>
             <i class="fa fa-instagram fa-2x"></i>
             <i class="fa fa-twitter fa-2x"></i>
             <i class="fa fa-youtube fa-2x"></i>
           </div>
-          <div class="col-md-6 footer__text-right">
+          <div class="col-md-6 footer__redes-sociales-block__brand">
             diseño y desarrollo <strong><a href="http://www.colectivolibre.com.ar" target="_blank">Colectivo Libre</a></strong>
           </div>
         </div>
