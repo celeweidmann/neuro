@@ -39,6 +39,14 @@
    #main .course .module-status, .module-archive #main .status{
         @include border-radius(0px);
     }
+    .module h2::before{
+        padding: 0px;
+        float: left;
+        font-family: 'fontawesome';
+        content: "\f097";
+        color: $lightblue;
+        padding-right: 8px; 
+    }
 }
 //vista lesson
 .lesson {
