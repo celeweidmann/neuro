@@ -31,6 +31,7 @@
     }
 }
 
+a.view-results, a.view-results-link, a.sensei-certificate-link,
 a.button.send-message-button {
     @include  border-radius(100px);
     text-transform: uppercase;
@@ -41,7 +42,7 @@ a.button.send-message-button {
     margin-top: 20px;
     border: none;
     padding: 10px 30px 10px 30px;
-    
+    background-color: $lightblue;    
     &:hover {
         background-color: $violet;;
         color: $white;
@@ -65,6 +66,13 @@ a.button.send-message-button {
 }
 
 //btn compra
+.single_add_to_cart_button{
+    background-color: $yellow!important;
+    &:hover {
+        color: $yellow;
+        background-color: $violet!important;
+    }
+}
 .single_add_to_cart_button, .course button.button {
     @include  border-radius(100px);
     text-transform: uppercase;
@@ -75,10 +83,16 @@ a.button.send-message-button {
     margin-top: 20px;
     border: none;
     padding: 10px 30px 10px 30px;
-    background-color: $yellow;
-    
     &:hover {
         color: $yellow;
         background-color: $violet;
     }
 }
+.course-container a.button, .course-container a.button:visited, .course-container a.comment-reply-link, .course-container #commentform #submit, .course-container .submit, .course-container input[type=submit], .course-container input.button, .course-container button.button, .course a.button, .course a.button:visited, .course a.comment-reply-link, .course #commentform #submit, .course .submit, .course input[type=submit], .course input.button, .course button.button, .lesson a.button, .lesson a.button:visited, .lesson a.comment-reply-link, .lesson #commentform #submit, .lesson .submit, .lesson input[type=submit], .lesson input.button, .lesson button.button, .quiz a.button, .quiz a.button:visited, .quiz a.comment-reply-link, .quiz #commentform #submit, .quiz .submit, .quiz input[type=submit], .quiz input.button, .quiz button.button{
+    padding: 10px 30px 10px 30px;
+    background-color: $lightblue;
+    &:hover {
+        background-color: $violet;
+    } 
+}
+    

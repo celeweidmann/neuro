@@ -1,7 +1,5 @@
 .header {
     &__navbar {
-        background: $nav-bar;
-        border-bottom: 0.5px solid $white50;
         .navbar-brand img {
             height: 64px;
             @include media-breakpoint-up(lg) {
