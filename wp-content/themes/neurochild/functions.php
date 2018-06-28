@@ -73,6 +73,12 @@ function colibre_acf_init() {
     ));
     
     acf_add_options_sub_page(array(
+      'page_title' 	=> 'Datos de la página de institucional',
+      'menu_title'	=> 'Página Institucional',
+      'parent_slug'	=> 'theme-general-settings',
+    ));
+    
+    acf_add_options_sub_page(array(
       'page_title' 	=> 'Datos de Contacto',
       'menu_title'	=> 'Página Contacto',
       'parent_slug'	=> 'theme-general-settings',

@@ -1,3 +1,32 @@
 .institucional {
-    background-color: $white;
+    padding-top: 4rem;
+    .nav-link {
+        @include border-radius(0px!important);
+    }
+    .nav-link.active,
+    .show>.nav-link {
+        color: $blue!important;
+        background-color: #fff!important;
+        font-weight: 900;
+        border-bottom: 1px solid $blue;
+    }
+    @include media-breakpoint-up(md) {
+        padding-top: 8rem;
+    }
+    &__items__titles {
+        // background-color: none!important;
+    }
+    &__item {
+        &__title {
+            text-align: right;
+            font-family: $heading-font-family;
+            font-weight: 600;
+            color: $blue50;
+            &:hover {
+                color: $blue;
+                font-weight: 900;
+                border-bottom: 1px solid $blue;
+            }
+        }
+    }
 }
