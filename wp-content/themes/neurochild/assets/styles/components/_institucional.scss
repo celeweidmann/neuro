@@ -8,7 +8,8 @@
         color: $blue!important;
         background-color: #fff!important;
         font-weight: 900;
-        border-bottom: 1px solid $blue;
+        border-bottom: 2px solid $blue;
+        @include border-radius(1px);
     }
     @include media-breakpoint-up(md) {
         padding-top: 8rem;

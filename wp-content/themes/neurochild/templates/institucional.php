@@ -28,7 +28,7 @@ get_header();
     <div class="row">
 
       <?php # Left panel ?>
-      <div class="col-sm-12 col-md-6">
+      <div class="col-sm-12 col-md-4">
         <div class="institucional__items__titles nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
           <?php foreach ($items as $key=>$item): ?>
             <a class="institucional__item__title nav-link <?php echo $key===0 ? 'active' : ''; ?>" id="v-pills-<?php echo $key; ?>-tab" data-toggle="pill" href="#v-pills-<?php echo $key; ?>" role="tab" aria-controls="v-pills-<?php echo $key; ?>" aria-selected="true">
@@ -39,7 +39,7 @@ get_header();
       </div>
 
       <?php # Right panel ?>
-      <div class="col-sm-12 col-md-6">
+      <div class="col-sm-12 col-md-8">
         <div class="tab-content" id="v-pills-tabContent">
           <?php foreach ($items as $key=>$item): ?>
             <div class="tab-pane fade  <?php echo $key===0 ? 'show active' : ''; ?>" id="v-pills-<?php echo $key; ?>" role="tabpanel" aria-labelledby="v-pills-<?php echo $key; ?>-tab">
