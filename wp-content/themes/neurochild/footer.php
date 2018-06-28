@@ -40,8 +40,8 @@
                 <span>Director del Diplomado y docente responsable.</span>
               </div>
               <div class="cv-card__buttons text-center">
-                <a class="btn" href="http://">cv</a>
-                <a class="btn" href="http://">web</a>
+                <a class="btn" target="_blank" href="<?php the_field('contact_curriculum_vitae', 'option'); ?>">cv</a>
+                <a class="btn" target="_blank" href="<?php the_field('contact_site', 'option'); ?>">web</a>
               </div>
             </div>
           </div>
@@ -73,10 +73,11 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 footer__redes-sociales-block__iconos">
-            <i class="fa fa-facebook-f fa-2x"></i>
-            <i class="fa fa-instagram fa-2x"></i>
-            <i class="fa fa-twitter fa-2x"></i>
-            <i class="fa fa-youtube fa-2x"></i>
+            <a target="_blank" href="<?php the_field('contact_facebook', 'option'); ?>"><i class="fa fa-facebook-f fa-2x"></i></a>
+            <a target="_blank" href="<?php the_field('contact_instagram', 'option'); ?>"><i class="fa fa-instagram fa-2x"></i></a>
+            <a target="_blank" href="<?php the_field('contact_linkedin', 'option'); ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a target="_blank" href="<?php the_field('contact_twitter', 'option'); ?>"><i class="fa fa-twitter fa-2x"></i></a>
+            <a target="_blank" href="<?php the_field('contact_youtube', 'option'); ?>"><i class="fa fa-youtube fa-2x"></i></a>
           </div>
           <div class="col-md-6 footer__redes-sociales-block__brand">
             diseño y desarrollo <strong><a href="http://www.colectivolibre.com.ar" target="_blank">Colectivo Libre</a></strong>
