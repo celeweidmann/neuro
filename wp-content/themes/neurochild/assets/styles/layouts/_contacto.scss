@@ -1,0 +1,44 @@
+.contacto {
+    margin-top: 6rem;
+    @include media-breakpoint-up(lg) {
+        margin-top: 8rem;
+    }
+    .formulario {
+        text-align: right;
+        border-right: 1px solid #ccc;
+        padding-right: 20px; 
+        color: $blue;
+        .g-recaptcha{
+            margin-left: 40%;
+            margin-bottom: 1rem;
+        }
+        input[type="submit"]{
+            color: $white;
+            background-color: $blue50;
+            @include  border-radius(100px);
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 0.75rem;
+            margin-top: 20px;
+            border: none;
+            padding: 10px 30px 10px 30px;
+            &:hover{
+                background-color: $violet;
+            }
+        }
+    } 
+    &__address__icon {
+        margin-right: 0.625rem;
+        color: $lightblue;
+    }
+    &__phone__icon {
+        margin-right: 0.625rem;
+        color: $lightblue;
+    }
+    &__email__icon {
+        margin-right: 0.625rem;
+        color: $lightblue;
+    }
+}

@@ -1,29 +1,56 @@
 .home {
     &__featured {
+        background-image: url(../images/bg-home-block1.png);
         background-size: cover;
-        color: $blue;
-        padding-left: 15%!important;
-        padding-right: 15%!important;
+        height: 100vh;
+        padding: 12rem 15%;
+        &__title {
+            color: $home__featured__color--md;
+        }
+        &__subtitle {
+            color: $home__featured__color;
+            @include media-breakpoint-up(md) {
+                color: $home__featured__color--md;
+            }
+        }
     }
     &__institucional {
         @include linearGradient($color1, $color2);
+        padding: 2rem;
         @include media-breakpoint-up(md) {
             @include linearGradientWithImage($color1, $color2, '../images/bg-home-block2.png');
             background-position-x: calc(50% + 530px), 0;
             background-repeat: no-repeat;
+            height: 100vh;
+            padding: 12rem 4rem;
+        }
+        &__cta {
+            margin-top: 2rem;
+            @include media-breakpoint-up(md) {
+                margin-top: 0;
+            }
         }
     }
     &__courses {
         @include linearGradient($color3, $color4);
-        .card {
+        padding: 2rem 0;
+        @include media-breakpoint-up(md) {
+            height: 100vh;
+            padding: 8rem 4rem;
+        }
+        &__course {
             background-color: transparent;
-            color: $white;
+            color: $darkblue;
             text-align: center;
             align-items: center;
-            padding-left: 5%;
-            padding-right: 5%;
+            padding-left: 1%;
+            padding-right: 1%;
+            padding-bottom: 2rem;
             border: 0px;
-            img {
+            @include media-breakpoint-up(md) {
+                padding-bottom: 0;
+            }
+            &__image {
                 width: 200px;
                 height: 200px;
                 border-radius: 50%;

@@ -3,11 +3,14 @@
     &__cv-block {
         background-color: $white;
         color: $darkblue;
-        padding: 5rem;
+        padding: 2rem 0;
+        @include media-breakpoint-up(md) {
+            padding: 5rem;
+        }
     }
     &__certificado {
         margin-top: 10%;
-        & h3{
+        & h3 {
             color: $blue;
         }
         & p {
@@ -24,14 +27,24 @@
             margin-left: 20px;
             font-size: 1.5em;
         }
-    }
-    &__text-right{
-        text-align: right!important;
-        color: $text-color-gray;
-        font-size: 0.9rem;
-        a {
-            color: $white;
+        &__iconos {
+            text-align: center;
+            @include media-breakpoint-up(md) {
+                text-align: left;
+            }
+        }
+        &__brand {
+            color: $text-color-gray;
+            font-size: 0.9rem;
+            padding-top: 0.8rem;
+            text-align: center;
+            @include media-breakpoint-up(md) {
+                padding-top: 0;
+                text-align: right;
+            }
+            a {
+                color: $white;
+            }
         }
     }
-
 }
