@@ -26,6 +26,11 @@
         position: absolute;
     }
 }
-.woocommerce-form-login {
+.woocommerce-form-login,
+.sensei{
+        
     background: none;
+}
+.col-1 {
+    max-width: none;
 }
