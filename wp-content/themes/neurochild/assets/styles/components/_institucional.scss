@@ -37,9 +37,12 @@
         }
     }
     .tab-content {
-        text-align: justify;
+        margin: 0.5rem;
         line-height: 1.6em;
         font-size: 1em;
-        text-indent: 2rem;
+        @include media-breakpoint-up(md)  {
+            text-align: justify;
+            text-indent: 2rem;
+        }
     }
 }
