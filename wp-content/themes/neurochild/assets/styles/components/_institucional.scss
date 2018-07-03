@@ -11,6 +11,12 @@
         border-bottom: 2px solid $blue;
         @include border-radius(1px);
     }
+    .nav-link.active:before{
+        font-family: 'fontawesome';
+        content: "\f054";
+        color: $lightblue;
+        padding-right: 8px; 
+    }
     @include media-breakpoint-up(md) {
         padding-top: 8rem;
     }
@@ -28,6 +34,15 @@
                 font-weight: 900;
                 border-bottom: 1px solid $blue;
             }
+        }
+    }
+    .tab-content {
+        margin: 0.5rem;
+        line-height: 1.6em;
+        font-size: 1em;
+        @include media-breakpoint-up(md)  {
+            text-align: justify;
+            text-indent: 2rem;
         }
     }
 }
