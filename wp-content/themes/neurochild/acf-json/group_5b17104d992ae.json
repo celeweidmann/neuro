@@ -68,7 +68,7 @@
                     "key": "field_5b171273717ac",
                     "label": "Resumen",
                     "name": "institucional_item_abstract",
-                    "type": "textarea",
+                    "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": [
@@ -86,16 +86,16 @@
                         "id": ""
                     },
                     "default_value": "",
-                    "placeholder": "",
-                    "maxlength": "",
-                    "rows": "",
-                    "new_lines": ""
+                    "tabs": "all",
+                    "toolbar": "basic",
+                    "media_upload": 1,
+                    "delay": 0
                 },
                 {
                     "key": "field_5b1712a3717ad",
                     "label": "Contenido Completo",
                     "name": "institucional_item_body",
-                    "type": "textarea",
+                    "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": [
@@ -113,10 +113,10 @@
                         "id": ""
                     },
                     "default_value": "",
-                    "placeholder": "",
-                    "maxlength": "",
-                    "rows": "",
-                    "new_lines": ""
+                    "tabs": "all",
+                    "toolbar": "basic",
+                    "media_upload": 1,
+                    "delay": 0
                 },
                 {
                     "key": "field_5b203f20f613d",
@@ -185,5 +185,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1530192493
+    "modified": 1530657512
 }
