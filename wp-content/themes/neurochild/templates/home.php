@@ -26,8 +26,8 @@ $cursosDestacados = get_posts(array(
   )
 ));
 
-$cursos = get_posts(array(
-  'posts_per_page'	=> 3,
+$cursoAux = get_posts(array(
+  'posts_per_page'	=> 1,
   'post_type'			=> 'course',
   'orderby' => 'date',
   'order' => 'DESC'
@@ -36,7 +36,7 @@ $cursos = get_posts(array(
 get_header(); ?>
 
 <?php # Curso Destacado; ?>
-<?php $cursoDestacado = (sizeof($cursosDestacados) >= 1) ? $cursosDestacados[0] : $cursos[0]; ?>
+<?php $cursoDestacado = (sizeof($cursosDestacados) >= 1) ? $cursosDestacados[0] : $cursoAux[0]; ?>
 <!-- <section class="row home-scroll home__featured" style="background-image: url(<?php //echo get_stylesheet_directory_uri() . '/dist/images/bg-home-block1.png'; ?>);"> -->
 <section class="row home-scroll home__featured">
   <div class="col-md-6 text-right d-flex flex-column align-items-center justify-content-center">
@@ -60,23 +60,7 @@ get_header(); ?>
 </section>
 
 <?php # Lista de Cursos; ?>
-<?php if( $cursos ): ?>
-  <section class="row home-scroll home__courses">
-    <?php foreach( $cursos as $curso ):?>
-      <div class="col-sm-6 col-md-4">
-        <div class="card home__courses__course">
-          <img class="card-img-top home__courses__course__image" src="<?php echo get_the_post_thumbnail_url($curso->ID, 'thumbnail'); ?>" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title"><?php echo get_the_title($curso->ID); ?></h5>
-            <p class="card-text"><?php echo wp_trim_words(get_the_excerpt($curso->ID), 20); ?></p>
-            <div class="text-center"><a href="<?php echo get_the_permalink($curso->ID); ?>" class="btn btn-primary">Ver curso</a></div>
-          </div>
-        </div>
-      </div>
-    <?php endforeach; ?>
-  </section>
-  <?php wp_reset_postdata(); ?>
-<?php endif; ?>
+<?php get_template_part('partials/content', 'cursos'); ?>
 
 <?php # Curriculum; ?>
 <?php get_template_part('partials/content', 'curriculum'); ?>
