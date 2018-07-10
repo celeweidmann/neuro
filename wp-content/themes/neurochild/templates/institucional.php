@@ -47,12 +47,12 @@ get_header();
               <?php if( $item['type'] === 'text_with_abstract' ): ?>
                 <ul class="institucional__item nav nav-pills mb-3" id="pills-tab-<?php echo $key; ?>" role="tablist">
                   <li class="nav-item">
-                    <a class="nav-link active" id="pills-abstract-<?php echo $key; ?>-tab" data-toggle="pill" href="#pills-abstract-<?php echo $key; ?>" role="tab" aria-controls="pills-abstract-<?php echo $key; ?>" aria-selected="true">
+                    <a class="nav-link active institucional__item__boton-resumen" id="pills-abstract-<?php echo $key; ?>-tab" data-toggle="pill" href="#pills-abstract-<?php echo $key; ?>" role="tab" aria-controls="pills-abstract-<?php echo $key; ?>" aria-selected="true">
                       resumen
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" id="pills-body-<?php echo $key; ?>-tab" data-toggle="pill" href="#pills-body-<?php echo $key; ?>" role="tab" aria-controls="pills-body-<?php echo $key; ?>" aria-selected="false">
+                    <a class="nav-link institucional__item__boton-completo" id="pills-body-<?php echo $key; ?>-tab" data-toggle="pill" href="#pills-body-<?php echo $key; ?>" role="tab" aria-controls="pills-body-<?php echo $key; ?>" aria-selected="false">
                       completo
                     </a>
                   </li>
