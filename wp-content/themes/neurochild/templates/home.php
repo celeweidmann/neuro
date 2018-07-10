@@ -78,5 +78,8 @@ get_header(); ?>
   <?php wp_reset_postdata(); ?>
 <?php endif; ?>
 
+<?php # Curriculum; ?>
+<?php get_template_part('partials/content', 'curriculum'); ?>
+
 <?php
 get_footer();
