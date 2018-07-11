@@ -1,30 +1,16 @@
 .footer {
     color: $white;
-    &__redes-sociales-block {
-        background-color: $darkblue;
-        padding: 1rem;
-        .fa {
-            margin-right: 20px;
-            margin-left: 20px;
-            font-size: 1.5em;
+    background-color: $darkblue;
+    padding: 1rem;
+    &-section {
+        &__description-item__link {
+            color: $footer-section__description-item__link--color;
         }
-        &__iconos {
-            text-align: center;
-            @include media-breakpoint-up(md) {
-                text-align: left;
-            }
-        }
-        &__brand {
-            color: $text-color-gray;
-            font-size: 0.9rem;
-            padding-top: 0.8rem;
-            text-align: center;
-            @include media-breakpoint-up(md) {
-                padding-top: 0;
-                text-align: right;
-            }
-            a {
-                color: $white;
+        &__redes-sociales {
+            display: flex;
+            &__link {
+                color: $footer-section__description-item__link--color;
+                flex: 1 auto;
             }
         }
     }
