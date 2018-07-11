@@ -27,7 +27,7 @@
 
   <header class="header" role="banner" style="<?php storefront_header_styles(); ?>">
     <!-- Menú Superior -->
-    <nav class="header__navbar navbar fixed-top navbar-expand-lg navbar-light pt-0" role="navigation">
+    <nav class="header__navbar navbar fixed-top navbar-expand-lg navbar-light pt-0" role="navigation" id="menu">
       <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header__bs-navbar-collapse-id" aria-controls="header__bs-navbar-collapse-id" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

@@ -29,6 +29,11 @@
             "files": [
                 "scripts/home.js"
             ]
+        },
+        "navbar.js": {
+            "files": [
+                "scripts/navbar.js"
+            ]
         }
     },
     "config": {
