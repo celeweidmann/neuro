@@ -1,8 +1,20 @@
 .footer {
     color: $white;
     background-color: $darkblue;
-    padding: 1rem;
+    padding: 2rem;
+    font-size: .8rem;
     &-section {
+        padding-right: 20px;
+        padding-left: 20px;
+        &__title{
+            font-weight: 900;
+            border-bottom: 1px solid $lightblue;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+        }
+        & .logo-bizai{
+            width: 180px;
+        }
         &__description-item__link {
             color: $footer-section__description-item__link--color;
         }

@@ -33,7 +33,7 @@
         </section>
         <div class="col-md-3 footer-section">
           <p class="footer-section__title">DIRECTOR</p>
-          <p><img src="<?php echo get_stylesheet_directory_uri() . '/dist/images/logo-bizai-blanco.png'; ?>" alt="logo-bizai-blanco" class=""></p>
+          <p><img class="logo-bizai" src="<?php echo get_stylesheet_directory_uri() . '/dist/images/logo-bizai-blanco.png'; ?>" alt="logo-bizai-blanco" class=""></p>
         </div>
         <div class="col-md-3 footer-section">
           <p class="footer-section__title">DATOS DE CONTACTO</p>
