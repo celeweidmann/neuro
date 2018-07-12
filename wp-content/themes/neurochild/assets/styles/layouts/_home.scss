@@ -24,6 +24,10 @@
             height: 100vh;
             padding: 12rem 4rem;
         }
+        & .text-right {
+            padding-right: 3rem;
+            padding-left: 3rem;
+        }
         &__cta {
             margin-top: 2rem;
             @include media-breakpoint-up(md) {
