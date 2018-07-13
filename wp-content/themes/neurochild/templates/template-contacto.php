@@ -16,9 +16,9 @@ get_header();
         <div class="col-sm-12 col-md-6">
           <?php $mapLocation = get_field('contact_address', 'option'); ?>
           <p><i class="contacto__address__icon fa fa-map-marker"></i><?php echo $mapLocation['address']; ?></p>
-          <p><i class="contacto__phone__icon fa fa-phone-square"></i><?php the_field('contact_phone', 'option'); ?></p>
+          <p><i class="contacto__phone__icon fa fa-mobile"></i><?php the_field('contact_phone', 'option'); ?></p>
           <p>
-            <i class="contacto__email__icon fa fa-envelope"></i>
+            <i class="contacto__email__icon fa fa-envelope-o"></i>
             <a href="mailto:<?php the_field('contact_email', 'option'); ?>">
               <?php the_field('contact_email', 'option'); ?>
             </a>
