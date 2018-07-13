@@ -32,20 +32,20 @@
         .input-text, input[type=email], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], textarea{
             background-color: #fff;
             border: 1px solid $lightblue;
-            @include border-radius(2px);
+            @include border-radius(0px);
         }
     } 
     &__address__icon {
         margin-right: 0.625rem;
-        color: $lightblue;
+        color: $darkblue;
     }
     &__phone__icon {
         margin-right: 0.625rem;
-        color: $lightblue;
+        color: $darkblue;
         font-size: 1.5rem;
     }
     &__email__icon {
         margin-right: 0.625rem;
-        color: $lightblue;
+        color: $darkblue;
     }
 }
