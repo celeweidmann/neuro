@@ -2,7 +2,7 @@
   <div class="curriculum__cv-block">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
           <div class="cv-card">
             <div class="cv-card__photo">
               <img class="mx-auto d-block rounded-circle" src="<?php echo get_stylesheet_directory_uri() . '/dist/images/foto-jose.png'; ?>" alt="Foto Jose Bizai">
@@ -20,7 +20,7 @@
           </div>
         </div>
         
-        <div class="col-md-8">
+        <div class="col-md-6">
           <div class="row curriculum__certificado">
           <div class="col-md-2">
               <img class="mx-auto" src="<?php echo get_stylesheet_directory_uri() . '/dist/images/logo-certificado.png'; ?>">
