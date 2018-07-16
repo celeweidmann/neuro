@@ -1,4 +1,4 @@
-.btn, .button {
+.btn, .button, input.button {
     color: $white;
     background-color: $blue50;
     @include  border-radius(100px);
@@ -7,7 +7,6 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 0.75rem;
-    margin-top: 20px;
     border: none;
     padding: 10px 30px 10px 30px;
     
