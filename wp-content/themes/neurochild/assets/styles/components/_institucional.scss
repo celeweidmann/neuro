@@ -1,12 +1,14 @@
 .institucional {
     min-height: 95vh;
     padding-top: 4rem;
+    padding-bottom: 4rem;
     /*.nav-link {
         @include border-radius(0px!important);
     }*/
     
     @include media-breakpoint-up(md) {
         padding-top: 8rem;
+        padding-bottom: 8rem;
     }
     &__items__titles {
         // background-color: none!important;
