@@ -7,8 +7,15 @@
         &__title {
             color: $home__featured__color--md;
         }
+        &__subtitle-block {
+            text-align: right;
+            @include media-breakpoint-up(md) {
+                text-align: left;
+            }
+        }
         &__subtitle {
             color: $home__featured__color;
+            margin-bottom: 10px;
             @include media-breakpoint-up(md) {
                 color: $home__featured__color--md;
             }
@@ -27,6 +34,7 @@
         & .text-right {
             padding-right: 3rem;
             padding-left: 3rem;
+            margin-bottom: 10px;
         }
         &__cta {
             margin-top: 2rem;
