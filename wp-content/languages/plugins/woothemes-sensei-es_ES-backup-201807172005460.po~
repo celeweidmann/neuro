@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Sensei\n"
 "Report-Msgid-Bugs-To: https://www.transifex.com/woothemes/sensei-by-"
 "woothemes/\n"
-"PO-Revision-Date: 2018-07-17 20:05+0000\n"
+"PO-Revision-Date: 2018-07-17 20:03+0000\n"
 "Last-Translator: cele weidmann <celeweidmann@gmail.com>\n"
 "Language-Team: Español\n"
 "MIME-Version: 1.0\n"
@@ -4228,7 +4228,7 @@ msgstr "Usuario o correo electrónico"
 
 #: templates/user/login-form.php:69
 msgid "Lost your password?"
-msgstr "¿Olvidaste la contraseña?"
+msgstr "¿Has perdido tu contraseña?"
 
 #: templates/user/login-form.php:77
 msgid "Remember me"

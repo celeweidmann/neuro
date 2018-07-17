@@ -13241,7 +13241,7 @@ msgstr "Has recibido un pedido de %s."
 #: templates/global/form-login.php:35
 #: templates/myaccount/form-lost-password.php:27
 msgid "Username or email"
-msgstr "Usuario o correo electrónico"
+msgstr "Nombre de usuario o correo electrónico"
 
 #: templates/global/form-login.php:55 templates/myaccount/form-login.php:61
 msgid "Lost your password?"
