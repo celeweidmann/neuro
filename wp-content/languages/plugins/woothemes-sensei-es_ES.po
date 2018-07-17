@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Sensei\n"
 "Report-Msgid-Bugs-To: https://www.transifex.com/woothemes/sensei-by-"
 "woothemes/\n"
-"PO-Revision-Date: 2018-07-17 19:25+0000\n"
+"PO-Revision-Date: 2018-06-10 22:30+0000\n"
 "Last-Translator: cele weidmann <celeweidmann@gmail.com>\n"
 "Language-Team: Español\n"
 "MIME-Version: 1.0\n"
@@ -324,7 +324,7 @@ msgstr "Mis mensajes"
 #: includes/class-sensei-admin.php1425, includes/class-sensei-frontend.php425,
 #: templates/user/login-form.php25, templates/user/login-form.php:67
 msgid "Login"
-msgstr "Acceder"
+msgstr "Entrar"
 
 #: includes/class-sensei-admin.php1425, includes/class-sensei-frontend.php:423
 msgid "Logout"
@@ -4232,7 +4232,7 @@ msgstr "¿Has perdido tu contraseña?"
 
 #: templates/user/login-form.php:77
 msgid "Remember me"
-msgstr "Recuérdame"
+msgstr "Recuerdame"
 
 #: widgets/widget-woothemes-sensei-category-courses.php:29
 msgid "This widget will output a list of Courses for a specific category."
