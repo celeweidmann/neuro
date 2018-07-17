@@ -46,6 +46,9 @@
             height: 100vh;
             padding: 8rem 4rem;
         }
+        &__card-deck {
+            margin: 0 auto;
+        }
         &__course {
             background-color: transparent;
             color: $darkblue;
