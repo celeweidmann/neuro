@@ -10,6 +10,16 @@
         padding-top: 8rem;
         padding-bottom: 8rem;
     }
+    &__banner { 
+        background-image: url(../images/banner-inst.png);
+        text-align: center;
+        color: $white;
+        padding: 20px 0px;
+        margin: 20px 0px;
+        h2 { 
+            font-weight: 300; 
+        }
+    }
     &__items__titles {
         // background-color: none!important;
         .nav-link.active,

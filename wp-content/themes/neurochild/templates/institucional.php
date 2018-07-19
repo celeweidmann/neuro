@@ -25,8 +25,8 @@ get_header();
       array_push($items, $item);
     endwhile;
   ?>
+    <div class="contaniner institucional__banner"><h2>Conocenos</h2></div>
     <div class="row">
-
       <?php # Left panel ?>
       <div class="col-sm-12 col-md-4">
         <div class="institucional__items__titles nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
