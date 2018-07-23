@@ -25,6 +25,17 @@
             }
         }
     }
+    #navbarSupportedContent{
+        @include media-breakpoint-down(md) {
+            background: $white;
+            width: 80%;
+            li{
+                border-bottom: .5px solid #ccc;
+                margin-right: 3rem;
+            }
+
+        }
+    }
     .scrolled-nav {
         background: rgba(255, 255, 255, 0.99);
         box-shadow: 1px 1px 5px $nav-bar ;
@@ -36,14 +47,5 @@
                 transition: height 1s;
             }
         }
-    }
-    #header__bs-navbar-collapse-id{
-        background: $white;
-        width: 80%;
-        li{
-            border-bottom: .5px solid #ccc;
-            margin-right: 3rem;
-        }
-
     }
 }
