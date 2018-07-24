@@ -13,7 +13,8 @@ $desc=array (
 );
 $up=-63;
 $ut=44;
-$ttffile='/home/cele/sitios/neuro/wp-content/plugins/sensei-certificates/lib/tfpdf/font/unifont/DejaVuSansCondensed.ttf';
+$dir=plugin_dir_path( __FILE__ );         // parche Ale
+$ttffile=$dir.'DejaVuSansCondensed.ttf';  // parche Ale
 $originalsize=643852;
 $fontkey='dejavu';
 ?>
