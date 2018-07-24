@@ -94,3 +94,9 @@ add_action('admin_head', function() {
       remove_action( 'admin_notices', 'maintenance_nag', 10 );
   }
 });
+
+add_filter( 'sensei_certificate_date_format', function() {
+    $date_format = '%e %b %Y';
+    return $date_format;
+  }
+);
