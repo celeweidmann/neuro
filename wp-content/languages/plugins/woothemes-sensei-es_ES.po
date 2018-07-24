@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Sensei\n"
 "Report-Msgid-Bugs-To: https://www.transifex.com/woothemes/sensei-by-"
 "woothemes/\n"
-"PO-Revision-Date: 2018-07-24 01:48+0000\n"
+"PO-Revision-Date: 2018-07-24 14:09+0000\n"
 "Last-Translator: cele weidmann <celeweidmann@gmail.com>\n"
 "Language-Team: Español\n"
 "MIME-Version: 1.0\n"
@@ -2432,7 +2432,7 @@ msgstr "Nuevo/a %s"
 
 #: includes/class-sensei-posttypes.php:642
 msgid "All %s"
-msgstr "Todos los %s"
+msgstr "%s"
 
 #: includes/class-sensei-posttypes.php:643
 msgid "View %s"
