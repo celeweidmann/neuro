@@ -86,3 +86,11 @@ function colibre_acf_init() {
     ));
   }
 }
+
+//Elimino el mensje de Actualizaciones disponibles para usuarios que no son Admin
+add_action('admin_head', function() {
+  if(!current_user_can('manage_options')){
+      remove_action( 'admin_notices', 'update_nag',      3  );
+      remove_action( 'admin_notices', 'maintenance_nag', 10 );
+  }
+});
