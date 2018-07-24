@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Sensei Certificates\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-10 22:35+0000\n"
-"PO-Revision-Date: 2018-06-10 23:09+0000\n"
+"PO-Revision-Date: 2018-07-24 02:20+0000\n"
 "Last-Translator: cele weidmann <celeweidmann@gmail.com>\n"
 "Language-Team: Español\n"
 "Language: es_ES\n"
@@ -51,7 +51,7 @@ msgstr ""
 #: classes/class-woothemes-sensei-certificates.php:592
 #, php-format
 msgid "At %s"
-msgstr ""
+msgstr "En %s"
 
 #: admin/post-types/writepanels/writepanels-init.php:242
 msgid "Bold"
