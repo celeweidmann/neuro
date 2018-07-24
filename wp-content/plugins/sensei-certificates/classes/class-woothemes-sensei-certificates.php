@@ -554,7 +554,7 @@ class WooThemes_Sensei_Certificates {
 				$date_format = apply_filters( 'sensei_certificate_date_format', 'jS F Y' );
 				$date = date( $date_format, strtotime( $course_end_date ) );
 			} else {
-				$date_format = apply_filters( 'sensei_certificate_date_format', '%Y %B %e' );
+				$date_format = apply_filters( 'sensei_certificate_date_format', '%e / %m / %Y' );
 				$date = strftime ( $date_format, strtotime( $course_end_date ) );
 			}
 
