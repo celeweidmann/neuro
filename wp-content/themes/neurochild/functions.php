@@ -103,29 +103,3 @@ add_filter( 'sensei_certificate_date_format', function () {
   $date_format = '%e/%m/%Y';
   return $date_format;
 });
-
-function send_smtp_email( $phpmailer ){
-    // Define que estamos enviando por SMTP
-    $phpmailer->isSMTP();
- 
-    // La dirección del HOST del servidor de correo SMTP p.e. smtp.midominio.com
-    $phpmailer->Host = "smtp.frsf.utn.edu.ar";
- 
-    // Uso autenticación por SMTP (true|false)
-    $phpmailer->SMTPAuth = true;
- 
-    // Puerto SMTP - Suele ser el 25, 465 o 587
-    $phpmailer->Port = "587";
- 
-    // Usuario de la cuenta de correo
-    $phpmailer->Username = "cweidmann@frsf.utn.edu.ar";
- 
-    // Contraseña para la autenticación SMTP
-    $phpmailer->Password = "m4rm0t4Azul!";
- 
-    // El tipo de encriptación que usamos al conectar - ssl (deprecated) o tls
-    $phpmailer->SMTPSecure = "tls";
- 
-    $phpmailer->From = "cweidmann@frsf.utn.edu.ar";
-    $phpmailer->FromName = "Cele Weidmann";
-}
