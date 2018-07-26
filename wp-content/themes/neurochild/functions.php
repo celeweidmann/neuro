@@ -103,3 +103,14 @@ add_filter( 'sensei_certificate_date_format', function () {
   $date_format = '%e/%m/%Y';
   return $date_format;
 });
+
+//Elimino items del menú para usuarios que no son admin
+add_action( 'admin_menu', function() {
+  if(!current_user_can('manage_options')){
+    remove_menu_page('edit-comments.php');
+    remove_menu_page('tools.php');    
+    remove_menu_page('edit.php?post_type=page');    
+    remove_menu_page('wpcf7');    
+    remove_menu_page('ai1wm_export');
+  }
+});
