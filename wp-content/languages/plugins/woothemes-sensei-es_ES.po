@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Sensei\n"
 "Report-Msgid-Bugs-To: https://www.transifex.com/woothemes/sensei-by-"
 "woothemes/\n"
-"PO-Revision-Date: 2018-07-24 14:09+0000\n"
+"PO-Revision-Date: 2018-07-26 14:12+0000\n"
 "Last-Translator: cele weidmann <celeweidmann@gmail.com>\n"
 "Language-Team: Español\n"
 "MIME-Version: 1.0\n"
@@ -614,7 +614,7 @@ msgstr "Resultados del curso:"
 
 #: includes/class-sensei-course.php179, includes/class-sensei-lesson.php:635
 msgid "WooCommerce Product"
-msgstr "Producto WooCommerce"
+msgstr "Producto de Tienda"
 
 #: includes/class-sensei-course.php182, includes/class-sensei-lesson.php:610
 msgid "Course Prerequisite"
@@ -734,7 +734,7 @@ msgstr "Curso requerido"
 #: includes/class-sensei-course.php:586
 msgctxt "column name"
 msgid "WooCommerce Product"
-msgstr "Producto WooCommerce"
+msgstr "Producto de Tienda"
 
 #: includes/class-sensei-course.php:588
 msgctxt "column name"
@@ -2625,7 +2625,7 @@ msgstr "Ajustes para los perfiles públicos de los alumnos."
 
 #: includes/class-sensei-settings.php:130
 msgid "WooCommerce"
-msgstr "WooCommerce"
+msgstr "Tienda"
 
 #: includes/class-sensei-settings.php:131
 msgid "Optional settings for WooCommerce functions."
@@ -3169,11 +3169,11 @@ msgstr ""
 
 #: includes/class-sensei-settings.php:612
 msgid "Enable WooCommerce Courses"
-msgstr "Habilitar los cursos en WooCommerce"
+msgstr "Habilitar los cursos en Tienda"
 
 #: includes/class-sensei-settings.php:613
 msgid "Use WooCommerce to sell Courses by linking a Product to a Course."
-msgstr "Usar WooCommerce para vender cursos enlazando un producto a un curso."
+msgstr "Usar la Tienda para vender cursos enlazando un producto a un curso."
 
 #: includes/class-sensei-settings.php:620
 msgid "Enable Sensei WooCommerce Integration Debugging"
