@@ -1,5 +1,6 @@
 .btn, .button, input.button,
-.sensei-login-submit .button{
+.sensei-login-submit .button,
+.my-messages-link-container a{
     color: $white;
     background-color: $blue50;
     @include  border-radius(100px);
