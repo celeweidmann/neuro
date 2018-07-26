@@ -107,10 +107,17 @@ add_filter( 'sensei_certificate_date_format', function () {
 //Elimino items del menú para usuarios que no son admin
 add_action( 'admin_menu', function() {
   if(!current_user_can('manage_options')){
-    remove_menu_page('edit-comments.php');
     remove_menu_page('tools.php');    
     remove_menu_page('edit.php?post_type=page');    
     remove_menu_page('wpcf7');    
     remove_menu_page('ai1wm_export');
   }
 });
+
+//Oculto el menu Mensaje cuando el usuario no está logueado
+ add_filter('nav_menu_css_class' , function ( $classes, $item ){
+  if( !is_user_logged_in() && $item->title == 'Mensajes' ){ 
+    $classes[] = "mensaje-no-logueado";
+  }
+  return $classes;
+ } , 10 , 2);
