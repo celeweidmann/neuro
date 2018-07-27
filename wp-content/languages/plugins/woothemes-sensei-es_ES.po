@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Sensei\n"
 "Report-Msgid-Bugs-To: https://www.transifex.com/woothemes/sensei-by-"
 "woothemes/\n"
-"PO-Revision-Date: 2018-07-26 20:22+0000\n"
+"PO-Revision-Date: 2018-07-26 14:12+0000\n"
 "Last-Translator: cele weidmann <celeweidmann@gmail.com>\n"
 "Language-Team: Español\n"
 "MIME-Version: 1.0\n"
@@ -46,7 +46,7 @@ msgstr "Gestión de alumnos"
 
 #: includes/admin/class-sensei-learner-management.php:85
 msgid "Learners per page"
-msgstr "Alumnos por página"
+msgstr ""
 
 #: includes/admin/class-sensei-learner-management.php112,
 #: includes/class-sensei-analysis-course-list-table.php300,
@@ -98,7 +98,7 @@ msgstr "¡Alumno añadido con éxito!"
 
 #: includes/admin/class-sensei-learner-management.php:551
 msgid "Learners added successfully!"
-msgstr "Alumnos añadidos exitosamente"
+msgstr ""
 
 #: includes/admin/class-sensei-learner-management.php:557
 msgid "Error adding learner."
@@ -336,7 +336,7 @@ msgstr "Agregar al menú"
 
 #: includes/class-sensei-admin.php:1589
 msgid "Settings > General"
-msgstr "Ajustes > General"
+msgstr ""
 
 #: includes/class-sensei-admin.php:1590
 msgid "add a new Administrator"
@@ -1214,7 +1214,7 @@ msgstr ""
 
 #: includes/class-sensei-learners-admin-bulk-actions-controller.php:102
 msgid "Reset Course(s)"
-msgstr "Resetear curso(s)"
+msgstr ""
 
 #: includes/class-sensei-learners-admin-bulk-actions-controller.php:103
 msgid "Recalculate Course(s) Completion (notify on complete)"
@@ -2633,7 +2633,7 @@ msgstr "Ajustes opcionales para las funciones WooCommerce. "
 
 #: includes/class-sensei-settings.php:137
 msgid "WooCommerce Memberships"
-msgstr "Miembros de la tienda"
+msgstr ""
 
 #: includes/class-sensei-settings.php:138
 msgid "Optional settings for WooCommerce Memberships functions."
@@ -3934,7 +3934,7 @@ msgstr ""
 
 #: includes/domain-models/class-sensei-domain-models-course.php:157
 msgid "Validation Error"
-msgstr "Error de validación"
+msgstr ""
 
 #: includes/domain-models/class-sensei-domain-models-model-abstract.php:229
 msgid "%s cannot be empty"

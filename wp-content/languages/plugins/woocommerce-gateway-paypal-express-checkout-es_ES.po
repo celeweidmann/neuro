@@ -1,15 +1,40 @@
-# Translation of Plugins - WooCommerce PayPal Express Checkout Payment Gateway - Stable (latest release) in Spanish (Spain)
-# This file is distributed under the same license as the Plugins - WooCommerce PayPal Express Checkout Payment Gateway - Stable (latest release) package.
+# Translation of Plugins - WooCommerce PayPal Checkout Payment Gateway - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WooCommerce PayPal Checkout Payment Gateway - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-06-28 08:02:34+0000\n"
+"PO-Revision-Date: 2018-07-05 07:21:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: es\n"
-"Project-Id-Version: Plugins - WooCommerce PayPal Express Checkout Payment Gateway - Stable (latest release)\n"
+"Project-Id-Version: Plugins - WooCommerce PayPal Checkout Payment Gateway - Stable (latest release)\n"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce PayPal Checkout Gateway"
+msgstr "Pasarela de pago exprés de PayPal para WooCommerce"
+
+#: includes/settings/settings-ppec.php:257
+msgid "Enable PayPal Checkout"
+msgstr "Activar PayPal Exprés"
+
+#: includes/settings/settings-ppec.php:51
+msgid "This enables PayPal Credit, which displays a PayPal Credit button next to the primary PayPal Checkout button. PayPal Checkout lets you give customers access to financing through PayPal Credit® - at no additional cost to you. You get paid up front, even though customers have more time to pay. A pre-integrated payment button shows up next to the PayPal Button, and lets customers pay quickly with PayPal Credit®. (Should be unchecked for stores involved in Real Money Gaming.)"
+msgstr "Esto activa el crédito de PayPal, que muestra un botón de crédito PayPal junto al botón principal de pago con PayPal. PayPal Exprés te permite dar a tus clientes acceso a financiación mediante crédito PayPal© - sin coste adicional para ti. Tu recibes primero el pago, aunque los clientes tengan más tiempo para pagar. Un botón de pago integrado se muestra junto al botón de PayPal, y permite a los clientes pagar rápidamente con crédito© PayPal. (Debería estar sin activar para tiendas con juegos en tiempo real.)"
+
+#: includes/settings/settings-ppec.php:383
+msgid "Customize the appearance of PayPal Checkout on the PayPal side."
+msgstr "Personaliza la apariencia de PayPal Exprés en la parte de PayPal."
+
+#: includes/class-wc-gateway-ppec-privacy.php:268
+msgid "PayPal Checkout Order Data Erased."
+msgstr "Datos del pedido de PayPal Exprés borrados."
+
+#: includes/abstracts/abstract-wc-gateway-ppec.php:18
+#: includes/class-wc-gateway-ppec-privacy.php:12
+msgid "PayPal Checkout"
+msgstr "PayPal Exprés"
 
 #: includes/settings/settings-ppec.php:681
 msgid "Configure settings specific to regular checkout"
@@ -65,7 +90,7 @@ msgstr "Adaptable"
 
 #: includes/settings/settings-ppec.php:558
 msgid "PayPal offers different sizes of the \"PayPal Checkout\" buttons, allowing you to select a size that best fits your site's theme. This setting will allow you to choose which size button(s) appear on your cart page. (The \"Responsive\" option adjusts to container size, and is available and recommended for Smart Payment Buttons.)"
-msgstr "PayPal ofrece distintos tamaños de botones de \"Pago con PayPal\"k, permitiéndote elegir el tamaño que se ajuste al tema de tu sitio. Este ajuste te permitirá elegir que tamaño de botón(es) aparecerá en tu página del carrito. (La opción \"Adaptable\" ajusta el tamaño del contenedor, y está disponible y se recomienda par los botones de pago inteligente.)"
+msgstr "PayPal ofrece distintos tamaños de botones de \"PayPal Exprés\", permitiéndote elegir el tamaño que se ajuste al tema de tu sitio. Este ajuste te permitirá elegir que tamaño de botón(es) aparecerá en tu página del carrito. (La opción \"Adaptable\" ajusta el tamaño del contenedor, y está disponible y se recomienda para los botones de pago inteligente.)"
 
 #: includes/settings/settings-ppec.php:549
 msgid "Horizontal"
@@ -124,8 +149,8 @@ msgid "Button Color"
 msgstr "Color del botón"
 
 #: includes/settings/settings-ppec.php:506
-msgid "Express Checkout's Smart Payment Buttons provide a variety of button customization options, such as color, language, shape, and multiple button layout. <a href=\"%s\">Learn more about Smart Payment Buttons</a>."
-msgstr "Los botones de pago inteligente del pago rápido ofrecen una variedad de opciones de personalización del botón, como color, idioma, forma, y diversos diseños de botón. <a href=\"%s\">Aprende más sobre los botones de pago inteligente</a>."
+msgid "PayPal Checkout's Smart Payment Buttons provide a variety of button customization options, such as color, language, shape, and multiple button layout. <a href=\"%s\">Learn more about Smart Payment Buttons</a>."
+msgstr "Los botones de pago inteligente de PayPal Exprés ofrecen una variedad de opciones de personalización del botón, como color, idioma, forma, y diversos diseños de botón. <a href=\"%s\">Aprende más sobre los botones de pago inteligente</a>."
 
 #: includes/settings/settings-ppec.php:505
 msgid "Use Smart Payment Buttons"
@@ -152,16 +177,12 @@ msgid "This option is disabled. Currently PayPal Credit only available for U.S. 
 msgstr "Esta opción está inactiva. El crédito de PayPal actualmente solo está disponible para comercios de los EEUU que usan como moneda los USD."
 
 #: includes/class-wc-gateway-ppec-plugin.php:240
-msgid "<p>PayPal&nbsp;Express&nbsp;Checkout with new <strong>Smart&nbsp;Payment&nbsp;Buttons™</strong> gives your customers the power to pay the way they want without leaving your site.</p><p>The <strong>existing buttons will be deprecated and removed</strong> in future releases. Upgrade to Smart&nbsp;Payment&nbsp;Buttons in the <a href=\"%s\">PayPal&nbsp;Express&nbsp;Checkout settings</a>.</p>"
+msgid "<p>PayPal&nbsp;Checkout with new <strong>Smart&nbsp;Payment&nbsp;Buttons™</strong> gives your customers the power to pay the way they want without leaving your site.</p><p>The <strong>existing buttons will be deprecated and removed</strong> in future releases. Upgrade to Smart&nbsp;Payment&nbsp;Buttons in the <a href=\"%s\">PayPal&nbsp;Checkout settings</a>.</p>"
 msgstr "<p>PayPal&nbsp;Express&nbsp;Checkout con los nuevos <strong>botones&nbsp;de&nbsp;pago&nbsp;inteligente™</strong> ofrece a tus clientes el potencial de pagar como prefieran sin abandonar tu sitio.</p><p>Los <strong>botones actuales quedan obsoletos y se eliminarán</strong> en futuras versiones. Actualiza a los botones&nbsp;de&nbsp;pago&nbsp;inteligente en los <a href=\"%s\">ajustes&nbsp;de&nbsp;PayPal&nbsp;Express&nbsp;Checkout </a>.</p>"
 
-#: includes/class-wc-gateway-ppec-privacy.php:268
-msgid "PayPal Express Checkout Order Data Erased."
-msgstr "Datos de pedidos de PayPal Express Checkout borrados."
-
 #: includes/class-wc-gateway-ppec-privacy.php:245
-msgid "PayPal Express Checkout Subscriptions Data Erased."
-msgstr "Datos de pedidos de suscripciones PayPal Express Checkout borrados."
+msgid "PayPal Checkout Subscriptions Data Erased."
+msgstr "Datos de pedidos de suscripciones PayPal Exprés borrados."
 
 #: includes/class-wc-gateway-ppec-privacy.php:230
 msgid "Order ID %d contains an active Subscription"
@@ -240,8 +261,8 @@ msgid "PayPal only returns a shipping address back to the website. To make sure 
 msgstr "PayPal solo devuelve una dirección de envío al sitio. Para asegurar que también se devuelve la dirección de facturación, por favor, activa esta funcionalidad en tu cuenta de PayPal llamando al %1$ssoporte técnico de PayPal%2$s."
 
 #: includes/settings/settings-ppec.php:645
-msgid "Enable Express checkout on Single Product view."
-msgstr "Permite el pago rápido en la visualización de producto."
+msgid "Enable PayPal Checkout on Single Product view."
+msgstr "Permite PayPal Exprés en la visualización de producto."
 
 #: includes/settings/settings-ppec.php:639
 #: includes/settings/settings-ppec.php:642
@@ -249,12 +270,12 @@ msgid "Checkout on Single Product"
 msgstr "Pago en la página del producto"
 
 #: includes/settings/settings-ppec.php:603
-msgid "This shows or hides the PayPal checkout button on the cart page."
-msgstr "Esto muestra u oculta el botón de pago por PayPal en la página del carrito."
+msgid "This shows or hides the PayPal Checkout button on the cart page."
+msgstr "Esto muestra u oculta el botón de pago por PayPal Exprés en la página del carrito."
 
 #: includes/settings/settings-ppec.php:602
-msgid "Enable PayPal checkout on the cart page"
-msgstr "Permitir pago con PayPal en la página del carrito."
+msgid "Enable PayPal Checkout on the cart page"
+msgstr "Permitir pago con PayPal Exprés en la página del carrito."
 
 #: includes/settings/settings-ppec.php:599
 msgid "Checkout on cart page"
@@ -269,10 +290,6 @@ msgstr "¿Haciendo trampas?"
 #. Author of the plugin/theme
 msgid "WooCommerce"
 msgstr "WooCommerce"
-
-#: includes/settings/settings-ppec.php:587
-msgid "This enables PayPal Credit, which displays a PayPal Credit button together with the PayPal Checkout button if the buyer is eligible. PayPal Express Checkout lets you give customers access to financing through PayPal Credit® - at no additional cost to you. You get paid up front, even though customers have more time to pay. A pre-integrated payment button shows up next to the PayPal Button, and lets customers pay quickly with PayPal Credit®."
-msgstr "Esto activa el crédito de PayPal, que muestra un botón de PayPal Credit junto al botón de pago express. PayPal Express Checkout te permite dar acceso a tus clientes a PayPal Credit© - sin coste adicional para ti. Tu cobrarás primero, aunque tus clientes tengan más tiempo para pagar. Se muestra un botón de pago pre-integrado junto al botón de PayPal, y permite a los clientes pagar rápidamente con PayPal Credit©."
 
 #: includes/settings/settings-ppec.php:425
 msgctxt "Type of PayPal page"
@@ -321,8 +338,8 @@ msgid "Brand Name"
 msgstr "Nombre de la marca"
 
 #: includes/settings/settings-ppec.php:499
-msgid "Customize the appearance of Express Checkout on your site."
-msgstr "Personaliza la apariencia de Express Checkout en tu sitio."
+msgid "Customize the appearance of PayPal Checkout on your site."
+msgstr "Personaliza la apariencia de PayPal Exprés en tu sitio."
 
 #: includes/settings/settings-ppec.php:279
 msgid "Account Settings"
@@ -393,8 +410,8 @@ msgid "Settings"
 msgstr "Ajustes"
 
 #: includes/class-wc-gateway-ppec-plugin.php:331
-msgid "PayPal Express Checkout is almost ready. To get started, <a href=\"%s\">connect your PayPal account</a>."
-msgstr "PayPal Express Checkout esta casi listo. Para empezar, <a href=\"%s\">conecta tu cuenta de PayPal</a>."
+msgid "PayPal Checkout is almost ready. To get started, <a href=\"%s\">connect your PayPal account</a>."
+msgstr "PayPal Express esta casi listo. Para empezar, <a href=\"%s\">conecta tu cuenta de PayPal</a>."
 
 #. translators: placeholder is blogname
 #: includes/class-wc-gateway-ppec-client.php:394
@@ -419,16 +436,12 @@ msgid "https://woocommerce.com"
 msgstr "https://woocommerce.com"
 
 #. Description of the plugin/theme
-msgid "A payment gateway for PayPal Express Checkout (https://www.paypal.com/us/webapps/mpp/express-checkout)."
-msgstr "Una pasarela de pago para PayPal Express Checkout (https://www.paypal.com/us/webapps/mpp/express-checkout)."
+msgid "A payment gateway for PayPal Checkout (https://www.paypal.com/us/webapps/mpp/paypal-checkout)."
+msgstr "Una pasarela de pago para PayPal Exprés (https://www.paypal.com/us/webapps/mpp/paypal-checkout)."
 
 #. Plugin URI of the plugin/theme
 msgid "https://woocommerce.com/products/woocommerce-gateway-paypal-express-checkout/"
 msgstr "https://woocommerce.com/products/woocommerce-gateway-paypal-express-checkout/"
-
-#. Plugin Name of the plugin/theme
-msgid "WooCommerce PayPal Express Checkout Gateway"
-msgstr "WooCommerce PayPal Express Checkout Gateway"
 
 #: includes/settings/settings-ppec.php:492
 msgid "Do not send line items to PayPal"
@@ -602,8 +615,8 @@ msgid "Title"
 msgstr "Título"
 
 #: includes/settings/settings-ppec.php:675
-msgid "This enables the PayPal mark, which can be shown on regular WooCommerce checkout to use PayPal Express Checkout like a regular WooCommerce gateway."
-msgstr "Esto permite la marca de PayPal, que puede mostrarse en la página de pago normal de WooCommerce para utilizar PayPal Express Checkout como cualquier otra pasarela de pago normal de WooCommerce."
+msgid "This enables the PayPal mark, which can be shown on regular WooCommerce checkout to use PayPal Checkout like a regular WooCommerce gateway."
+msgstr "Esto permite la marca de PayPal, que puede mostrarse en la página de pago normal de WooCommerce para utilizar PayPal Exprés como cualquier otra pasarela de pago normal de WooCommerce."
 
 #: includes/settings/settings-ppec.php:674
 msgid "Enable the PayPal Mark on regular checkout"
@@ -646,12 +659,8 @@ msgid "Button Size"
 msgstr "Tamaño del botón"
 
 #: includes/settings/settings-ppec.php:258
-msgid "This enables PayPal Express Checkout which allows customers to checkout directly via PayPal from your cart page."
-msgstr "Esto activa PayPal Express Checkout, lo que permite a los clientes pagar directamente mediante PayPal desde tu página de carrito."
-
-#: includes/settings/settings-ppec.php:257
-msgid "Enable PayPal Express Checkout"
-msgstr "Activar PayPal Express Checkout"
+msgid "This enables PayPal Checkout which allows customers to checkout directly via PayPal from your cart page."
+msgstr "Esto activa PayPal Exprés, lo que permite a los clientes pagar directamente mediante PayPal desde tu página de carrito."
 
 #: includes/settings/settings-ppec.php:255
 msgid "Enable/Disable"
@@ -679,24 +688,24 @@ msgid "PayPal Credit"
 msgstr "Crédito en PayPal"
 
 #: includes/class-wc-gateway-ppec-plugin.php:304
-msgid "WooCommerce Gateway PayPal Express Checkout requires OpenSSL >= 1.0.1 to be installed on your server"
-msgstr "WooCommerce Gateway PayPal Express Checkout requiere que OpenSSL >= 1.0.1 esté instalado en tu servidor"
+msgid "WooCommerce Gateway PayPal Checkout requires OpenSSL >= 1.0.1 to be installed on your server"
+msgstr "WooCommerce Gateway PayPal Exprés requiere que OpenSSL >= 1.0.1 esté instalado en tu servidor"
 
 #: includes/class-wc-gateway-ppec-plugin.php:301
-msgid "WooCommerce Gateway PayPal Express Checkout requires cURL to be installed on your server"
-msgstr "WooCommerce Gateway PayPal Express Checkout requiere que cURL esté instalado en tu servidor"
+msgid "WooCommerce Gateway PayPal Checkout requires cURL to be installed on your server"
+msgstr "WooCommerce Gateway PayPal Exprés requiere que cURL esté instalado en tu servidor"
 
 #: includes/class-wc-gateway-ppec-plugin.php:297
-msgid "WooCommerce Gateway PayPal Express Checkout requires WooCommerce version 2.5 or greater"
-msgstr "WooCommerce Gateway PayPal Express Checkout requiere la versión 2.5 o superior de WooCommerce"
+msgid "WooCommerce Gateway PayPal Checkout requires WooCommerce version 2.5 or greater"
+msgstr "WooCommerce Gateway PayPal Exprés requiere la versión 2.5 o superior de WooCommerce"
 
 #: includes/class-wc-gateway-ppec-plugin.php:293
-msgid "WooCommerce Gateway PayPal Express Checkout requires WooCommerce to be activated"
-msgstr "WooCommerce Gateway PayPal Express Checkout requiere que WooCommerce esté activo"
+msgid "WooCommerce Gateway PayPal Checkout requires WooCommerce to be activated"
+msgstr "WooCommerce Gateway PayPal Exprés requiere que WooCommerce esté activo"
 
 #: includes/class-wc-gateway-ppec-plugin.php:156
-msgid "%s in WooCommerce Gateway PayPal Express Checkout plugin can only be called once"
-msgstr "%s en el plugin WooCommerce Gateway PayPal Express Checkout solo puede reclamado una vez"
+msgid "%s in WooCommerce Gateway PayPal Checkout plugin can only be called once"
+msgstr "%s en el plugin WooCommerce Gateway PayPal Exprés solo puede reclamado una vez"
 
 #: includes/class-wc-gateway-ppec-ips-handler.php:182
 msgid "Success!  Your PayPal account has been set up successfully."
@@ -839,7 +848,7 @@ msgstr "Lo siento, ocurrió un error al tratar de obtener tu información de Pay
 #: includes/class-wc-gateway-ppec-checkout-handler.php:432
 #: includes/class-wc-gateway-ppec-checkout-handler.php:472
 msgid "Your PayPal checkout session has expired. Please check out again."
-msgstr "Tu sesión de pago en PayPal ha expirado. Por favor, inténtalo de nuevo."
+msgstr "Tu sesión de pago en PayPal Exprés ha caducado. Por favor, inténtalo de nuevo."
 
 #: includes/class-wc-gateway-ppec-checkout-handler.php:345
 msgid "Shipping details"
@@ -934,7 +943,7 @@ msgstr "Tu dirección de envío no puede estar en un país distinto de tu país 
 
 #: includes/class-wc-gateway-ppec-api-error.php:35
 msgid "You have not approved this transaction on the PayPal website.  Please check out again and be sure to complete all steps of the PayPal checkout process."
-msgstr "No has aprobado esta transacción en la web de PayPal. Por favor, inténtalo de nuevo y asegúrate de completar todos los pasos del proceso de pago en PayPal."
+msgstr "No has aprobado esta transacción en la web de PayPal. Por favor, inténtalo de nuevo y asegúrate de completar todos los pasos del proceso de pago en PayPal Exprés."
 
 #: includes/class-wc-gateway-ppec-api-error.php:33
 msgid "Your PayPal payment could not be processed.  Please return to PayPal and select a new method of payment."
@@ -954,11 +963,11 @@ msgstr "Tu pago desde PayPal se ha completado. Por favor, contacta con el propie
 
 #: includes/class-wc-gateway-ppec-api-error.php:27
 msgid "Your PayPal checkout session has expired.  Please check out again."
-msgstr "Tu sesión de pago en PayPal ha expirado. Por favor, inténtalo de nuevo."
+msgstr "Tu sesión de pago en PayPal Exprés ha caducado. Por favor, inténtalo de nuevo."
 
 #: includes/class-wc-gateway-ppec-api-error.php:26
 msgid "Your PayPal checkout session is invalid.  Please check out again."
-msgstr "Tus sesiones de pago de PayPal no son válidas. Por favor, inténtalo de nuevo."
+msgstr "Tus sesiones de pago de PayPal Exprés no son válidas. Por favor, inténtalo de nuevo."
 
 #: includes/class-wc-gateway-ppec-api-error.php:23
 msgid "PayPal rejected your email address because it is not valid.  Please double-check your email address and try again."
@@ -969,16 +978,16 @@ msgid "Unable to communicate with PayPal.  Please try your payment again."
 msgstr "No fue posible comunicar con PayPal. Intenta tu pago de nuevo."
 
 #: includes/class-wc-gateway-ppec-admin-handler.php:220
-msgid "PayPal Express Checkout charge voided (Charge ID: %s)"
-msgstr "Cargo de PayPal Express Checkout anulado (ID del cargo: %s)"
+msgid "PayPal Checkout charge voided (Charge ID: %s)"
+msgstr "Cargo de PayPal Exprés anulado (ID del cargo: %s)"
 
 #: includes/class-wc-gateway-ppec-admin-handler.php:218
 msgid "Unable to void charge!"
 msgstr "¡No fue posible anular el cargo!"
 
 #: includes/class-wc-gateway-ppec-admin-handler.php:176
-msgid "PayPal Express Checkout charge complete (Charge ID: %s)"
-msgstr "Cargo en PayPal Express Checkout completo (ID del cargo: %s)"
+msgid "PayPal Checkout charge complete (Charge ID: %s)"
+msgstr "Cargo en PayPal Exprés completo (ID del cargo: %s)"
 
 #: includes/class-wc-gateway-ppec-admin-handler.php:168
 msgid "Unable to capture charge!"
@@ -1076,8 +1085,3 @@ msgstr "Seguir con el pago"
 #: includes/abstracts/abstract-wc-gateway-ppec.php:19
 msgid "Allow customers to conveniently checkout directly with PayPal."
 msgstr "Permite a los clientes pagar directa y fácilmente con Paypal."
-
-#: includes/abstracts/abstract-wc-gateway-ppec.php:18
-#: includes/class-wc-gateway-ppec-privacy.php:12
-msgid "PayPal Express Checkout"
-msgstr "PayPal Express Checkout"
