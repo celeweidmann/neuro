@@ -93,7 +93,14 @@ a.button.send-message-button {
     padding: 10px 30px 10px 30px;
     background-color: $lightblue;
     &:hover {
-        background-color: $violet;
+    @include  border-radius(100px);
     } 
 }
  
+.course-template-default .module .module-lessons ul li a .preview-label{
+    @include  border-radius(100px);
+    background-color: $yellow;
+    &::before {
+        content: '\f005';
+    } 
+} 
