@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Sensei\n"
 "Report-Msgid-Bugs-To: https://www.transifex.com/woothemes/sensei-by-"
 "woothemes/\n"
-"PO-Revision-Date: 2018-07-26 14:12+0000\n"
+"PO-Revision-Date: 2018-08-09 14:24+0000\n"
 "Last-Translator: cele weidmann <celeweidmann@gmail.com>\n"
 "Language-Team: Español\n"
 "MIME-Version: 1.0\n"
@@ -76,7 +76,7 @@ msgstr "¿Estás seguro que quieres eliminar a este usuario de esta lección?"
 #: includes/admin/class-sensei-learner-management.php118,
 #: includes/class-sensei-learners-admin-bulk-actions-controller.php:203
 msgid "Are you sure you want to remove the user from this course?"
-msgstr "¿Estás seguro que quieres eliminar a este usuario de este curso?"
+msgstr "¿Estás seguro que quieres eliminar a este usuario de esta diplomatura?"
 
 #: includes/admin/class-sensei-learner-management.php:119
 msgid ""
@@ -111,7 +111,7 @@ msgstr ""
 #: includes/class-sensei-admin.php88, includes/class-sensei-admin.php88,
 #: includes/class-sensei-admin.php:1070
 msgid "Order Courses"
-msgstr "Ordenar Cursos"
+msgstr "Ordenar Diplomaturas"
 
 #: includes/class-sensei-admin.php89, includes/class-sensei-admin.php89,
 #: includes/class-sensei-admin.php:1182
@@ -140,7 +140,7 @@ msgstr "detalle-cursos"
 #: includes/class-sensei-posttypes.php614,
 #: includes/class-sensei-settings.php:109
 msgid "Courses"
-msgstr "Cursos"
+msgstr "Diplomaturas"
 
 #: includes/class-sensei-admin.php:246
 msgctxt "page_slug"
@@ -150,14 +150,15 @@ msgstr "mis-cursos"
 #: includes/class-sensei-admin.php246, includes/class-sensei-admin.php1422,
 #: widgets/widget-woothemes-sensei-course-component.php:319
 msgid "My Courses"
-msgstr "Mis Cursos"
+msgstr "Mis Diplomaturas"
 
 #: includes/class-sensei-admin.php:325
 msgid ""
 "<strong>Welcome to Sensei</strong> &#8211; You're almost ready to create "
 "some courses!"
 msgstr ""
-"<strong>Bienvenido a Sensei</strong> &#8211; Ya está listo para crear cursos!"
+"<strong>Bienvenido a Sensei</strong> &#8211; Ya está listo para crear "
+"diplomaturas!"
 
 #: includes/class-sensei-admin.php:333
 msgid "Install Sensei Pages"
@@ -173,7 +174,7 @@ msgid ""
 "creating courses!"
 msgstr ""
 "<strong>Se ha instalado Sensei</strong> &#8211; ¡Ya estás casi listo para "
-"crear cursos!"
+"crear diplomaturas!"
 
 #: includes/class-sensei-admin.php364, includes/class-sensei-settings.php:32
 msgid "Settings"
@@ -222,16 +223,16 @@ msgid ""
 "This will duplicate the course lessons along with all of their quizzes and "
 "questions. Are you sure you want to do this?"
 msgstr ""
-"Esto duplicará las lecciones del curso, junto con todas sus cuestionarios y "
-"preguntas. ¿Estás seguro de que quieres hacer esto?"
+"Esto duplicará las lecciones de la diplomatura, junto con todas sus "
+"cuestionarios y preguntas. ¿Estás seguro de que quieres hacer esto?"
 
 #: includes/class-sensei-admin.php:450
 msgid "Duplicate this course"
-msgstr "Duplicar este curso"
+msgstr "Duplicar esta diplomatura"
 
 #: includes/class-sensei-admin.php:451
 msgid "Duplicate this course with its lessons"
-msgstr "Duplicar este curso con sus lecciones"
+msgstr "Duplicar esta diplomatura con sus lecciones"
 
 #: includes/class-sensei-admin.php:451
 msgid "Duplicate (with lessons)"
@@ -255,15 +256,15 @@ msgstr "(Duplicado)"
 
 #: includes/class-sensei-admin.php:720
 msgid "Show all courses"
-msgstr "Mostrar todos los cursos"
+msgstr "Mostrar todos las diplomaturas"
 
 #: includes/class-sensei-admin.php:1079
 msgid "The course order has been saved."
-msgstr "El orden del curso se ha guardado."
+msgstr "El orden de la diplomatura se ha guardado."
 
 #: includes/class-sensei-admin.php:1133
 msgid "Save course order"
-msgstr "Guardar orden del curso"
+msgstr "Guardar orden de la diplomatura"
 
 #: includes/class-sensei-admin.php:1192
 msgid "The lesson order has been saved."
@@ -273,7 +274,7 @@ msgstr "El orden de la lección se ha guardado."
 #: includes/class-sensei-grading-main.php329,
 #: includes/class-sensei-grading.php457, includes/class-sensei-modules.php:894
 msgid "Select a course"
-msgstr "Selecciona un curso"
+msgstr "Selecciona una diplomatura"
 
 #: includes/class-sensei-admin.php1221, includes/class-sensei-modules.php:907
 msgid "Select"
@@ -286,7 +287,7 @@ msgstr "Otras lecciones"
 
 #: includes/class-sensei-admin.php:1338
 msgid "There are no lessons in this course."
-msgstr "No hay lecciones en este curso."
+msgstr "No hay lecciones en esta diplomatura."
 
 #: includes/class-sensei-admin.php:1345
 msgid "Save lesson order"
@@ -494,15 +495,15 @@ msgstr "No hay lecciones."
 
 #: includes/class-sensei-analysis-course-list-table.php:578
 msgid "Other Learners taking this Course"
-msgstr "Otros alumnos haciendo este curso"
+msgstr "Otros alumnos haciendo esta diplomatura"
 
 #: includes/class-sensei-analysis-course-list-table.php:581
 msgid "Learners taking this Course"
-msgstr "Alumnos haciendo este curso"
+msgstr "Alumnos haciendo este diplomatura"
 
 #: includes/class-sensei-analysis-course-list-table.php:583
 msgid "Lessons in this Course"
-msgstr "Lecciones en este curso"
+msgstr "Lecciones en este diplomatura"
 
 #: includes/class-sensei-analysis-course-list-table.php638,
 #: includes/class-sensei-analysis-lesson-list-table.php332,
@@ -537,7 +538,7 @@ msgstr "Alumnos haciendo esta lección"
 #: includes/class-sensei-learners-main.php614,
 #: includes/class-sensei-lesson.php119, includes/class-sensei-posttypes.php:614
 msgid "Course"
-msgstr "Curso"
+msgstr "diplomatura"
 
 #: includes/class-sensei-analysis-overview-list-table.php:48
 msgid "Average Percentage"
@@ -551,17 +552,17 @@ msgstr "Fecha de registro"
 #: includes/class-sensei-course.php1627,
 #: includes/shortcodes/class-sensei-shortcode-user-courses.php:436
 msgid "Active Courses"
-msgstr "Cursos activos"
+msgstr "Diplomaturas activas"
 
 #: includes/class-sensei-analysis-overview-list-table.php68,
 #: includes/class-sensei-course.php1628,
 #: includes/shortcodes/class-sensei-shortcode-user-courses.php:437
 msgid "Completed Courses"
-msgstr "Cursos completados"
+msgstr "Diplomaturas completadas"
 
 #: includes/class-sensei-analysis-overview-list-table.php:581
 msgid "Total Courses"
-msgstr "Cursos totales"
+msgstr "Diplomaturas totales"
 
 #: includes/class-sensei-analysis-overview-list-table.php:582
 msgid "Total Lessons"
@@ -573,11 +574,11 @@ msgstr "Alumnos totales"
 
 #: includes/class-sensei-analysis-overview-list-table.php:584
 msgid "Average Courses per Learner"
-msgstr "Promedio de cursos por alumno"
+msgstr "Promedio de diplomaturas por alumno"
 
 #: includes/class-sensei-analysis-overview-list-table.php:586
 msgid "Total Completed Courses"
-msgstr "Cursos completados totales"
+msgstr "Diplomaturas completadas totales"
 
 #: includes/class-sensei-analysis-overview-list-table.php:603
 msgid "%1$sNo %2$s found%3$s"
@@ -587,12 +588,12 @@ msgstr "%1$sNo se encontró %2$s %3$s"
 #: includes/class-sensei-analysis-user-profile-list-table.php307,
 #: includes/class-sensei-learners-main.php:681
 msgid "Search Courses"
-msgstr "Buscar cursos"
+msgstr "Buscar diplomaturas"
 
 #: includes/class-sensei-analysis-user-profile-list-table.php277,
 #: includes/class-sensei-learners-main.php:497
 msgid "No courses found."
-msgstr "No se encontraron cursos."
+msgstr "No se encontraron diplomaturas."
 
 #: includes/class-sensei-analysis.php23, includes/class-sensei-analysis.php55,
 #: includes/class-sensei-analysis.php:55
@@ -610,7 +611,7 @@ msgstr "curso"
 
 #: includes/class-sensei-course-results.php:65
 msgid "Course Results: "
-msgstr "Resultados del curso:"
+msgstr "Resultados de la diplomatura:"
 
 #: includes/class-sensei-course.php179, includes/class-sensei-lesson.php:635
 msgid "WooCommerce Product"
@@ -618,27 +619,27 @@ msgstr "Producto de Tienda"
 
 #: includes/class-sensei-course.php182, includes/class-sensei-lesson.php:610
 msgid "Course Prerequisite"
-msgstr "Prerequisito del curso"
+msgstr "Prerequisito de la diplomatura"
 
 #: includes/class-sensei-course.php:184
 msgid "Featured Course"
-msgstr "Curso destacado"
+msgstr "Diplomatura destacada"
 
 #: includes/class-sensei-course.php:186
 msgid "Course Video"
-msgstr "Vídeo del curso"
+msgstr "Vídeo de la diplomatura"
 
 #: includes/class-sensei-course.php:188
 msgid "Course Lessons"
-msgstr "Lecciones del curso"
+msgstr "Lecciones de la diplomatura"
 
 #: includes/class-sensei-course.php:190
 msgid "Course Management"
-msgstr "Administración de curso"
+msgstr "Administración de diplomatura"
 
 #: includes/class-sensei-course.php:195
 msgid "Course Notifications"
-msgstr "Avisos del curso"
+msgstr "Avisos de la diplomatura"
 
 #: includes/class-sensei-course.php235, includes/class-sensei-course.php351,
 #: includes/class-sensei-course.php643, includes/class-sensei-lesson.php171,
@@ -668,11 +669,11 @@ msgstr "Por favor, añade algo primero"
 
 #: includes/class-sensei-course.php:357
 msgid "No courses exist yet. Please add some first."
-msgstr "Todavía no existen cursos. Por favor, añade alguno primero."
+msgstr "Todavía no existen diplomaturas. Por favor, añade alguno primero."
 
 #: includes/class-sensei-course.php:384
 msgid "Feature this course"
-msgstr "Destacar este curso"
+msgstr "Destacar esta diplomatura"
 
 #: includes/class-sensei-course.php404, includes/class-sensei-lesson.php:177
 msgid "Video Embed Code"
@@ -699,7 +700,7 @@ msgstr "Editar esta lección"
 
 #: includes/class-sensei-course.php:529
 msgid "No lessons exist yet for this course."
-msgstr "No hay lecciones para este curso."
+msgstr "No hay lecciones para esta diplomatura."
 
 #: includes/class-sensei-course.php:534
 msgid "Add a Lesson"
@@ -724,12 +725,12 @@ msgstr "Gestionar calificaciones"
 #: includes/class-sensei-course.php:583
 msgctxt "column name"
 msgid "Course Title"
-msgstr "Título del curso"
+msgstr "Título de la diplomatura"
 
 #: includes/class-sensei-course.php:584
 msgctxt "column name"
 msgid "Pre-requisite Course"
-msgstr "Curso requerido"
+msgstr "Diplomatura requerida"
 
 #: includes/class-sensei-course.php:586
 msgctxt "column name"
@@ -769,7 +770,7 @@ msgstr "Marcar como completado"
 #: includes/class-sensei-course.php1440, includes/class-sensei-course.php2191,
 #: includes/class-sensei-frontend.php:826
 msgid "Delete Course"
-msgstr "Eliminar curso"
+msgstr "Eliminar diplomatura"
 
 #: includes/class-sensei-course.php1465, includes/class-sensei-course.php1576,
 #: includes/class-sensei-lesson.php:1186
@@ -790,31 +791,31 @@ msgstr "Ver resultados"
 #: includes/shortcodes/class-sensei-shortcode-user-courses.php258,
 #: widgets/widget-woothemes-sensei-course-component.php:248
 msgid "You have no active courses."
-msgstr "No tienes cursos activos."
+msgstr "No tienes diplomaturas activas."
 
 #: includes/class-sensei-course.php1601,
 #: includes/shortcodes/class-sensei-shortcode-user-courses.php:239
 msgid "You have not completed any courses yet."
-msgstr "No has completado ningún curso."
+msgstr "No has completado ninguna diplomatura."
 
 #: includes/class-sensei-course.php:1603
 msgid "This learner has no active courses."
-msgstr "Este alumno no tiene cursos activos."
+msgstr "Este alumno no tiene diplomaturas activas."
 
 #: includes/class-sensei-course.php:1604
 msgid "This learner has not completed any courses yet."
-msgstr "Este alumno no ha completado ningún curso."
+msgstr "Este alumno no ha completado ningún diplomatura."
 
 #: includes/class-sensei-course.php1617, includes/class-sensei-messages.php:737
 msgid "View & reply to private messages sent to your course & lesson teachers."
 msgstr ""
-"Ver y responder mensajes privados enviados a tu curso y a profesores de las "
-"lecciones."
+"Ver y responder mensajes privados enviados a tu diplomatura y a profesores "
+"de las lecciones."
 
 #: includes/class-sensei-course.php1651,
 #: includes/shortcodes/class-sensei-shortcode-user-courses.php:262
 msgid "Start a Course!"
-msgstr "¡Empieza un curso!"
+msgstr "¡Empieza una diplomatura!"
 
 #: includes/class-sensei-course.php:1772
 msgid "Currently completed %s lesson of %s in total"
@@ -824,12 +825,12 @@ msgstr[1] "Completadas %s lecciones de un total de %s"
 
 #: includes/class-sensei-course.php:1967
 msgid "Disable notifications on this course ?"
-msgstr "¿Desactivar avisos para este curso?"
+msgstr "¿Desactivar avisos para esta diplomatura?"
 
 #: includes/class-sensei-course.php2048, includes/class-sensei-frontend.php988,
 #: includes/shortcodes/class-sensei-legacy-shortcodes.php:380
 msgid "Preview this course"
-msgstr "Previsualizar este curso"
+msgstr "Previsualizar esta diplomatura"
 
 #: includes/class-sensei-course.php2050,
 #: includes/shortcodes/class-sensei-legacy-shortcodes.php:378
@@ -862,25 +863,25 @@ msgstr "%1$s Archivo: %2$s"
 #: includes/shortcodes/class-sensei-legacy-shortcodes.php104,
 #: widgets/widget-woothemes-sensei-course-component.php:34
 msgid "New Courses"
-msgstr "Nuevos cursos"
+msgstr "Nuevas diplomaturas"
 
 #: includes/class-sensei-course.php2574,
 #: includes/shortcodes/class-sensei-legacy-shortcodes.php76,
 #: widgets/widget-woothemes-sensei-course-component.php:35
 msgid "Featured Courses"
-msgstr "Cursos destacados"
+msgstr "Diplomaturas destacadas"
 
 #: includes/class-sensei-course.php2577,
 #: includes/shortcodes/class-sensei-legacy-shortcodes.php90,
 #: widgets/widget-woothemes-sensei-course-component.php:42
 msgid "Free Courses"
-msgstr "Cursos gratuitos"
+msgstr "Diplomaturas gratuitas"
 
 #: includes/class-sensei-course.php2580,
 #: includes/shortcodes/class-sensei-legacy-shortcodes.php61,
 #: widgets/widget-woothemes-sensei-course-component.php:43
 msgid "Paid Courses"
-msgstr "Cursos de pago"
+msgstr "Diplomaturas de pago"
 
 #: includes/class-sensei-course.php2901, includes/class-sensei-wc.php:959
 msgid "log in"
@@ -888,11 +889,11 @@ msgstr "accede"
 
 #: includes/class-sensei-course.php2902, includes/class-sensei-wc.php:986
 msgid "Or %1$s to access your purchased courses"
-msgstr "O %1$s para acceder a tus cursos"
+msgstr "O %1$s para acceder a tus diplomaturas"
 
 #: includes/class-sensei-course.php:2914
 msgid "or %slog in%s to view this course."
-msgstr "Previsualizar este curso."
+msgstr "Previsualizar esta diplomatura."
 
 #: includes/class-sensei-course.php2946,
 #: includes/class-sensei-frontend.php1079,
@@ -912,7 +913,7 @@ msgstr "Primero debes completar: %1$s"
 
 #: includes/class-sensei-course.php:3244
 msgid "You must first complete %1$s before viewing this course"
-msgstr "Debes completar %1$s antes de visualizar este curso"
+msgstr "Debes completar %1$s antes de poder visualizar esta diplomatura"
 
 #: includes/class-sensei-frontend.php:665
 msgid "Back to: "
@@ -920,7 +921,7 @@ msgstr "Volver a: "
 
 #: includes/class-sensei-frontend.php675, includes/class-sensei-modules.php:525
 msgid "Back to the course"
-msgstr "Volver al curso"
+msgstr "Volver a la diplomatura"
 
 #: includes/class-sensei-frontend.php:683
 msgid "Back to the lesson"
@@ -956,11 +957,11 @@ msgstr "Reiniciar lección"
 
 #: includes/class-sensei-frontend.php:987
 msgid "You can access %d of this course's lessons for free"
-msgstr "Puedes acceder a %d lección/es de este curso gratuitamente."
+msgstr "Puedes acceder a %d lección/es de esta diplomatura gratuitamente."
 
 #: includes/class-sensei-frontend.php1049, templates/archive-course.php:38
 msgid "No courses found that match your selection."
-msgstr "No se encontró ningún curso que coincida con tu selección."
+msgstr "No se encontró ninguna diplomatura que coincida con tu selección."
 
 #: includes/class-sensei-frontend.php:1086
 msgid "Username"
@@ -986,7 +987,7 @@ msgstr "Parte de: %s"
 #: includes/class-sensei-frontend.php1133,
 #: widgets/widget-woothemes-sensei-lesson-component.php:204
 msgid "View course"
-msgstr "Ver curso"
+msgstr "Ver diplomatura"
 
 #: includes/class-sensei-frontend.php:1143
 msgid "(Preview)"
@@ -1001,8 +1002,8 @@ msgid ""
 "You have already added this Course to your cart. Please %1$s to access the "
 "course."
 msgstr ""
-"Ya has añadido este curso a tu carrito. Por favor, %1$s para acceder al "
-"curso."
+"Ya has añadido esta diplomatura a tu carrito. Por favor, %1$s para acceder a "
+"la diplomatura."
 
 #: includes/class-sensei-frontend.php1249,
 #: includes/class-sensei-frontend.php1249, includes/class-sensei-wc.php:484
@@ -1197,7 +1198,7 @@ msgstr "alumno"
 #: includes/class-sensei-learner-profiles.php71,
 #: includes/class-sensei-learner-profiles.php:140
 msgid "Courses %s is taking"
-msgstr "Cursos que está haciendo %s"
+msgstr "Diplomaturas que está haciendo %s"
 
 #: includes/class-sensei-learners-admin-bulk-actions-controller.php56,
 #: includes/class-sensei-learners-admin-bulk-actions-view.php:158
@@ -1226,7 +1227,7 @@ msgstr ""
 
 #: includes/class-sensei-learners-admin-bulk-actions-controller.php:206
 msgid "Select Course"
-msgstr "Seleccionar curso"
+msgstr "Seleccionar diplomatura"
 
 #: includes/class-sensei-learners-admin-bulk-actions-controller.php:277
 msgid "This bulk action is not supported"
@@ -1234,7 +1235,7 @@ msgstr ""
 
 #: includes/class-sensei-learners-admin-bulk-actions-controller.php:280
 msgid "Invalid Course"
-msgstr "Curso no válido"
+msgstr "Diplomatura no válida"
 
 #: includes/class-sensei-learners-admin-bulk-actions-controller.php:284
 msgid "Bulk learner action succeeded"
@@ -1256,7 +1257,7 @@ msgstr ""
 
 #: includes/class-sensei-learners-admin-bulk-actions-view.php:144
 msgid "Select Course(s)"
-msgstr "Seleccionar curso(s)"
+msgstr "Seleccionar diplomatura(s)"
 
 #: includes/class-sensei-learners-admin-bulk-actions-view.php:150
 msgid "Apply"
@@ -1264,7 +1265,7 @@ msgstr "Guardar"
 
 #: includes/class-sensei-learners-admin-bulk-actions-view.php:181
 msgid "Select Courses"
-msgstr "Seleccionar cursos"
+msgstr "Seleccionar diplomaturas"
 
 #: includes/class-sensei-learners-admin-bulk-actions-view.php194,
 #: includes/class-sensei-lesson.php:1144
@@ -1291,7 +1292,7 @@ msgstr "leccion"
 #: includes/class-sensei.php686, includes/class-sensei.php720,
 #: includes/class-sensei.php774, includes/class-sensei.php:786
 msgid "course"
-msgstr "curso"
+msgstr "diplomatura"
 
 #: includes/class-sensei-learners-main.php:287
 msgid "Remove from %1$s"
@@ -1313,12 +1314,12 @@ msgstr ""
 #: includes/class-sensei-learners-main.php525,
 #: includes/class-sensei-lesson.php:674
 msgid "Course Category"
-msgstr "Categoría del curso"
+msgstr "Categoría de la diplomatura"
 
 #: includes/class-sensei-learners-main.php527,
 #: includes/class-sensei-posttypes.php:425
 msgid "All Course Categories"
-msgstr "Todas las categorías del curso"
+msgstr "Todas las categorías de la diplomatura"
 
 #: includes/class-sensei-learners-main.php:578
 msgid "%1$sBack to %2$s%3$s"
@@ -1338,7 +1339,7 @@ msgstr "Completar lección para el alumno"
 
 #: includes/class-sensei-learners-main.php:641
 msgid "Complete course for learner"
-msgstr "Completar curso para el alumno"
+msgstr "Completar diplomatura para el alumno"
 
 #: includes/class-sensei-learners-main.php:644
 msgid "Search for a user by typing their name or username."
@@ -1353,8 +1354,8 @@ msgid ""
 "Learner will also be added to the course '%1$s' if they are not already "
 "taking it."
 msgstr ""
-"El alumno también será agregado al curso  '%1$s'  si es que ya no lo está "
-"haciendo."
+"El alumno también será agregado a la diplomatura  '%1$s'  si es que ya no la "
+"está haciendo."
 
 #: includes/class-sensei-lesson.php:122
 msgid "Prerequisite"
@@ -1394,11 +1395,11 @@ msgstr "Permitir que pueda verse esta lección sin comprarla/acceder"
 
 #: includes/class-sensei-lesson.php:597
 msgid "Add New Course"
-msgstr "Añadir un nuevo curso"
+msgstr "Añadir un nueva diplomatura"
 
 #: includes/class-sensei-lesson.php:604
 msgid "Course Title"
-msgstr "Título del curso"
+msgstr "Título de la diplomatura"
 
 #: includes/class-sensei-lesson.php:607
 msgid "Description"
@@ -1406,11 +1407,11 @@ msgstr "Descripción"
 
 #: includes/class-sensei-lesson.php:678
 msgid "Save Course"
-msgstr "Guardar curso"
+msgstr "Guardar diplomatura"
 
 #: includes/class-sensei-lesson.php:678
 msgid "Add Course"
-msgstr "Añadir curso"
+msgstr "Añadir diplomatura"
 
 #: includes/class-sensei-lesson.php681, includes/class-sensei-lesson.php1010,
 #: includes/class-sensei-lesson.php:1010
@@ -1769,7 +1770,7 @@ msgstr "Título de la lección"
 #: includes/class-sensei-lesson.php:1894
 msgctxt "column name"
 msgid "Course"
-msgstr "Curso"
+msgstr "Diplomatura"
 
 #: includes/class-sensei-lesson.php:1895
 msgctxt "column name"
@@ -1798,7 +1799,7 @@ msgstr "Ningún cambio"
 
 #: includes/class-sensei-lesson.php:3132
 msgid "Lesson Course"
-msgstr "Lección del curso"
+msgstr "Lección de la diplomatura"
 
 #: includes/class-sensei-lesson.php3155, includes/class-sensei-lesson.php:3176
 msgid "No"
@@ -1857,12 +1858,12 @@ msgstr "Registrarse"
 msgid ""
 "This is a preview lesson. Please purchase the %1$s to access all lessons."
 msgstr ""
-"Esta es una previsualización de la lección. Por favor compra el/la %1$s para "
+"Esta es una previsualización de la lección. Por favor compra la %1$s para "
 "acceder a todas las lecciones."
 
 #: includes/class-sensei-lesson.php3650, includes/class-sensei-lesson.php:3670
 msgid "Please purchase the %1$s before starting the lesson."
-msgstr "Por favor compra el %1$s antes de comenzar esta lección."
+msgstr "Por favor compra la %1$s antes de comenzar esta lección."
 
 #: includes/class-sensei-lesson.php3692, includes/class-sensei.php:730
 msgid ""
@@ -1936,7 +1937,7 @@ msgstr "Contactar con el profesor de la lección"
 
 #: includes/class-sensei-messages.php:190
 msgid "Contact Course Teacher"
-msgstr "Contactar con el profesor del curso"
+msgstr "Contactar con el profesor de la diplomatura"
 
 #: includes/class-sensei-messages.php:192
 msgid "Contact Teacher"
@@ -1984,7 +1985,7 @@ msgstr "Módulo"
 
 #: includes/class-sensei-modules.php:161
 msgid "Course Modules"
-msgstr "Módulos del curso"
+msgstr "Módulos de la diplomatura"
 
 #: includes/class-sensei-modules.php:187
 msgid ""
@@ -1992,7 +1993,7 @@ msgid ""
 "first.%2$s"
 msgstr ""
 "Todavía no hay módulos disponibles para esta lección. %1$sPor favor "
-"selecciona primero un curso.%2$s"
+"selecciona primero una diplomatura.%2$s"
 
 #: includes/class-sensei-modules.php:230
 msgid ""
@@ -2000,23 +2001,23 @@ msgid ""
 "course%4$s.%2$s"
 msgstr ""
 "Todavía no hay módulos disponibles para esta lección. %1$sPor favor agrega "
-"algunos para %3$sel curso%4$s.%2$s"
+"algunos para %3$sla diplomatura%4$s.%2$s"
 
 #: includes/class-sensei-modules.php300, includes/class-sensei-modules.php:357
 msgid "Course(s)"
-msgstr "Curso(s)"
+msgstr "Diplomatura(s)"
 
 #: includes/class-sensei-modules.php:305
 msgid "Search for courses..."
-msgstr "Buscar cursos..."
+msgstr "Buscar diplomaturas..."
 
 #: includes/class-sensei-modules.php:314
 msgid "Search for and select the courses that this module will belong to."
-msgstr "Busca y selecciona los cursos a los que este módulo pertenecerá."
+msgstr "Busca y selecciona las diplomaturas a los que este módulo pertenecerá."
 
 #: includes/class-sensei-modules.php:436
 msgid "No course"
-msgstr "No hay cursos"
+msgstr "No hay diplomaturas"
 
 #: includes/class-sensei-modules.php:514
 msgid "Back to the module"
@@ -2040,7 +2041,7 @@ msgstr "Ordenar módulos"
 
 #: includes/class-sensei-modules.php:883
 msgid "The module order has been saved for this course."
-msgstr "El orden de los módulos de este curso ha sido guardado."
+msgstr "El orden de los módulos de esta diplomatura ha sido guardado."
 
 #: includes/class-sensei-modules.php:945
 msgid "Save module order"
@@ -2048,7 +2049,7 @@ msgstr "Guardar orden de los módulos"
 
 #: includes/class-sensei-modules.php:946
 msgid "Edit course"
-msgstr "Editar curso"
+msgstr "Editar diplomatura"
 
 #: includes/class-sensei-modules.php:966
 msgid "Module order"
@@ -2060,7 +2061,7 @@ msgstr "Ordenar módulos"
 
 #: includes/class-sensei-modules.php:1364
 msgid "Search for courses"
-msgstr "Buscar cursos"
+msgstr "Buscar diplomaturas"
 
 #: includes/class-sensei-modules.php:1601
 msgid "Search Modules"
@@ -2101,7 +2102,7 @@ msgstr "Módulos no encontrados."
 #: includes/class-sensei-posttypes.php:120
 msgctxt "post type single url base"
 msgid "course"
-msgstr "curso"
+msgstr "diplomatura"
 
 #: includes/class-sensei-posttypes.php:224
 msgctxt "post type single slug"
@@ -2131,44 +2132,44 @@ msgstr "mensajes"
 #: includes/class-sensei-posttypes.php:422
 msgctxt "taxonomy general name"
 msgid "Course Categories"
-msgstr "Categorías del curso"
+msgstr "Categorías de la diplomatura"
 
 #: includes/class-sensei-posttypes.php:423
 msgctxt "taxonomy singular name"
 msgid "Course Category"
-msgstr "Categoría del curso"
+msgstr "Categoría de la diplomatura"
 
 #: includes/class-sensei-posttypes.php:424
 msgid "Search Course Categories"
-msgstr "Buscar categorías del curso"
+msgstr "Buscar categorías de la diplomatura"
 
 #: includes/class-sensei-posttypes.php:426
 msgid "Parent Course Category"
-msgstr "Categoría superior del curso"
+msgstr "Categoría superior de la diplomatura"
 
 #: includes/class-sensei-posttypes.php:427
 msgid "Parent Course Category:"
-msgstr "Categoría superior del curso:"
+msgstr "Categoría superior de la diplomatura:"
 
 #: includes/class-sensei-posttypes.php:428
 msgid "Edit Course Category"
-msgstr "Editar categoría del curso"
+msgstr "Editar categoría de la diplomatura"
 
 #: includes/class-sensei-posttypes.php:429
 msgid "Update Course Category"
-msgstr "Actualizar categoría del curso"
+msgstr "Actualizar categoría de la diplomatura"
 
 #: includes/class-sensei-posttypes.php:430
 msgid "Add New Course Category"
-msgstr "Añadir nueva categoría del curso"
+msgstr "Añadir nueva categoría de la diplomatura"
 
 #: includes/class-sensei-posttypes.php:431
 msgid "New Course Category Name"
-msgstr "Nuevo nombre de categoría del curso"
+msgstr "Nuevo nombre de categoría de la diplomatura"
 
 #: includes/class-sensei-posttypes.php:432
 msgid "Course Categories"
-msgstr "Categorías del curso"
+msgstr "Categorías de la diplomatura"
 
 #: includes/class-sensei-posttypes.php:447
 msgctxt "taxonomy archive slug"
@@ -2501,7 +2502,7 @@ msgstr "%1$s borrador actualizado. %2$sVista previa %3$s%4$s."
 
 #: includes/class-sensei-posttypes.php:709
 msgid "Enter a title for this course here"
-msgstr "Pon aquí el título de este curso"
+msgstr "Pon aquí el título de esta diplomatura"
 
 #: includes/class-sensei-posttypes.php:711
 msgid "Enter a title for this lesson here"
@@ -2600,7 +2601,7 @@ msgstr "Ajustes que se aplican a todo el plugin."
 
 #: includes/class-sensei-settings.php:110
 msgid "Settings that apply to all Courses."
-msgstr "Ajustes que se aplican a todos los cursos."
+msgstr "Ajustes que se aplican a todos las diplomaturas."
 
 #: includes/class-sensei-settings.php:115
 msgid "Settings that apply to all Lessons."
@@ -2649,19 +2650,20 @@ msgstr "Opciones de idioma."
 
 #: includes/class-sensei-settings.php:164
 msgid "Once all the course lessons have been completed"
-msgstr "Una vez que todas las lecciones del curso hayan sido completadas"
+msgstr ""
+"Una vez que todas las lecciones de la diplomatura hayan sido completadas"
 
 #: includes/class-sensei-settings.php:164
 msgid "At any time (by clicking the 'Complete Course' button)"
-msgstr "A cualquier hora (haciendo clic en el botón \"Completar curso\")"
+msgstr "A cualquier hora (haciendo clic en el botón \"Completar diplomatura\")"
 
 #: includes/class-sensei-settings.php:165
 msgid "Course Excerpt"
-msgstr "Extracto del curso"
+msgstr "Extracto de la diplomatura"
 
 #: includes/class-sensei-settings.php:165
 msgid "Full Course Content"
-msgstr "Contenido completo del curso"
+msgstr "Contenido completo de la diplomatura"
 
 #: includes/class-sensei-settings.php:167
 msgid "Don't show quiz question points"
@@ -2690,8 +2692,8 @@ msgstr "Permisos de acceso"
 #: includes/class-sensei-settings.php:177
 msgid "Users must be logged in to view Course and Lesson content."
 msgstr ""
-"Los usuarios deben iniciar sesión para ver el contenido del curso y las "
-"lecciones."
+"Los usuarios deben iniciar sesión para ver el contenido de la diplomatura y "
+"las lecciones."
 
 #: includes/class-sensei-settings.php:184
 msgid "Disable Private Messages"
@@ -2705,27 +2707,27 @@ msgstr ""
 
 #: includes/class-sensei-settings.php:192
 msgid "Course Archive Page"
-msgstr "Página del archivo del curso"
+msgstr "Página del archivo de la diplomatura"
 
 #: includes/class-sensei-settings.php:193
 msgid ""
 "The page to use to display courses. If you leave this blank the default "
 "custom post type archive will apply."
 msgstr ""
-"La página que se usuará para mostrar los cursos. Si lo deja en blanco se "
-"aplicará el post predeterminado del tipo del archivo."
+"La página que se usuará para mostrar las diplomaturas. Si lo deja en blanco "
+"se aplicará el post predeterminado del tipo del archivo."
 
 #: includes/class-sensei-settings.php:202
 msgid "My Courses Page"
-msgstr "Mi página de cursos"
+msgstr "Mi página de diplomaturas"
 
 #: includes/class-sensei-settings.php:203
 msgid ""
 "The page to use to display the courses that a user is currently taking as "
 "well as the courses a user has complete."
 msgstr ""
-"La página que se utilizará para mostrar los cursos que un usuario está dando,"
-" así como los cursos que un usuario ha completado."
+"La página que se utilizará para mostrar las diplomaturas que un usuario está "
+"dando, así como las diplomaturas que un usuario ha completado."
 
 #: includes/class-sensei-settings.php:212
 msgid "Use placeholder images"
@@ -2737,7 +2739,7 @@ msgid ""
 "Courses and Lessons."
 msgstr ""
 "Muestra una imagen de marcador de posición cuando no hay imagen específica "
-"para cursos y lecciones."
+"para diplomaturas y lecciones."
 
 #: includes/class-sensei-settings.php:220
 msgid "Disable Sensei Styles"
@@ -2769,7 +2771,7 @@ msgid ""
 "and the My Courses tabs."
 msgstr ""
 "Evitar que se cargue el javascript en portada. Esto afecta a las barras de "
-"progreso y a la pestañas de Mis cursos."
+"progreso y a la pestañas de Mis diplomaturas."
 
 #: includes/class-sensei-settings.php:244
 msgid "Disable HTML security"
@@ -2793,36 +2795,39 @@ msgstr ""
 
 #: includes/class-sensei-settings.php:262
 msgid "Courses are complete:"
-msgstr "Los cursos están completos:"
+msgstr "Las diplomaturas están completas:"
 
 #: includes/class-sensei-settings.php:263
 msgid "This will determine when courses are marked as complete."
-msgstr "Esta opción determinará cuando se marcará un curso como completo."
+msgstr ""
+"Esta opción determinará cuando se marcará una diplomatura como completa."
 
 #: includes/class-sensei-settings.php:272
 msgid "Display Course Author"
-msgstr "Mostrar el autor del curso"
+msgstr "Mostrar el autor de la diplomatura"
 
 #: includes/class-sensei-settings.php:273
 msgid "Output the Course Author on Course archive and My Courses page."
 msgstr ""
-"Mostrar el autor del curso en la página de archivo del curso y Mis cursos."
+"Mostrar el autor de la diplomatura en la página de archivo de la diplomatura "
+"y Mis diplomaturas."
 
 #: includes/class-sensei-settings.php:280
 msgid "My Courses Pagination"
-msgstr "Paginación de Mis cursos"
+msgstr "Paginación de Mis diplomaturas"
 
 #: includes/class-sensei-settings.php:281
 msgid "The number of courses to output for the my courses page."
-msgstr "El número de cursos a mostrar en la página Mis cursos."
+msgstr "El número de diplomaturas a mostrar en la página Mis diplomaturas."
 
 #: includes/class-sensei-settings.php:290
 msgid "Course Archive Image"
-msgstr "Imagen del archivo del curso"
+msgstr "Imagen del archivo de la diplomatura"
 
 #: includes/class-sensei-settings.php:291
 msgid "Output the Course Image on the Course Archive Page."
-msgstr "Mostrar la imagen del curso en la página de archivo del curso"
+msgstr ""
+"Mostrar la imagen de la diplomatura en la página de archivo de la diplomatura"
 
 #: includes/class-sensei-settings.php:298
 msgid "Image Width - Archive"
@@ -2831,8 +2836,8 @@ msgstr "Ancho de imagen - Archivo"
 #: includes/class-sensei-settings.php:299
 msgid "The width in pixels of the featured image for the Course Archive page."
 msgstr ""
-"El ancho en  pixeles de la imagen destacada para la página de archivos del "
-"curso."
+"El ancho en  pixeles de la imagen destacada para la página de archivos de la "
+"diplomatura."
 
 #: includes/class-sensei-settings.php:307
 msgid "Image Height - Archive"
@@ -2841,8 +2846,8 @@ msgstr "Alto de imagen - Archivo"
 #: includes/class-sensei-settings.php:308
 msgid "The height in pixels of the featured image for the Course Archive page."
 msgstr ""
-"La altura en pixeles de la imagen destacada para la página de archivos del "
-"curso."
+"La altura en pixeles de la imagen destacada para la página de archivos de la "
+"diplomatura."
 
 #: includes/class-sensei-settings.php:316
 msgid "Image Hard Crop - Archive"
@@ -2861,11 +2866,12 @@ msgstr ""
 
 #: includes/class-sensei-settings.php:324
 msgid "Single Course Image"
-msgstr "Imagen de curso único"
+msgstr "Imagen de diplomatura única"
 
 #: includes/class-sensei-settings.php:325
 msgid "Output the Course Image on the Single Course Page."
-msgstr "Mostrar la imagen del curso en la página del curso único."
+msgstr ""
+"Mostrar la imagen de la diplomatura en la página de la diplomatura única."
 
 #: includes/class-sensei-settings.php332,
 #: includes/class-sensei-settings.php:445
@@ -2876,7 +2882,8 @@ msgstr "Ancho de la Imagen - Único"
 msgid ""
 "The width in pixels of the featured image for the Course single post page."
 msgstr ""
-"El ancho en pixeles de la imagen destacada para la imagen del curso único."
+"El ancho en pixeles de la imagen destacada para la imagen de la diplomatura "
+"única."
 
 #: includes/class-sensei-settings.php341,
 #: includes/class-sensei-settings.php:454
@@ -2887,7 +2894,8 @@ msgstr "Altura de Imagen - Único"
 msgid ""
 "The height in pixels of the featured image for the Course single post page."
 msgstr ""
-"La altura en pixeles de la imagen destacada para la imagen del curso único."
+"La altura en pixeles de la imagen destacada para la imagen de la diplomatura "
+"única."
 
 #: includes/class-sensei-settings.php350,
 #: includes/class-sensei-settings.php:463
@@ -2896,20 +2904,21 @@ msgstr "Recortar Imagen - Único"
 
 #: includes/class-sensei-settings.php:358
 msgid "Single Course page displays:"
-msgstr "La página del curso único muestra:"
+msgstr "La página de la diplomatura única muestra:"
 
 #: includes/class-sensei-settings.php:359
 msgid "Determines what content to display on the single course page."
-msgstr "Determina que contenido mostrar en la página del curso único."
+msgstr "Determina que contenido mostrar en la página de la diplomatura única."
 
 #: includes/class-sensei-settings.php:368
 msgid "Featured Courses Panel"
-msgstr "Panel de cursos destacados"
+msgstr "Panel de diplomaturas destacadas"
 
 #: includes/class-sensei-settings.php:369
 msgid "Output the Featured Courses Panel on the Course Archive Page."
 msgstr ""
-"Mostrar el panel de cursos destacados en la página de archivo del curso."
+"Mostrar el panel de diplomaturas destacadas en la página de archivo de la "
+"diplomatura."
 
 #: includes/class-sensei-settings.php:376
 msgid "More link text"
@@ -2920,8 +2929,8 @@ msgid ""
 "The text that will be displayed on the Course Archive for the more courses "
 "link."
 msgstr ""
-"El texto que será mostrado en el archivo del curso para los demás enlaces de "
-"cursos."
+"El texto que será mostrado en el archivo de la diplomatura para los demás "
+"enlaces de diplomaturas."
 
 #: includes/class-sensei-settings.php:379
 msgid "More"
@@ -2947,20 +2956,20 @@ msgstr "Mostrar el autor de la lección"
 #: includes/class-sensei-settings.php:396
 msgid "Output the Lesson Author on Course single page & Lesson archive page."
 msgstr ""
-"Mostrar el autor de la lección en las páginas de curso único y de archivo de "
-"lección"
+"Mostrar el autor de la lección en las páginas de diplomatura única y de "
+"archivo de lección"
 
 #: includes/class-sensei-settings.php:403
 msgid "Course Lesson Images"
-msgstr "Imágenes de la lección del curso"
+msgstr "Imágenes de la lección de la diplomatura"
 
 #: includes/class-sensei-settings.php:404
 msgid "Output the Lesson Image on the Single Course Page."
-msgstr "Mostrar la imagen de la lección en la página del curso único."
+msgstr "Mostrar la imagen de la lección en la página de la idplomatura única."
 
 #: includes/class-sensei-settings.php:411
 msgid "Image Width - Course Lessons"
-msgstr "Ancho de la imagen - Lecciones del curso"
+msgstr "Ancho de la imagen - Lecciones de la diplomatura"
 
 #: includes/class-sensei-settings.php:412
 msgid ""
@@ -2968,11 +2977,11 @@ msgid ""
 "Single page."
 msgstr ""
 "El ancho en pixeles de la imagen destacada para las lecciones en la página "
-"de curso único."
+"de diplomatura única."
 
 #: includes/class-sensei-settings.php:420
 msgid "Image Height - Course Lessons"
-msgstr "Altura de la imagen - Lecciones del curso"
+msgstr "Altura de la imagen - Lecciones de la diplomatura"
 
 #: includes/class-sensei-settings.php:421
 msgid ""
@@ -2980,11 +2989,11 @@ msgid ""
 "Single page."
 msgstr ""
 "La altura en pixeles de la imagen destacada para las lecciones en la página "
-"de curso único."
+"de diplomatura única."
 
 #: includes/class-sensei-settings.php:429
 msgid "Image Hard Crop - Course Lessons"
-msgstr "Recortar la imagen - Lecciones del curso"
+msgstr "Recortar la imagen - Lecciones de la dipomatura"
 
 #: includes/class-sensei-settings.php:437
 msgid "Single Lesson Images"
@@ -3018,11 +3027,12 @@ msgstr ""
 
 #: includes/class-sensei-settings.php:484
 msgid "Show learner's courses"
-msgstr "Mostrar los cursos del estudiante"
+msgstr "Mostrar las diplomaturas del estudiante"
 
 #: includes/class-sensei-settings.php:485
 msgid "Display the learner's active and completed courses on their profile."
-msgstr "Mostrar los cursos activos y completados en el perfil del alumno."
+msgstr ""
+"Mostrar las diplomaturas activas y completadas en el perfil del alumno."
 
 #: includes/class-sensei-settings.php:494
 msgid "Their quiz is graded (auto and manual grading)"
@@ -3030,15 +3040,15 @@ msgstr "Tu cuestionario tiene calificación (automática y manual)"
 
 #: includes/class-sensei-settings.php:495
 msgid "They complete a course"
-msgstr "Completan un curso"
+msgstr "Completan una diplomatura"
 
 #: includes/class-sensei-settings.php:499
 msgid "A learner starts their course"
-msgstr "Un alumno comienza su curso"
+msgstr "Un alumno comienza su diplomatura"
 
 #: includes/class-sensei-settings.php:500
 msgid "A learner completes their course"
-msgstr "Un alumno completa su curso"
+msgstr "Un alumno completa su diplomatura"
 
 #: includes/class-sensei-settings.php:501
 msgid "A learner completes a lesson"
@@ -3169,11 +3179,13 @@ msgstr ""
 
 #: includes/class-sensei-settings.php:612
 msgid "Enable WooCommerce Courses"
-msgstr "Habilitar los cursos en Tienda"
+msgstr "Habilitar las diplomaturas en Tienda"
 
 #: includes/class-sensei-settings.php:613
 msgid "Use WooCommerce to sell Courses by linking a Product to a Course."
-msgstr "Usar la Tienda para vender cursos enlazando un producto a un curso."
+msgstr ""
+"Usar la Tienda para vender diplomaturas enlazando un producto a una "
+"diplomatura."
 
 #: includes/class-sensei-settings.php:620
 msgid "Enable Sensei WooCommerce Integration Debugging"
@@ -3224,11 +3236,11 @@ msgstr "Profesor"
 
 #: includes/class-sensei-teacher.php:903
 msgid "New course created."
-msgstr "Nuevo curso creado."
+msgstr "Nueva diplomaturas creada."
 
 #: includes/class-sensei-teacher.php:914
 msgid "New course created by"
-msgstr "Nuevo curso creado por"
+msgstr "Nueva diplomatura creada por"
 
 #: includes/class-sensei-teacher.php:1269
 msgid "Show all teachers"
@@ -3236,7 +3248,7 @@ msgstr "Mostrar todos los profesores"
 
 #: includes/class-sensei-teacher.php:1574
 msgid "All courses by %s"
-msgstr "Todos los cursos por %s"
+msgstr "Todas las diplomaturas por %s"
 
 #: includes/class-sensei-updates.php:37
 msgid "Assign role capabilities"
@@ -3326,7 +3338,7 @@ msgid ""
 "been deleted from the database. This will fix incorrect learner counts in "
 "the Analysis section."
 msgstr ""
-"Elimina todos los cursos, lecciones y actividad de cuestionarios para "
+"Elimina todas las diplomaturas, lecciones y actividad de cuestionarios para "
 "usuarios que han sido eliminados de la base de datos. Esto soluciona conteos "
 "erróneos de alumnos en la sección de análisis."
 
@@ -3443,11 +3455,11 @@ msgstr "Convertir a nuevos estados de lección."
 
 #: includes/class-sensei-updates.php:65
 msgid "Convert course statuses"
-msgstr "Convertir los estados del curso"
+msgstr "Convertir los estados de la diplomatura"
 
 #: includes/class-sensei-updates.php:65
 msgid "Convert to new course statuses."
-msgstr "Convertir a nuevos estados de curso."
+msgstr "Convertir a nuevos estados de la diplomatura."
 
 #: includes/class-sensei-updates.php:66
 msgid "Convert question statuses"
@@ -3476,8 +3488,8 @@ msgstr "Actualizar contador de comentarios"
 #: includes/class-sensei-updates.php:68
 msgid "Update comment counts on Courses and Lessons due to status changes."
 msgstr ""
-"Actualiza el número de comentarios en cursos y lecciones dado a cambios de "
-"estado."
+"Actualiza el número de comentarios en diplomaturas y lecciones dado a "
+"cambios de estado."
 
 #: includes/class-sensei-updates.php:70
 msgid "Add database index to comment statuses"
@@ -3662,15 +3674,16 @@ msgstr "El tipo de actividad Sensei %s no está más en uso."
 
 #: includes/class-sensei-utils.php:1185
 msgid "You have not started this course yet."
-msgstr "No has empezado este curso aún."
+msgstr "No has empezado esta diplomatura aún."
 
 #: includes/class-sensei-utils.php:1197
 msgid "You have passed this course with a grade of %1$d%%."
-msgstr "Has aprobado este curso con una calificación de %1$d%%."
+msgstr "Has aprobado esta diplomatura con una calificación de %1$d%%."
 
 #: includes/class-sensei-utils.php:1201
 msgid "You require %1$d%% to pass this course. Your grade is %2$s%%."
-msgstr "Necesitas %1$d%% para aprobar este curso. Tu calificación es %2$s%%."
+msgstr ""
+"Necesitas %1$d%% para aprobar esta diplomatura. Tu calificación es %2$s%%."
 
 #: includes/class-sensei-utils.php:1226
 msgid "You have not taken this lesson's quiz yet"
@@ -3679,7 +3692,8 @@ msgstr "Aún no has completado el cuestionario de esta lección."
 #: includes/class-sensei-utils.php:1275
 msgid "Please sign up for %1$sthe course%2$s before taking this quiz"
 msgstr ""
-"Por favor regístrate en %1$sel curso%2$s antes de hacer este cuestionario"
+"Por favor regístrate en %1$sla diplomatura%2$s antes de hacer este "
+"cuestionario"
 
 #: includes/class-sensei-utils.php:1281
 msgid "You must be logged in to take this quiz"
@@ -3745,7 +3759,7 @@ msgstr ""
 
 #: includes/class-sensei-utils.php:1363
 msgid "Please purchase the %1$s before taking this quiz."
-msgstr "Por favor compra el %1$s antes de realizar este cuestionario"
+msgstr "Por favor compra la %1$s antes de realizar este cuestionario"
 
 #: includes/class-sensei-utils.php:1367
 msgid "Please sign up for the %1$s before taking this quiz."
@@ -3783,8 +3797,8 @@ msgctxt ""
 "Purchase thank you note on Checkout page. The course link(s) will be show"
 msgid "You have purchased the following course:"
 msgid_plural "You have purchased the following courses:"
-msgstr[0] "Has comprado el siguiente curso:"
-msgstr[1] "Has comprado los siguientes cursos:"
+msgstr[0] "Has comprado la siguiente diplomatura:"
+msgstr[1] "Has comprado las siguientes diplomaturas:"
 
 #: includes/class-sensei-wc.php:483
 msgid "complete purchase"
@@ -3796,21 +3810,22 @@ msgstr ""
 
 #: includes/class-sensei-wc.php:814
 msgid "Purchase this Course"
-msgstr "Comprar este curso"
+msgstr "Comprar esta diplomatura"
 
 #: includes/class-sensei-wc.php:966
 msgid ""
 "This course is already in your cart, please proceed to %1$s, to gain access."
 msgstr ""
-"Este curso ya está en tu carrito, por favor accede a %1$s, para tener acceso"
+"Esta diplomatura ya está en tu carrito, por favor accede a %1$s, para tener "
+"acceso"
 
 #: includes/class-sensei-wc.php:1165
 msgid "Course details"
-msgstr "Detalles del curso"
+msgstr "Detalles de la diplomatura"
 
 #: includes/class-sensei-wc.php:1197
 msgid "View course: %1$s"
-msgstr "Ver el curso: %1$s"
+msgstr "Ver la diplomatura: %1$s"
 
 #: includes/class-sensei-wc.php:1729
 msgid "The product you are buying contains a course you are already taking"
@@ -3818,11 +3833,12 @@ msgstr ""
 
 #: includes/class-sensei.php:687
 msgid "Please complete the previous %1$s before taking this course."
-msgstr "Por favor complete el/la %1$s anterior antes de tomar este curso."
+msgstr ""
+"Por favor complete el/la %1$s anterior antes de tomar esta diplomatura."
 
 #: includes/class-sensei.php:691
 msgid "Or %1$s login %2$s to access your purchased courses"
-msgstr "O %1$s login %2$s para acceder a sus cursos comprados"
+msgstr "O %1$s login %2$s para acceder a sus diplomaturas compradas"
 
 #: includes/class-sensei.php719, includes/class-sensei.php758,
 #: includes/class-sensei.php773, includes/class-sensei.php:785
@@ -3831,7 +3847,7 @@ msgstr "Acceso restringido"
 
 #: includes/class-sensei.php:726
 msgid "Please purchase the %1$s before starting this Lesson."
-msgstr "Por favor compra el/la %1$s antes de comenzar esta Lección."
+msgstr "Por favor compra la %1$s antes de comenzar esta Lección."
 
 #: includes/class-sensei.php:760
 msgid "Please complete the previous %1$s before taking this Quiz."
@@ -3840,7 +3856,7 @@ msgstr ""
 
 #: includes/class-sensei.php:777
 msgid "Please purchase the %1$s before starting this Quiz."
-msgstr "Por favor compra el/la %1$s antes de hacer este cuestionario."
+msgstr "Por favor compra la %1$s antes de hacer este cuestionario."
 
 #: includes/class-sensei.php:779
 msgid "Please sign up for the %1$s before starting this Quiz."
@@ -3870,7 +3886,7 @@ msgstr ""
 
 #: includes/domain-models/class-sensei-domain-models-course.php:25
 msgid "The course title."
-msgstr "Título del curso"
+msgstr "Título de la diplomatura"
 
 #: includes/domain-models/class-sensei-domain-models-course.php:32
 msgid "The author identifier."
@@ -3878,7 +3894,7 @@ msgstr ""
 
 #: includes/domain-models/class-sensei-domain-models-course.php:38
 msgid "The course content."
-msgstr "Contenido del curso"
+msgstr "Contenido de la diplomatura"
 
 #: includes/domain-models/class-sensei-domain-models-course.php:43
 msgid "The course excerpt."
@@ -3886,7 +3902,7 @@ msgstr ""
 
 #: includes/domain-models/class-sensei-domain-models-course.php:54
 msgid "The course status."
-msgstr "Estado del curso"
+msgstr "Estado de la diplomatura"
 
 #: includes/domain-models/class-sensei-domain-models-course.php:60
 msgid "The course module ids."
@@ -3898,11 +3914,11 @@ msgstr ""
 
 #: includes/domain-models/class-sensei-domain-models-course.php:68
 msgid "The course lessons."
-msgstr "Lecciones del curso"
+msgstr "Lecciones de la diplomatura"
 
 #: includes/domain-models/class-sensei-domain-models-course.php:75
 msgid "The course prerequisite."
-msgstr "Prerequisito del curso"
+msgstr "Prerequisito de la diplomatura"
 
 #: includes/domain-models/class-sensei-domain-models-course.php:80
 msgid "Is the course featured."
@@ -3942,19 +3958,19 @@ msgstr "%s no puede ser nulo"
 
 #: includes/emails/class-sensei-email-teacher-new-course-assignment.php:57
 msgid "Course assigned to you"
-msgstr "Curso asignado a ti"
+msgstr "Diplomaturas asignada a ti"
 
 #: includes/emails/class-sensei-email-teacher-new-course-assignment.php:58
 msgid "New course assigned to you"
-msgstr "Nuevo curso asignado a ti"
+msgstr "Nueva diplomatura asignada a ti"
 
 #: includes/emails/class-woothemes-sensei-email-learner-completed-course.php:60
 msgid "[%1$s] You have completed a course"
-msgstr "[%1$s] Has finalizado un curso"
+msgstr "[%1$s] Has finalizado una diplomatura"
 
 #: includes/emails/class-woothemes-sensei-email-learner-completed-course.php:61
 msgid "You have completed a course"
-msgstr "Has finalizado un curso"
+msgstr "Has finalizado una diplomatura"
 
 #: includes/emails/class-woothemes-sensei-email-learner-completed-course.php65,
 #: includes/emails/class-woothemes-sensei-email-learner-graded-quiz.php69,
@@ -3994,11 +4010,11 @@ msgstr "Has recibido una respuesta a tu mensaje privado"
 
 #: includes/emails/class-woothemes-sensei-email-teacher-completed-course.php:61
 msgid "[%1$s] Your student has completed a course"
-msgstr "[%1$s] Tu estudiante ha finalizado un curso"
+msgstr "[%1$s] Tu estudiante ha finalizado una diplomatura"
 
 #: includes/emails/class-woothemes-sensei-email-teacher-completed-course.php:62
 msgid "Your student has completed a course"
-msgstr "Tu estudiante ha finalizado un curso"
+msgstr "Tu estudiante ha finalizado una diplomatura"
 
 #: includes/emails/class-woothemes-sensei-email-teacher-completed-lesson.php:31
 msgid "[%1$s] Your student has completed a lesson"
@@ -4026,16 +4042,16 @@ msgstr "Tu estudiante ha enviado un cuestionario para ser calificado."
 
 #: includes/emails/class-woothemes-sensei-email-teacher-started-course.php:56
 msgid "[%1$s] Your student has started a course"
-msgstr "[%1$s] Tu estudiante ha comenzado un curso"
+msgstr "[%1$s] Tu estudiante ha comenzado una diplomatura"
 
 #: includes/emails/class-woothemes-sensei-email-teacher-started-course.php:57
 msgid "Your student has started a course"
-msgstr "Su estudiante ha comenzado un curso"
+msgstr "Su estudiante ha comenzado una diplomatura"
 
 #: includes/rest-api/class-sensei-rest-api-endpoint-courses.php104,
 #: includes/rest-api/class-sensei-rest-api-endpoint-courses.php:141
 msgid "Course does not exist"
-msgstr "Curso inexistente"
+msgstr "Diplomatura inexistente"
 
 #: includes/rest-api/class-sensei-rest-api-endpoint-courses.php:137
 msgid "No Course ID provided"
@@ -4051,11 +4067,11 @@ msgstr "Por favor usa '%s' en su lugar."
 
 #: includes/shortcodes/class-sensei-shortcode-course-categories.php:94
 msgid "No course categories found."
-msgstr "No se encontraron categorías del curso."
+msgstr "No se encontraron categorías de la diplomatura."
 
 #: includes/shortcodes/class-sensei-shortcode-course-page.php:72
 msgid "Please supply a course ID for the shortcode: %s"
-msgstr "Por favor facilita el ID de curso para el shortcode: %s"
+msgstr "Por favor facilita el ID de la diplomatura para el shortcode: %s"
 
 #: includes/shortcodes/class-sensei-shortcode-lesson-page.php:73
 msgid "Please supply a lesson ID for this shortcode."
@@ -4070,12 +4086,12 @@ msgid ""
 "You must be logged in to view the non-purchased courses. Click here to "
 "%slogin%s."
 msgstr ""
-"Debes estar conectado para ver los cursos que aun no has comprado. Haz clic "
-"aquí para %sacceder%s."
+"Debes estar conectado para ver las diplomaturas que aun no has comprado. Haz "
+"clic aquí para %sacceder%s."
 
 #: includes/shortcodes/class-sensei-shortcode-user-courses.php:435
 msgid "All Courses"
-msgstr "Todos los cursos"
+msgstr "Todas las diplomaturas"
 
 #: includes/shortcodes/class-sensei-shortcode-user-messages.php:76
 msgid "Please login to view your messages."
@@ -4088,7 +4104,7 @@ msgstr "No tienes ningún mensaje."
 
 #: includes/template-functions.php:120
 msgid "Start taking this Course"
-msgstr "Empezar a hacer este curso"
+msgstr "Empezar a hacer esta diplomatura"
 
 #: templates/archive-lesson.php:34
 msgid "No lessons found that match your selection."
@@ -4101,7 +4117,7 @@ msgstr "Calificación total"
 #: templates/emails/admin-teacher-new-course-created.php22,
 #: templates/emails/teacher-new-course-assignment.php:22
 msgid "The Course"
-msgstr "El curso"
+msgstr "La diplomatura"
 
 #: templates/emails/admin-teacher-new-course-created.php:30
 msgid "was submitted for review by "
@@ -4109,11 +4125,11 @@ msgstr "fue enviado para revisión por"
 
 #: templates/emails/admin-teacher-new-course-created.php:38
 msgid "You can review and publish the new course here:  "
-msgstr "Puedes revisar y publicar el curso nuevo aquí:"
+msgstr "Puedes revisar y publicar la diplomatura nueva aquí:"
 
 #: templates/emails/learner-completed-course.php:26
 msgid "You have completed and %1$s the course"
-msgstr "Ha finalizado y %1$s el curso"
+msgstr "Ha finalizado y %1$s la diplomatura"
 
 #: templates/emails/learner-graded-quiz.php:26
 msgid "You %1$s the lesson"
@@ -4149,12 +4165,12 @@ msgstr "Tu estudiante"
 
 #: templates/emails/teacher-completed-course.php:30
 msgid "has completed and %1$s the course"
-msgstr "Ha completado y %1$s el curso"
+msgstr "Ha completado y %1$s la diplomatura"
 
 #: templates/emails/teacher-completed-course.php36,
 #: templates/emails/teacher-started-course.php:36
 msgid "Manage this course's learners %1$shere%2$s."
-msgstr "Gestionar los alumnos de este curso %1$saquí%2$s."
+msgstr "Gestionar los alumnos de esta diplomatura %1$saquí%2$s."
 
 #: templates/emails/teacher-completed-lesson.php:30
 msgid "has completed the lesson"
@@ -4170,7 +4186,7 @@ msgstr "te ha sido asignado."
 
 #: templates/emails/teacher-new-course-assignment.php:38
 msgid "You can edit the assigned course here: "
-msgstr "Puedes editar el curso asignado aquí:"
+msgstr "Puedes editar la diplomatura asignada aquí:"
 
 #: templates/emails/teacher-new-message.php:30
 msgid "has sent you a private message regarding the %1$s"
@@ -4194,7 +4210,7 @@ msgstr "Puedes calificar este cuestionario %1$saquí%2$s."
 
 #: templates/emails/teacher-started-course.php:30
 msgid "has started the course"
-msgstr "ha comenzado el curso"
+msgstr "ha comenzado la diplomatura"
 
 #: templates/learner-profile.php:65
 msgid "The user requested does not exist."
@@ -4220,7 +4236,7 @@ msgstr "Respuesta:"
 
 #: templates/teacher-archive.php:36
 msgid "There are no courses for this teacher."
-msgstr "No hay cursos para este profesor."
+msgstr "No hay diplomaturas para este profesor."
 
 #: templates/user/login-form.php:40
 msgid "Username or Email"
@@ -4236,11 +4252,12 @@ msgstr "Recuérdame"
 
 #: widgets/widget-woothemes-sensei-category-courses.php:29
 msgid "This widget will output a list of Courses for a specific category."
-msgstr "Este widget mostrará una lista de cursos de una categoría específica."
+msgstr ""
+"Este widget mostrará una lista de diplomaturas de una categoría específica."
 
 #: widgets/widget-woothemes-sensei-category-courses.php:31
 msgid "Sensei - Category Courses"
-msgstr "Sensei - Cursos de categoría"
+msgstr "Sensei - Diplomaturas de categoría"
 
 #: widgets/widget-woothemes-sensei-category-courses.php127,
 #: widgets/widget-woothemes-sensei-course-categories.php125,
@@ -4251,7 +4268,7 @@ msgstr "Título (opcional):"
 
 #: widgets/widget-woothemes-sensei-category-courses.php:132
 msgid "Course Category:"
-msgstr "Categoría de curso:"
+msgstr "Categoría de diplomatura:"
 
 #: widgets/widget-woothemes-sensei-category-courses.php:134
 msgid "Select Category:"
@@ -4260,15 +4277,15 @@ msgstr "Seleccionar categoría:"
 #: widgets/widget-woothemes-sensei-category-courses.php140,
 #: widgets/widget-woothemes-sensei-course-component.php:163
 msgid "Number of Courses (optional):"
-msgstr "Número de cursos (opcional):"
+msgstr "Número de diplomaturas (opcional):"
 
 #: widgets/widget-woothemes-sensei-course-categories.php:29
 msgid "This widget will output a list of Course Categories."
-msgstr "Este widget mostrará una lista de las categorías de cursos"
+msgstr "Este widget mostrará una lista de las categorías de diplomaturas"
 
 #: widgets/widget-woothemes-sensei-course-categories.php:31
 msgid "Sensei - Course Categories"
-msgstr "Sensei - Categorías de cursos"
+msgstr "Sensei - Categorías de diplomaturas"
 
 #: widgets/widget-woothemes-sensei-course-categories.php:130
 msgid "Number of Categories (optional):"
@@ -4287,20 +4304,20 @@ msgid ""
 "This widget will output a list of Courses - New, Featured, Free, Paid, "
 "Active, Completed."
 msgstr ""
-"Este widget mostrará una lista de Cursos - Nuevos, Destacados, Gratis, "
+"Este widget mostrará una lista de diplomaturas - Nuevos, Destacados, Gratis, "
 "Pagados, Activos, Finalizados."
 
 #: widgets/widget-woothemes-sensei-course-component.php:31
 msgid "Sensei - Course Component"
-msgstr "Sensei - Componente del curso"
+msgstr "Sensei - Componente de la diplomatura"
 
 #: widgets/widget-woothemes-sensei-course-component.php:36
 msgid "My Active Courses"
-msgstr "Mis cursos activos"
+msgstr "Mis diplomaturas activas"
 
 #: widgets/widget-woothemes-sensei-course-component.php:37
 msgid "My Completed Courses"
-msgstr "Mis cursos finalizados"
+msgstr "Mis diplomaturas finalizadas"
 
 #: widgets/widget-woothemes-sensei-course-component.php154,
 #: widgets/widget-woothemes-sensei-lesson-component.php:139
@@ -4309,15 +4326,15 @@ msgstr "Componente:"
 
 #: widgets/widget-woothemes-sensei-course-component.php:244
 msgid "You have no featured courses."
-msgstr "No tienes cursos destacados."
+msgstr "No tienes diplomaturas destacadas."
 
 #: widgets/widget-woothemes-sensei-course-component.php:252
 msgid "You have no completed courses."
-msgstr "No tienes cursos completos."
+msgstr "No tienes diplomaturas completas."
 
 #: widgets/widget-woothemes-sensei-course-component.php:256
 msgid "You have no courses."
-msgstr "No tienes cursos."
+msgstr "No tienes diplomaturas."
 
 #: widgets/widget-woothemes-sensei-lesson-component.php:29
 msgid "This widget will output a list of the latest Lessons."

@@ -44,7 +44,7 @@ get_header(); ?>
   </div>
   <div class="col-md-6 d-flex flex-column justify-content-center home__featured__subtitle-block">
     <div class="home__featured__subtitle"><?php echo wp_trim_words(get_the_excerpt($cursoDestacado->ID), 20); ?></div>
-    <div><a href="<?php echo get_the_permalink($cursoDestacado->ID); ?>" class="btn">Ver curso</a></div>
+    <div><a href="<?php echo get_the_permalink($cursoDestacado->ID); ?>" class="btn">Ver diplomatura</a></div>
   </div>
 </section>
 
