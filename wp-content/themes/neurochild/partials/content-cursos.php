@@ -17,7 +17,7 @@ $cursos = get_posts(array(
             <p class="card-text"><?php echo wp_trim_words(get_the_excerpt($curso->ID), 10); ?></p>
           </div>
           <div class="card-footer">
-            <div class="text-center"><a href="<?php echo get_the_permalink($curso->ID); ?>" class="btn btn-primary">Ver curso</a></div>
+            <div class="text-center"><a href="<?php echo get_the_permalink($curso->ID); ?>" class="btn btn-primary">Ver diplomatura</a></div>
           </div>
         </div>
       <?php endforeach; ?>
