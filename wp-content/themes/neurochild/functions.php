@@ -121,3 +121,17 @@ add_action( 'admin_menu', function() {
   }
   return $classes;
  } , 10 , 2);
+
+ add_filter( 'woocommerce_get_privacy_policy_text', function ( $text, $type ) {
+  switch ( $type ) {
+  case 'checkout':
+    /* translators: %s privacy policy page name and link */
+    $text = sprintf( __( 'Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our %s.', 'woocommerce' ), '[privacy_policy]' );
+    break;
+  case 'registration':
+    /* translators: %s privacy policy page name and link */
+    $text = sprintf( __( 'Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our %s.', 'woocommerce' ), '[privacy_policy]' );
+    break;
+  }
+
+}, 10, 2);

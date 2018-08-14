@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Sensei\n"
 "Report-Msgid-Bugs-To: https://www.transifex.com/woothemes/sensei-by-"
 "woothemes/\n"
-"PO-Revision-Date: 2018-08-14 02:25+0000\n"
+"PO-Revision-Date: 2018-08-14 23:35+0000\n"
 "Last-Translator: cele weidmann <celeweidmann@gmail.com>\n"
 "Language-Team: Español\n"
 "MIME-Version: 1.0\n"
@@ -995,7 +995,7 @@ msgstr ""
 
 #: includes/class-sensei-frontend.php:1149
 msgid "(Free Preview)"
-msgstr "(Vista previa gratuita)"
+msgstr "(Ver gratis)"
 
 #: includes/class-sensei-frontend.php1249, includes/class-sensei-wc.php:486
 msgid ""
@@ -3810,7 +3810,7 @@ msgstr ""
 
 #: includes/class-sensei-wc.php:814
 msgid "Purchase this Course"
-msgstr "Comprar esta diplomatura"
+msgstr "Comprar"
 
 #: includes/class-sensei-wc.php:966
 msgid ""
@@ -4218,7 +4218,7 @@ msgstr "El usuario solicitado no existe."
 
 #: templates/single-course/modules.php:109
 msgid "Free Preview"
-msgstr "Vista previa gratuita"
+msgstr "Ver gratis"
 
 #: templates/single-quiz.php:115
 msgid "There are no questions for this Quiz yet. Check back soon."
