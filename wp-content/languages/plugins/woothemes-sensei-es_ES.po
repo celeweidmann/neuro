@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Sensei\n"
 "Report-Msgid-Bugs-To: https://www.transifex.com/woothemes/sensei-by-"
 "woothemes/\n"
-"PO-Revision-Date: 2018-08-14 23:35+0000\n"
+"PO-Revision-Date: 2018-08-21 19:34+0000\n"
 "Last-Translator: cele weidmann <celeweidmann@gmail.com>\n"
 "Language-Team: Español\n"
 "MIME-Version: 1.0\n"
@@ -1937,7 +1937,7 @@ msgstr "Contactar con el profesor de la lección"
 
 #: includes/class-sensei-messages.php:190
 msgid "Contact Course Teacher"
-msgstr "Contactar con el profesor de la diplomatura"
+msgstr "Contactar con el profesor"
 
 #: includes/class-sensei-messages.php:192
 msgid "Contact Teacher"
